@@ -1,0 +1,2518 @@
+{
+  "n_sims": 10000,
+  "rounds": [
+    {
+      "name": "R32",
+      "matches": [
+        {
+          "match_id": 73,
+          "sides": [
+            {
+              "modal_team": "South Korea",
+              "modal_prob": 0.7529,
+              "top_teams": [
+                {
+                  "team": "South Korea",
+                  "prob": 0.7529
+                },
+                {
+                  "team": "South Africa",
+                  "prob": 0.1483
+                },
+                {
+                  "team": "Czech Republic",
+                  "prob": 0.0501
+                },
+                {
+                  "team": "Mexico",
+                  "prob": 0.0487
+                }
+              ]
+            },
+            {
+              "modal_team": "Switzerland",
+              "modal_prob": 0.5843,
+              "top_teams": [
+                {
+                  "team": "Switzerland",
+                  "prob": 0.5843
+                },
+                {
+                  "team": "Canada",
+                  "prob": 0.4123
+                },
+                {
+                  "team": "Bosnia and Herzegovina",
+                  "prob": 0.0034
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "South Korea",
+              "team_b": "Switzerland",
+              "prob": 0.4432
+            },
+            {
+              "team_a": "South Korea",
+              "team_b": "Canada",
+              "prob": 0.3069
+            },
+            {
+              "team_a": "South Africa",
+              "team_b": "Switzerland",
+              "prob": 0.0873
+            },
+            {
+              "team_a": "South Africa",
+              "team_b": "Canada",
+              "prob": 0.0606
+            },
+            {
+              "team_a": "Mexico",
+              "team_b": "Switzerland",
+              "prob": 0.0275
+            }
+          ]
+        },
+        {
+          "match_id": 74,
+          "sides": [
+            {
+              "modal_team": "Germany",
+              "modal_prob": 0.6557,
+              "top_teams": [
+                {
+                  "team": "Germany",
+                  "prob": 0.6557
+                },
+                {
+                  "team": "Ivory Coast",
+                  "prob": 0.3099
+                },
+                {
+                  "team": "Ecuador",
+                  "prob": 0.0327
+                },
+                {
+                  "team": "Curaçao",
+                  "prob": 0.0017
+                }
+              ]
+            },
+            {
+              "modal_team": "Turkey",
+              "modal_prob": 0.2217,
+              "top_teams": [
+                {
+                  "team": "Turkey",
+                  "prob": 0.2217
+                },
+                {
+                  "team": "Scotland",
+                  "prob": 0.1776
+                },
+                {
+                  "team": "Paraguay",
+                  "prob": 0.1553
+                },
+                {
+                  "team": "United States",
+                  "prob": 0.1383
+                },
+                {
+                  "team": "Morocco",
+                  "prob": 0.0884
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Germany",
+              "team_b": "Turkey",
+              "prob": 0.1446
+            },
+            {
+              "team_a": "Germany",
+              "team_b": "Scotland",
+              "prob": 0.1188
+            },
+            {
+              "team_a": "Germany",
+              "team_b": "Paraguay",
+              "prob": 0.1032
+            },
+            {
+              "team_a": "Germany",
+              "team_b": "United States",
+              "prob": 0.0919
+            },
+            {
+              "team_a": "Ivory Coast",
+              "team_b": "Turkey",
+              "prob": 0.0703
+            }
+          ]
+        },
+        {
+          "match_id": 75,
+          "sides": [
+            {
+              "modal_team": "Netherlands",
+              "modal_prob": 0.3631,
+              "top_teams": [
+                {
+                  "team": "Netherlands",
+                  "prob": 0.3631
+                },
+                {
+                  "team": "Japan",
+                  "prob": 0.3377
+                },
+                {
+                  "team": "Sweden",
+                  "prob": 0.2914
+                },
+                {
+                  "team": "Tunisia",
+                  "prob": 0.0078
+                }
+              ]
+            },
+            {
+              "modal_team": "Morocco",
+              "modal_prob": 0.3855,
+              "top_teams": [
+                {
+                  "team": "Morocco",
+                  "prob": 0.3855
+                },
+                {
+                  "team": "Brazil",
+                  "prob": 0.3297
+                },
+                {
+                  "team": "Scotland",
+                  "prob": 0.2626
+                },
+                {
+                  "team": "Haiti",
+                  "prob": 0.0222
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Netherlands",
+              "team_b": "Morocco",
+              "prob": 0.1412
+            },
+            {
+              "team_a": "Japan",
+              "team_b": "Morocco",
+              "prob": 0.1287
+            },
+            {
+              "team_a": "Netherlands",
+              "team_b": "Brazil",
+              "prob": 0.1193
+            },
+            {
+              "team_a": "Japan",
+              "team_b": "Brazil",
+              "prob": 0.1127
+            },
+            {
+              "team_a": "Sweden",
+              "team_b": "Morocco",
+              "prob": 0.1125
+            }
+          ]
+        },
+        {
+          "match_id": 76,
+          "sides": [
+            {
+              "modal_team": "Brazil",
+              "modal_prob": 0.4762,
+              "top_teams": [
+                {
+                  "team": "Brazil",
+                  "prob": 0.4762
+                },
+                {
+                  "team": "Morocco",
+                  "prob": 0.3206
+                },
+                {
+                  "team": "Scotland",
+                  "prob": 0.1953
+                },
+                {
+                  "team": "Haiti",
+                  "prob": 0.0079
+                }
+              ]
+            },
+            {
+              "modal_team": "Japan",
+              "modal_prob": 0.3635,
+              "top_teams": [
+                {
+                  "team": "Japan",
+                  "prob": 0.3635
+                },
+                {
+                  "team": "Netherlands",
+                  "prob": 0.3623
+                },
+                {
+                  "team": "Sweden",
+                  "prob": 0.2569
+                },
+                {
+                  "team": "Tunisia",
+                  "prob": 0.0173
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Brazil",
+              "team_b": "Japan",
+              "prob": 0.1752
+            },
+            {
+              "team_a": "Brazil",
+              "team_b": "Netherlands",
+              "prob": 0.1721
+            },
+            {
+              "team_a": "Brazil",
+              "team_b": "Sweden",
+              "prob": 0.1209
+            },
+            {
+              "team_a": "Morocco",
+              "team_b": "Netherlands",
+              "prob": 0.1177
+            },
+            {
+              "team_a": "Morocco",
+              "team_b": "Japan",
+              "prob": 0.1155
+            }
+          ]
+        },
+        {
+          "match_id": 77,
+          "sides": [
+            {
+              "modal_team": "France",
+              "modal_prob": 0.7215,
+              "top_teams": [
+                {
+                  "team": "France",
+                  "prob": 0.7215
+                },
+                {
+                  "team": "Norway",
+                  "prob": 0.2666
+                },
+                {
+                  "team": "Senegal",
+                  "prob": 0.0098
+                },
+                {
+                  "team": "Iraq",
+                  "prob": 0.0021
+                }
+              ]
+            },
+            {
+              "modal_team": "Sweden",
+              "modal_prob": 0.3963,
+              "top_teams": [
+                {
+                  "team": "Sweden",
+                  "prob": 0.3963
+                },
+                {
+                  "team": "Japan",
+                  "prob": 0.1873
+                },
+                {
+                  "team": "Netherlands",
+                  "prob": 0.1798
+                },
+                {
+                  "team": "Tunisia",
+                  "prob": 0.0555
+                },
+                {
+                  "team": "Turkey",
+                  "prob": 0.0434
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "France",
+              "team_b": "Sweden",
+              "prob": 0.2853
+            },
+            {
+              "team_a": "France",
+              "team_b": "Japan",
+              "prob": 0.1341
+            },
+            {
+              "team_a": "France",
+              "team_b": "Netherlands",
+              "prob": 0.1293
+            },
+            {
+              "team_a": "Norway",
+              "team_b": "Sweden",
+              "prob": 0.1059
+            },
+            {
+              "team_a": "Norway",
+              "team_b": "Japan",
+              "prob": 0.0509
+            }
+          ]
+        },
+        {
+          "match_id": 78,
+          "sides": [
+            {
+              "modal_team": "Ivory Coast",
+              "modal_prob": 0.5031,
+              "top_teams": [
+                {
+                  "team": "Ivory Coast",
+                  "prob": 0.5031
+                },
+                {
+                  "team": "Ecuador",
+                  "prob": 0.2518
+                },
+                {
+                  "team": "Germany",
+                  "prob": 0.2277
+                },
+                {
+                  "team": "Curaçao",
+                  "prob": 0.0174
+                }
+              ]
+            },
+            {
+              "modal_team": "Norway",
+              "modal_prob": 0.5585,
+              "top_teams": [
+                {
+                  "team": "Norway",
+                  "prob": 0.5585
+                },
+                {
+                  "team": "France",
+                  "prob": 0.2549
+                },
+                {
+                  "team": "Senegal",
+                  "prob": 0.1713
+                },
+                {
+                  "team": "Iraq",
+                  "prob": 0.0153
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Ivory Coast",
+              "team_b": "Norway",
+              "prob": 0.2809
+            },
+            {
+              "team_a": "Ecuador",
+              "team_b": "Norway",
+              "prob": 0.1397
+            },
+            {
+              "team_a": "Germany",
+              "team_b": "Norway",
+              "prob": 0.1284
+            },
+            {
+              "team_a": "Ivory Coast",
+              "team_b": "France",
+              "prob": 0.1255
+            },
+            {
+              "team_a": "Ivory Coast",
+              "team_b": "Senegal",
+              "prob": 0.0885
+            }
+          ]
+        },
+        {
+          "match_id": 79,
+          "sides": [
+            {
+              "modal_team": "Mexico",
+              "modal_prob": 0.9513,
+              "top_teams": [
+                {
+                  "team": "Mexico",
+                  "prob": 0.9513
+                },
+                {
+                  "team": "South Korea",
+                  "prob": 0.0487
+                }
+              ]
+            },
+            {
+              "modal_team": "Scotland",
+              "modal_prob": 0.2221,
+              "top_teams": [
+                {
+                  "team": "Scotland",
+                  "prob": 0.2221
+                },
+                {
+                  "team": "Ecuador",
+                  "prob": 0.2013
+                },
+                {
+                  "team": "Morocco",
+                  "prob": 0.099
+                },
+                {
+                  "team": "Brazil",
+                  "prob": 0.0749
+                },
+                {
+                  "team": "Cape Verde",
+                  "prob": 0.0735
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Mexico",
+              "team_b": "Scotland",
+              "prob": 0.2174
+            },
+            {
+              "team_a": "Mexico",
+              "team_b": "Ecuador",
+              "prob": 0.1948
+            },
+            {
+              "team_a": "Mexico",
+              "team_b": "Morocco",
+              "prob": 0.097
+            },
+            {
+              "team_a": "Mexico",
+              "team_b": "Brazil",
+              "prob": 0.0728
+            },
+            {
+              "team_a": "Mexico",
+              "team_b": "Cape Verde",
+              "prob": 0.064
+            }
+          ]
+        },
+        {
+          "match_id": 80,
+          "sides": [
+            {
+              "modal_team": "England",
+              "modal_prob": 0.9244,
+              "top_teams": [
+                {
+                  "team": "England",
+                  "prob": 0.9244
+                },
+                {
+                  "team": "Ghana",
+                  "prob": 0.0388
+                },
+                {
+                  "team": "Croatia",
+                  "prob": 0.0303
+                },
+                {
+                  "team": "Panama",
+                  "prob": 0.0065
+                }
+              ]
+            },
+            {
+              "modal_team": "DR Congo",
+              "modal_prob": 0.2316,
+              "top_teams": [
+                {
+                  "team": "DR Congo",
+                  "prob": 0.2316
+                },
+                {
+                  "team": "Uzbekistan",
+                  "prob": 0.194
+                },
+                {
+                  "team": "Senegal",
+                  "prob": 0.16
+                },
+                {
+                  "team": "Portugal",
+                  "prob": 0.1402
+                },
+                {
+                  "team": "Norway",
+                  "prob": 0.0642
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "England",
+              "team_b": "DR Congo",
+              "prob": 0.2141
+            },
+            {
+              "team_a": "England",
+              "team_b": "Uzbekistan",
+              "prob": 0.1804
+            },
+            {
+              "team_a": "England",
+              "team_b": "Senegal",
+              "prob": 0.148
+            },
+            {
+              "team_a": "England",
+              "team_b": "Portugal",
+              "prob": 0.1296
+            },
+            {
+              "team_a": "England",
+              "team_b": "Norway",
+              "prob": 0.0584
+            }
+          ]
+        },
+        {
+          "match_id": 81,
+          "sides": [
+            {
+              "modal_team": "Australia",
+              "modal_prob": 0.5104,
+              "top_teams": [
+                {
+                  "team": "Australia",
+                  "prob": 0.5104
+                },
+                {
+                  "team": "United States",
+                  "prob": 0.4284
+                },
+                {
+                  "team": "Turkey",
+                  "prob": 0.0404
+                },
+                {
+                  "team": "Paraguay",
+                  "prob": 0.0208
+                }
+              ]
+            },
+            {
+              "modal_team": "Bosnia and Herzegovina",
+              "modal_prob": 0.4244,
+              "top_teams": [
+                {
+                  "team": "Bosnia and Herzegovina",
+                  "prob": 0.4244
+                },
+                {
+                  "team": "Qatar",
+                  "prob": 0.2759
+                },
+                {
+                  "team": "Ecuador",
+                  "prob": 0.0773
+                },
+                {
+                  "team": "Senegal",
+                  "prob": 0.0445
+                },
+                {
+                  "team": "Algeria",
+                  "prob": 0.0391
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Australia",
+              "team_b": "Bosnia and Herzegovina",
+              "prob": 0.2161
+            },
+            {
+              "team_a": "United States",
+              "team_b": "Bosnia and Herzegovina",
+              "prob": 0.1817
+            },
+            {
+              "team_a": "Australia",
+              "team_b": "Qatar",
+              "prob": 0.1437
+            },
+            {
+              "team_a": "United States",
+              "team_b": "Qatar",
+              "prob": 0.1162
+            },
+            {
+              "team_a": "Australia",
+              "team_b": "Ecuador",
+              "prob": 0.0374
+            }
+          ]
+        },
+        {
+          "match_id": 82,
+          "sides": [
+            {
+              "modal_team": "Belgium",
+              "modal_prob": 0.3902,
+              "top_teams": [
+                {
+                  "team": "Belgium",
+                  "prob": 0.3902
+                },
+                {
+                  "team": "Iran",
+                  "prob": 0.2707
+                },
+                {
+                  "team": "Egypt",
+                  "prob": 0.2259
+                },
+                {
+                  "team": "New Zealand",
+                  "prob": 0.1132
+                }
+              ]
+            },
+            {
+              "modal_team": "Czech Republic",
+              "modal_prob": 0.1237,
+              "top_teams": [
+                {
+                  "team": "Czech Republic",
+                  "prob": 0.1237
+                },
+                {
+                  "team": "Saudi Arabia",
+                  "prob": 0.1223
+                },
+                {
+                  "team": "Cape Verde",
+                  "prob": 0.1187
+                },
+                {
+                  "team": "South Korea",
+                  "prob": 0.1178
+                },
+                {
+                  "team": "Uruguay",
+                  "prob": 0.0958
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Belgium",
+              "team_b": "South Korea",
+              "prob": 0.0499
+            },
+            {
+              "team_a": "Belgium",
+              "team_b": "Saudi Arabia",
+              "prob": 0.0487
+            },
+            {
+              "team_a": "Belgium",
+              "team_b": "Czech Republic",
+              "prob": 0.0468
+            },
+            {
+              "team_a": "Belgium",
+              "team_b": "Cape Verde",
+              "prob": 0.0464
+            },
+            {
+              "team_a": "Belgium",
+              "team_b": "Uruguay",
+              "prob": 0.0366
+            }
+          ]
+        },
+        {
+          "match_id": 83,
+          "sides": [
+            {
+              "modal_team": "Portugal",
+              "modal_prob": 0.4584,
+              "top_teams": [
+                {
+                  "team": "Portugal",
+                  "prob": 0.4584
+                },
+                {
+                  "team": "Colombia",
+                  "prob": 0.2096
+                },
+                {
+                  "team": "DR Congo",
+                  "prob": 0.1996
+                },
+                {
+                  "team": "Uzbekistan",
+                  "prob": 0.1324
+                }
+              ]
+            },
+            {
+              "modal_team": "Croatia",
+              "modal_prob": 0.5571,
+              "top_teams": [
+                {
+                  "team": "Croatia",
+                  "prob": 0.5571
+                },
+                {
+                  "team": "Ghana",
+                  "prob": 0.2947
+                },
+                {
+                  "team": "Panama",
+                  "prob": 0.0888
+                },
+                {
+                  "team": "England",
+                  "prob": 0.0594
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Portugal",
+              "team_b": "Croatia",
+              "prob": 0.2561
+            },
+            {
+              "team_a": "Portugal",
+              "team_b": "Ghana",
+              "prob": 0.1308
+            },
+            {
+              "team_a": "Colombia",
+              "team_b": "Croatia",
+              "prob": 0.1202
+            },
+            {
+              "team_a": "DR Congo",
+              "team_b": "Croatia",
+              "prob": 0.1086
+            },
+            {
+              "team_a": "Uzbekistan",
+              "team_b": "Croatia",
+              "prob": 0.0722
+            }
+          ]
+        },
+        {
+          "match_id": 84,
+          "sides": [
+            {
+              "modal_team": "Spain",
+              "modal_prob": 0.6834,
+              "top_teams": [
+                {
+                  "team": "Spain",
+                  "prob": 0.6834
+                },
+                {
+                  "team": "Uruguay",
+                  "prob": 0.2048
+                },
+                {
+                  "team": "Cape Verde",
+                  "prob": 0.0608
+                },
+                {
+                  "team": "Saudi Arabia",
+                  "prob": 0.051
+                }
+              ]
+            },
+            {
+              "modal_team": "Austria",
+              "modal_prob": 0.6492,
+              "top_teams": [
+                {
+                  "team": "Austria",
+                  "prob": 0.6492
+                },
+                {
+                  "team": "Algeria",
+                  "prob": 0.2103
+                },
+                {
+                  "team": "Argentina",
+                  "prob": 0.1202
+                },
+                {
+                  "team": "Jordan",
+                  "prob": 0.0203
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Spain",
+              "team_b": "Austria",
+              "prob": 0.4449
+            },
+            {
+              "team_a": "Spain",
+              "team_b": "Algeria",
+              "prob": 0.1428
+            },
+            {
+              "team_a": "Uruguay",
+              "team_b": "Austria",
+              "prob": 0.1316
+            },
+            {
+              "team_a": "Spain",
+              "team_b": "Argentina",
+              "prob": 0.0819
+            },
+            {
+              "team_a": "Uruguay",
+              "team_b": "Algeria",
+              "prob": 0.0434
+            }
+          ]
+        },
+        {
+          "match_id": 85,
+          "sides": [
+            {
+              "modal_team": "Canada",
+              "modal_prob": 0.5876,
+              "top_teams": [
+                {
+                  "team": "Canada",
+                  "prob": 0.5876
+                },
+                {
+                  "team": "Switzerland",
+                  "prob": 0.4124
+                }
+              ]
+            },
+            {
+              "modal_team": "Egypt",
+              "modal_prob": 0.1736,
+              "top_teams": [
+                {
+                  "team": "Egypt",
+                  "prob": 0.1736
+                },
+                {
+                  "team": "Iran",
+                  "prob": 0.1536
+                },
+                {
+                  "team": "Belgium",
+                  "prob": 0.1463
+                },
+                {
+                  "team": "New Zealand",
+                  "prob": 0.1398
+                },
+                {
+                  "team": "Algeria",
+                  "prob": 0.1279
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Canada",
+              "team_b": "Egypt",
+              "prob": 0.1008
+            },
+            {
+              "team_a": "Canada",
+              "team_b": "Iran",
+              "prob": 0.0897
+            },
+            {
+              "team_a": "Canada",
+              "team_b": "Belgium",
+              "prob": 0.0857
+            },
+            {
+              "team_a": "Canada",
+              "team_b": "New Zealand",
+              "prob": 0.0855
+            },
+            {
+              "team_a": "Canada",
+              "team_b": "Algeria",
+              "prob": 0.0751
+            }
+          ]
+        },
+        {
+          "match_id": 86,
+          "sides": [
+            {
+              "modal_team": "Argentina",
+              "modal_prob": 0.8725,
+              "top_teams": [
+                {
+                  "team": "Argentina",
+                  "prob": 0.8725
+                },
+                {
+                  "team": "Austria",
+                  "prob": 0.1207
+                },
+                {
+                  "team": "Algeria",
+                  "prob": 0.0053
+                },
+                {
+                  "team": "Jordan",
+                  "prob": 0.0015
+                }
+              ]
+            },
+            {
+              "modal_team": "Uruguay",
+              "modal_prob": 0.3758,
+              "top_teams": [
+                {
+                  "team": "Uruguay",
+                  "prob": 0.3758
+                },
+                {
+                  "team": "Cape Verde",
+                  "prob": 0.236
+                },
+                {
+                  "team": "Spain",
+                  "prob": 0.21
+                },
+                {
+                  "team": "Saudi Arabia",
+                  "prob": 0.1782
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Argentina",
+              "team_b": "Uruguay",
+              "prob": 0.3251
+            },
+            {
+              "team_a": "Argentina",
+              "team_b": "Cape Verde",
+              "prob": 0.2071
+            },
+            {
+              "team_a": "Argentina",
+              "team_b": "Spain",
+              "prob": 0.1828
+            },
+            {
+              "team_a": "Argentina",
+              "team_b": "Saudi Arabia",
+              "prob": 0.1575
+            },
+            {
+              "team_a": "Austria",
+              "team_b": "Uruguay",
+              "prob": 0.0479
+            }
+          ]
+        },
+        {
+          "match_id": 87,
+          "sides": [
+            {
+              "modal_team": "Colombia",
+              "modal_prob": 0.7285,
+              "top_teams": [
+                {
+                  "team": "Colombia",
+                  "prob": 0.7285
+                },
+                {
+                  "team": "Portugal",
+                  "prob": 0.2131
+                },
+                {
+                  "team": "DR Congo",
+                  "prob": 0.0459
+                },
+                {
+                  "team": "Uzbekistan",
+                  "prob": 0.0125
+                }
+              ]
+            },
+            {
+              "modal_team": "Ghana",
+              "modal_prob": 0.3477,
+              "top_teams": [
+                {
+                  "team": "Ghana",
+                  "prob": 0.3477
+                },
+                {
+                  "team": "Croatia",
+                  "prob": 0.1617
+                },
+                {
+                  "team": "Panama",
+                  "prob": 0.1169
+                },
+                {
+                  "team": "Senegal",
+                  "prob": 0.1078
+                },
+                {
+                  "team": "Ecuador",
+                  "prob": 0.0845
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Colombia",
+              "team_b": "Ghana",
+              "prob": 0.2579
+            },
+            {
+              "team_a": "Colombia",
+              "team_b": "Croatia",
+              "prob": 0.1226
+            },
+            {
+              "team_a": "Colombia",
+              "team_b": "Panama",
+              "prob": 0.0849
+            },
+            {
+              "team_a": "Colombia",
+              "team_b": "Senegal",
+              "prob": 0.0716
+            },
+            {
+              "team_a": "Portugal",
+              "team_b": "Ghana",
+              "prob": 0.071
+            }
+          ]
+        },
+        {
+          "match_id": 88,
+          "sides": [
+            {
+              "modal_team": "United States",
+              "modal_prob": 0.3686,
+              "top_teams": [
+                {
+                  "team": "United States",
+                  "prob": 0.3686
+                },
+                {
+                  "team": "Australia",
+                  "prob": 0.3638
+                },
+                {
+                  "team": "Turkey",
+                  "prob": 0.1848
+                },
+                {
+                  "team": "Paraguay",
+                  "prob": 0.0828
+                }
+              ]
+            },
+            {
+              "modal_team": "Egypt",
+              "modal_prob": 0.2811,
+              "top_teams": [
+                {
+                  "team": "Egypt",
+                  "prob": 0.2811
+                },
+                {
+                  "team": "Belgium",
+                  "prob": 0.2757
+                },
+                {
+                  "team": "Iran",
+                  "prob": 0.2528
+                },
+                {
+                  "team": "New Zealand",
+                  "prob": 0.1904
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "United States",
+              "team_b": "Belgium",
+              "prob": 0.1084
+            },
+            {
+              "team_a": "United States",
+              "team_b": "Egypt",
+              "prob": 0.1052
+            },
+            {
+              "team_a": "Australia",
+              "team_b": "Egypt",
+              "prob": 0.1019
+            },
+            {
+              "team_a": "Australia",
+              "team_b": "Belgium",
+              "prob": 0.0958
+            },
+            {
+              "team_a": "Australia",
+              "team_b": "Iran",
+              "prob": 0.0936
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R16",
+      "matches": [
+        {
+          "match_id": 89,
+          "sides": [
+            {
+              "modal_team": "Germany",
+              "modal_prob": 0.4194,
+              "top_teams": [
+                {
+                  "team": "Germany",
+                  "prob": 0.4194
+                },
+                {
+                  "team": "Ivory Coast",
+                  "prob": 0.1429
+                },
+                {
+                  "team": "Turkey",
+                  "prob": 0.0942
+                },
+                {
+                  "team": "Scotland",
+                  "prob": 0.0644
+                },
+                {
+                  "team": "Paraguay",
+                  "prob": 0.0558
+                }
+              ]
+            },
+            {
+              "modal_team": "France",
+              "modal_prob": 0.5491,
+              "top_teams": [
+                {
+                  "team": "France",
+                  "prob": 0.5491
+                },
+                {
+                  "team": "Norway",
+                  "prob": 0.1593
+                },
+                {
+                  "team": "Sweden",
+                  "prob": 0.0882
+                },
+                {
+                  "team": "Japan",
+                  "prob": 0.0738
+                },
+                {
+                  "team": "Netherlands",
+                  "prob": 0.0714
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Germany",
+              "team_b": "France",
+              "prob": 0.2305
+            },
+            {
+              "team_a": "Ivory Coast",
+              "team_b": "France",
+              "prob": 0.0802
+            },
+            {
+              "team_a": "Germany",
+              "team_b": "Norway",
+              "prob": 0.0667
+            },
+            {
+              "team_a": "Turkey",
+              "team_b": "France",
+              "prob": 0.049
+            },
+            {
+              "team_a": "Scotland",
+              "team_b": "France",
+              "prob": 0.0363
+            }
+          ]
+        },
+        {
+          "match_id": 90,
+          "sides": [
+            {
+              "modal_team": "Switzerland",
+              "modal_prob": 0.3602,
+              "top_teams": [
+                {
+                  "team": "Switzerland",
+                  "prob": 0.3602
+                },
+                {
+                  "team": "South Korea",
+                  "prob": 0.3352
+                },
+                {
+                  "team": "Canada",
+                  "prob": 0.2237
+                },
+                {
+                  "team": "South Africa",
+                  "prob": 0.0342
+                },
+                {
+                  "team": "Mexico",
+                  "prob": 0.0305
+                }
+              ]
+            },
+            {
+              "modal_team": "Morocco",
+              "modal_prob": 0.2117,
+              "top_teams": [
+                {
+                  "team": "Morocco",
+                  "prob": 0.2117
+                },
+                {
+                  "team": "Brazil",
+                  "prob": 0.211
+                },
+                {
+                  "team": "Netherlands",
+                  "prob": 0.1963
+                },
+                {
+                  "team": "Japan",
+                  "prob": 0.1706
+                },
+                {
+                  "team": "Sweden",
+                  "prob": 0.103
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Switzerland",
+              "team_b": "Brazil",
+              "prob": 0.078
+            },
+            {
+              "team_a": "Switzerland",
+              "team_b": "Morocco",
+              "prob": 0.0746
+            },
+            {
+              "team_a": "South Korea",
+              "team_b": "Morocco",
+              "prob": 0.0703
+            },
+            {
+              "team_a": "South Korea",
+              "team_b": "Brazil",
+              "prob": 0.0695
+            },
+            {
+              "team_a": "South Korea",
+              "team_b": "Netherlands",
+              "prob": 0.0669
+            }
+          ]
+        },
+        {
+          "match_id": 91,
+          "sides": [
+            {
+              "modal_team": "Brazil",
+              "modal_prob": 0.2989,
+              "top_teams": [
+                {
+                  "team": "Brazil",
+                  "prob": 0.2989
+                },
+                {
+                  "team": "Netherlands",
+                  "prob": 0.1835
+                },
+                {
+                  "team": "Morocco",
+                  "prob": 0.1803
+                },
+                {
+                  "team": "Japan",
+                  "prob": 0.1753
+                },
+                {
+                  "team": "Sweden",
+                  "prob": 0.0837
+                }
+              ]
+            },
+            {
+              "modal_team": "Norway",
+              "modal_prob": 0.3145,
+              "top_teams": [
+                {
+                  "team": "Norway",
+                  "prob": 0.3145
+                },
+                {
+                  "team": "France",
+                  "prob": 0.1886
+                },
+                {
+                  "team": "Ivory Coast",
+                  "prob": 0.1757
+                },
+                {
+                  "team": "Germany",
+                  "prob": 0.1198
+                },
+                {
+                  "team": "Ecuador",
+                  "prob": 0.1136
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Brazil",
+              "team_b": "Norway",
+              "prob": 0.0919
+            },
+            {
+              "team_a": "Brazil",
+              "team_b": "France",
+              "prob": 0.0587
+            },
+            {
+              "team_a": "Netherlands",
+              "team_b": "Norway",
+              "prob": 0.0581
+            },
+            {
+              "team_a": "Morocco",
+              "team_b": "Norway",
+              "prob": 0.058
+            },
+            {
+              "team_a": "Japan",
+              "team_b": "Norway",
+              "prob": 0.0558
+            }
+          ]
+        },
+        {
+          "match_id": 92,
+          "sides": [
+            {
+              "modal_team": "Mexico",
+              "modal_prob": 0.5799,
+              "top_teams": [
+                {
+                  "team": "Mexico",
+                  "prob": 0.5799
+                },
+                {
+                  "team": "Ecuador",
+                  "prob": 0.0945
+                },
+                {
+                  "team": "Scotland",
+                  "prob": 0.0709
+                },
+                {
+                  "team": "Morocco",
+                  "prob": 0.0506
+                },
+                {
+                  "team": "Brazil",
+                  "prob": 0.0427
+                }
+              ]
+            },
+            {
+              "modal_team": "England",
+              "modal_prob": 0.683,
+              "top_teams": [
+                {
+                  "team": "England",
+                  "prob": 0.683
+                },
+                {
+                  "team": "Portugal",
+                  "prob": 0.0625
+                },
+                {
+                  "team": "Senegal",
+                  "prob": 0.0453
+                },
+                {
+                  "team": "DR Congo",
+                  "prob": 0.0421
+                },
+                {
+                  "team": "Uzbekistan",
+                  "prob": 0.0382
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Mexico",
+              "team_b": "England",
+              "prob": 0.3959
+            },
+            {
+              "team_a": "Ecuador",
+              "team_b": "England",
+              "prob": 0.0629
+            },
+            {
+              "team_a": "Scotland",
+              "team_b": "England",
+              "prob": 0.0469
+            },
+            {
+              "team_a": "Morocco",
+              "team_b": "England",
+              "prob": 0.0358
+            },
+            {
+              "team_a": "Mexico",
+              "team_b": "Portugal",
+              "prob": 0.0351
+            }
+          ]
+        },
+        {
+          "match_id": 93,
+          "sides": [
+            {
+              "modal_team": "Portugal",
+              "modal_prob": 0.3187,
+              "top_teams": [
+                {
+                  "team": "Portugal",
+                  "prob": 0.3187
+                },
+                {
+                  "team": "Croatia",
+                  "prob": 0.2666
+                },
+                {
+                  "team": "Colombia",
+                  "prob": 0.1494
+                },
+                {
+                  "team": "DR Congo",
+                  "prob": 0.0791
+                },
+                {
+                  "team": "Ghana",
+                  "prob": 0.0621
+                }
+              ]
+            },
+            {
+              "modal_team": "Spain",
+              "modal_prob": 0.5197,
+              "top_teams": [
+                {
+                  "team": "Spain",
+                  "prob": 0.5197
+                },
+                {
+                  "team": "Austria",
+                  "prob": 0.2076
+                },
+                {
+                  "team": "Uruguay",
+                  "prob": 0.1071
+                },
+                {
+                  "team": "Argentina",
+                  "prob": 0.0762
+                },
+                {
+                  "team": "Algeria",
+                  "prob": 0.0552
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Portugal",
+              "team_b": "Spain",
+              "prob": 0.1658
+            },
+            {
+              "team_a": "Croatia",
+              "team_b": "Spain",
+              "prob": 0.1426
+            },
+            {
+              "team_a": "Colombia",
+              "team_b": "Spain",
+              "prob": 0.0778
+            },
+            {
+              "team_a": "Portugal",
+              "team_b": "Austria",
+              "prob": 0.0668
+            },
+            {
+              "team_a": "Croatia",
+              "team_b": "Austria",
+              "prob": 0.0529
+            }
+          ]
+        },
+        {
+          "match_id": 94,
+          "sides": [
+            {
+              "modal_team": "Australia",
+              "modal_prob": 0.3832,
+              "top_teams": [
+                {
+                  "team": "Australia",
+                  "prob": 0.3832
+                },
+                {
+                  "team": "United States",
+                  "prob": 0.2955
+                },
+                {
+                  "team": "Bosnia and Herzegovina",
+                  "prob": 0.0928
+                },
+                {
+                  "team": "Ecuador",
+                  "prob": 0.0431
+                },
+                {
+                  "team": "Qatar",
+                  "prob": 0.0431
+                }
+              ]
+            },
+            {
+              "modal_team": "Belgium",
+              "modal_prob": 0.2414,
+              "top_teams": [
+                {
+                  "team": "Belgium",
+                  "prob": 0.2414
+                },
+                {
+                  "team": "Iran",
+                  "prob": 0.1462
+                },
+                {
+                  "team": "Egypt",
+                  "prob": 0.1101
+                },
+                {
+                  "team": "Uruguay",
+                  "prob": 0.0586
+                },
+                {
+                  "team": "South Korea",
+                  "prob": 0.0572
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Australia",
+              "team_b": "Belgium",
+              "prob": 0.0902
+            },
+            {
+              "team_a": "United States",
+              "team_b": "Belgium",
+              "prob": 0.0735
+            },
+            {
+              "team_a": "Australia",
+              "team_b": "Iran",
+              "prob": 0.0567
+            },
+            {
+              "team_a": "Australia",
+              "team_b": "Egypt",
+              "prob": 0.044
+            },
+            {
+              "team_a": "United States",
+              "team_b": "Iran",
+              "prob": 0.0432
+            }
+          ]
+        },
+        {
+          "match_id": 95,
+          "sides": [
+            {
+              "modal_team": "Argentina",
+              "modal_prob": 0.6978,
+              "top_teams": [
+                {
+                  "team": "Argentina",
+                  "prob": 0.6978
+                },
+                {
+                  "team": "Spain",
+                  "prob": 0.1062
+                },
+                {
+                  "team": "Uruguay",
+                  "prob": 0.0943
+                },
+                {
+                  "team": "Austria",
+                  "prob": 0.0662
+                },
+                {
+                  "team": "Cape Verde",
+                  "prob": 0.0192
+                }
+              ]
+            },
+            {
+              "modal_team": "Australia",
+              "modal_prob": 0.223,
+              "top_teams": [
+                {
+                  "team": "Australia",
+                  "prob": 0.223
+                },
+                {
+                  "team": "United States",
+                  "prob": 0.1886
+                },
+                {
+                  "team": "Belgium",
+                  "prob": 0.1537
+                },
+                {
+                  "team": "Iran",
+                  "prob": 0.1171
+                },
+                {
+                  "team": "Egypt",
+                  "prob": 0.1135
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Argentina",
+              "team_b": "Australia",
+              "prob": 0.1537
+            },
+            {
+              "team_a": "Argentina",
+              "team_b": "United States",
+              "prob": 0.1309
+            },
+            {
+              "team_a": "Argentina",
+              "team_b": "Belgium",
+              "prob": 0.1092
+            },
+            {
+              "team_a": "Argentina",
+              "team_b": "Iran",
+              "prob": 0.0801
+            },
+            {
+              "team_a": "Argentina",
+              "team_b": "Egypt",
+              "prob": 0.0797
+            }
+          ]
+        },
+        {
+          "match_id": 96,
+          "sides": [
+            {
+              "modal_team": "Canada",
+              "modal_prob": 0.3173,
+              "top_teams": [
+                {
+                  "team": "Canada",
+                  "prob": 0.3173
+                },
+                {
+                  "team": "Switzerland",
+                  "prob": 0.2506
+                },
+                {
+                  "team": "Belgium",
+                  "prob": 0.0784
+                },
+                {
+                  "team": "Iran",
+                  "prob": 0.0674
+                },
+                {
+                  "team": "Egypt",
+                  "prob": 0.0673
+                }
+              ]
+            },
+            {
+              "modal_team": "Colombia",
+              "modal_prob": 0.5649,
+              "top_teams": [
+                {
+                  "team": "Colombia",
+                  "prob": 0.5649
+                },
+                {
+                  "team": "Portugal",
+                  "prob": 0.1533
+                },
+                {
+                  "team": "Croatia",
+                  "prob": 0.0558
+                },
+                {
+                  "team": "Ghana",
+                  "prob": 0.0428
+                },
+                {
+                  "team": "Senegal",
+                  "prob": 0.0347
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Canada",
+              "team_b": "Colombia",
+              "prob": 0.1773
+            },
+            {
+              "team_a": "Switzerland",
+              "team_b": "Colombia",
+              "prob": 0.1424
+            },
+            {
+              "team_a": "Canada",
+              "team_b": "Portugal",
+              "prob": 0.0524
+            },
+            {
+              "team_a": "Belgium",
+              "team_b": "Colombia",
+              "prob": 0.0423
+            },
+            {
+              "team_a": "Iran",
+              "team_b": "Colombia",
+              "prob": 0.0385
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QF",
+      "matches": [
+        {
+          "match_id": 97,
+          "sides": [
+            {
+              "modal_team": "France",
+              "modal_prob": 0.3964,
+              "top_teams": [
+                {
+                  "team": "France",
+                  "prob": 0.3964
+                },
+                {
+                  "team": "Germany",
+                  "prob": 0.1912
+                },
+                {
+                  "team": "Norway",
+                  "prob": 0.0853
+                },
+                {
+                  "team": "Netherlands",
+                  "prob": 0.0467
+                },
+                {
+                  "team": "Ivory Coast",
+                  "prob": 0.0414
+                }
+              ]
+            },
+            {
+              "modal_team": "Switzerland",
+              "modal_prob": 0.1706,
+              "top_teams": [
+                {
+                  "team": "Switzerland",
+                  "prob": 0.1706
+                },
+                {
+                  "team": "Brazil",
+                  "prob": 0.1454
+                },
+                {
+                  "team": "South Korea",
+                  "prob": 0.1269
+                },
+                {
+                  "team": "Morocco",
+                  "prob": 0.1265
+                },
+                {
+                  "team": "Netherlands",
+                  "prob": 0.1213
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "France",
+              "team_b": "Switzerland",
+              "prob": 0.0673
+            },
+            {
+              "team_a": "France",
+              "team_b": "Brazil",
+              "prob": 0.0573
+            },
+            {
+              "team_a": "France",
+              "team_b": "Morocco",
+              "prob": 0.0506
+            },
+            {
+              "team_a": "France",
+              "team_b": "South Korea",
+              "prob": 0.0503
+            },
+            {
+              "team_a": "France",
+              "team_b": "Netherlands",
+              "prob": 0.0502
+            }
+          ]
+        },
+        {
+          "match_id": 98,
+          "sides": [
+            {
+              "modal_team": "Spain",
+              "modal_prob": 0.3807,
+              "top_teams": [
+                {
+                  "team": "Spain",
+                  "prob": 0.3807
+                },
+                {
+                  "team": "Portugal",
+                  "prob": 0.1486
+                },
+                {
+                  "team": "Croatia",
+                  "prob": 0.0928
+                },
+                {
+                  "team": "Austria",
+                  "prob": 0.092
+                },
+                {
+                  "team": "Colombia",
+                  "prob": 0.0757
+                }
+              ]
+            },
+            {
+              "modal_team": "Australia",
+              "modal_prob": 0.2193,
+              "top_teams": [
+                {
+                  "team": "Australia",
+                  "prob": 0.2193
+                },
+                {
+                  "team": "United States",
+                  "prob": 0.1432
+                },
+                {
+                  "team": "Belgium",
+                  "prob": 0.1381
+                },
+                {
+                  "team": "Iran",
+                  "prob": 0.0738
+                },
+                {
+                  "team": "Egypt",
+                  "prob": 0.0494
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Spain",
+              "team_b": "Australia",
+              "prob": 0.0889
+            },
+            {
+              "team_a": "Spain",
+              "team_b": "United States",
+              "prob": 0.0572
+            },
+            {
+              "team_a": "Spain",
+              "team_b": "Belgium",
+              "prob": 0.0546
+            },
+            {
+              "team_a": "Portugal",
+              "team_b": "Australia",
+              "prob": 0.0307
+            },
+            {
+              "team_a": "Spain",
+              "team_b": "Iran",
+              "prob": 0.0259
+            }
+          ]
+        },
+        {
+          "match_id": 99,
+          "sides": [
+            {
+              "modal_team": "Brazil",
+              "modal_prob": 0.1799,
+              "top_teams": [
+                {
+                  "team": "Brazil",
+                  "prob": 0.1799
+                },
+                {
+                  "team": "Norway",
+                  "prob": 0.1491
+                },
+                {
+                  "team": "France",
+                  "prob": 0.1268
+                },
+                {
+                  "team": "Netherlands",
+                  "prob": 0.0973
+                },
+                {
+                  "team": "Morocco",
+                  "prob": 0.0898
+                }
+              ]
+            },
+            {
+              "modal_team": "England",
+              "modal_prob": 0.4409,
+              "top_teams": [
+                {
+                  "team": "England",
+                  "prob": 0.4409
+                },
+                {
+                  "team": "Mexico",
+                  "prob": 0.2597
+                },
+                {
+                  "team": "Ecuador",
+                  "prob": 0.0484
+                },
+                {
+                  "team": "Portugal",
+                  "prob": 0.0353
+                },
+                {
+                  "team": "Brazil",
+                  "prob": 0.0229
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Brazil",
+              "team_b": "England",
+              "prob": 0.0784
+            },
+            {
+              "team_a": "Norway",
+              "team_b": "England",
+              "prob": 0.067
+            },
+            {
+              "team_a": "France",
+              "team_b": "England",
+              "prob": 0.0583
+            },
+            {
+              "team_a": "Brazil",
+              "team_b": "Mexico",
+              "prob": 0.0478
+            },
+            {
+              "team_a": "Netherlands",
+              "team_b": "England",
+              "prob": 0.0437
+            }
+          ]
+        },
+        {
+          "match_id": 100,
+          "sides": [
+            {
+              "modal_team": "Argentina",
+              "modal_prob": 0.5789,
+              "top_teams": [
+                {
+                  "team": "Argentina",
+                  "prob": 0.5789
+                },
+                {
+                  "team": "Spain",
+                  "prob": 0.0852
+                },
+                {
+                  "team": "Australia",
+                  "prob": 0.0642
+                },
+                {
+                  "team": "Uruguay",
+                  "prob": 0.056
+                },
+                {
+                  "team": "United States",
+                  "prob": 0.0451
+                }
+              ]
+            },
+            {
+              "modal_team": "Colombia",
+              "modal_prob": 0.4015,
+              "top_teams": [
+                {
+                  "team": "Colombia",
+                  "prob": 0.4015
+                },
+                {
+                  "team": "Canada",
+                  "prob": 0.1123
+                },
+                {
+                  "team": "Switzerland",
+                  "prob": 0.1044
+                },
+                {
+                  "team": "Portugal",
+                  "prob": 0.1019
+                },
+                {
+                  "team": "Ecuador",
+                  "prob": 0.0333
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Argentina",
+              "team_b": "Colombia",
+              "prob": 0.2326
+            },
+            {
+              "team_a": "Argentina",
+              "team_b": "Switzerland",
+              "prob": 0.0633
+            },
+            {
+              "team_a": "Argentina",
+              "team_b": "Canada",
+              "prob": 0.0632
+            },
+            {
+              "team_a": "Argentina",
+              "team_b": "Portugal",
+              "prob": 0.0619
+            },
+            {
+              "team_a": "Spain",
+              "team_b": "Colombia",
+              "prob": 0.0353
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SF",
+      "matches": [
+        {
+          "match_id": 101,
+          "sides": [
+            {
+              "modal_team": "France",
+              "modal_prob": 0.2776,
+              "top_teams": [
+                {
+                  "team": "France",
+                  "prob": 0.2776
+                },
+                {
+                  "team": "Germany",
+                  "prob": 0.1097
+                },
+                {
+                  "team": "Brazil",
+                  "prob": 0.0915
+                },
+                {
+                  "team": "Netherlands",
+                  "prob": 0.0862
+                },
+                {
+                  "team": "Switzerland",
+                  "prob": 0.0729
+                }
+              ]
+            },
+            {
+              "modal_team": "Spain",
+              "modal_prob": 0.3253,
+              "top_teams": [
+                {
+                  "team": "Spain",
+                  "prob": 0.3253
+                },
+                {
+                  "team": "Portugal",
+                  "prob": 0.0978
+                },
+                {
+                  "team": "Australia",
+                  "prob": 0.0804
+                },
+                {
+                  "team": "Austria",
+                  "prob": 0.0585
+                },
+                {
+                  "team": "Colombia",
+                  "prob": 0.0525
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "France",
+              "team_b": "Spain",
+              "prob": 0.0925
+            },
+            {
+              "team_a": "Germany",
+              "team_b": "Spain",
+              "prob": 0.0361
+            },
+            {
+              "team_a": "Netherlands",
+              "team_b": "Spain",
+              "prob": 0.0293
+            },
+            {
+              "team_a": "Brazil",
+              "team_b": "Spain",
+              "prob": 0.0292
+            },
+            {
+              "team_a": "France",
+              "team_b": "Portugal",
+              "prob": 0.0261
+            }
+          ]
+        },
+        {
+          "match_id": 102,
+          "sides": [
+            {
+              "modal_team": "England",
+              "modal_prob": 0.2805,
+              "top_teams": [
+                {
+                  "team": "England",
+                  "prob": 0.2805
+                },
+                {
+                  "team": "Mexico",
+                  "prob": 0.1295
+                },
+                {
+                  "team": "Brazil",
+                  "prob": 0.1119
+                },
+                {
+                  "team": "France",
+                  "prob": 0.0799
+                },
+                {
+                  "team": "Norway",
+                  "prob": 0.0696
+                }
+              ]
+            },
+            {
+              "modal_team": "Argentina",
+              "modal_prob": 0.4225,
+              "top_teams": [
+                {
+                  "team": "Argentina",
+                  "prob": 0.4225
+                },
+                {
+                  "team": "Colombia",
+                  "prob": 0.1969
+                },
+                {
+                  "team": "Spain",
+                  "prob": 0.0605
+                },
+                {
+                  "team": "Portugal",
+                  "prob": 0.0419
+                },
+                {
+                  "team": "Switzerland",
+                  "prob": 0.033
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "England",
+              "team_b": "Argentina",
+              "prob": 0.1187
+            },
+            {
+              "team_a": "England",
+              "team_b": "Colombia",
+              "prob": 0.0577
+            },
+            {
+              "team_a": "Mexico",
+              "team_b": "Argentina",
+              "prob": 0.0537
+            },
+            {
+              "team_a": "Brazil",
+              "team_b": "Argentina",
+              "prob": 0.0476
+            },
+            {
+              "team_a": "France",
+              "team_b": "Argentina",
+              "prob": 0.0335
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F",
+      "matches": [
+        {
+          "match_id": 104,
+          "sides": [
+            {
+              "modal_team": "Spain",
+              "modal_prob": 0.2207,
+              "top_teams": [
+                {
+                  "team": "Spain",
+                  "prob": 0.2207
+                },
+                {
+                  "team": "France",
+                  "prob": 0.1657
+                },
+                {
+                  "team": "Germany",
+                  "prob": 0.0524
+                },
+                {
+                  "team": "Portugal",
+                  "prob": 0.0524
+                },
+                {
+                  "team": "Brazil",
+                  "prob": 0.0516
+                }
+              ]
+            },
+            {
+              "modal_team": "Argentina",
+              "modal_prob": 0.291,
+              "top_teams": [
+                {
+                  "team": "Argentina",
+                  "prob": 0.291
+                },
+                {
+                  "team": "England",
+                  "prob": 0.1503
+                },
+                {
+                  "team": "Colombia",
+                  "prob": 0.114
+                },
+                {
+                  "team": "Brazil",
+                  "prob": 0.0536
+                },
+                {
+                  "team": "Mexico",
+                  "prob": 0.0513
+                }
+              ]
+            }
+          ],
+          "top_matchups": [
+            {
+              "team_a": "Spain",
+              "team_b": "Argentina",
+              "prob": 0.0695
+            },
+            {
+              "team_a": "France",
+              "team_b": "Argentina",
+              "prob": 0.0472
+            },
+            {
+              "team_a": "Spain",
+              "team_b": "England",
+              "prob": 0.0366
+            },
+            {
+              "team_a": "Spain",
+              "team_b": "Colombia",
+              "prob": 0.0264
+            },
+            {
+              "team_a": "France",
+              "team_b": "England",
+              "prob": 0.0252
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "n_sims": 10000,
+  "n_unique_pairings": 501,
+  "pairings": [
+    {
+      "team_a": "Argentina",
+      "team_b": "Spain",
+      "prob": 0.0726,
+      "count": 726
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "France",
+      "prob": 0.0501,
+      "count": 501
+    },
+    {
+      "team_a": "England",
+      "team_b": "Spain",
+      "prob": 0.0375,
+      "count": 375
+    },
+    {
+      "team_a": "Colombia",
+      "team_b": "Spain",
+      "prob": 0.0281,
+      "count": 281
+    },
+    {
+      "team_a": "England",
+      "team_b": "France",
+      "prob": 0.0262,
+      "count": 262
+    },
+    {
+      "team_a": "Colombia",
+      "team_b": "France",
+      "prob": 0.0212,
+      "count": 212
+    },
+    {
+      "team_a": "France",
+      "team_b": "Spain",
+      "prob": 0.019,
+      "count": 190
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Brazil",
+      "prob": 0.0176,
+      "count": 176
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Germany",
+      "prob": 0.0166,
+      "count": 166
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Portugal",
+      "prob": 0.016,
+      "count": 160
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Colombia",
+      "prob": 0.0152,
+      "count": 152
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Netherlands",
+      "prob": 0.0145,
+      "count": 145
+    },
+    {
+      "team_a": "Brazil",
+      "team_b": "Spain",
+      "prob": 0.0141,
+      "count": 141
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Australia",
+      "prob": 0.0122,
+      "count": 122
+    },
+    {
+      "team_a": "Brazil",
+      "team_b": "France",
+      "prob": 0.0117,
+      "count": 117
+    },
+    {
+      "team_a": "Mexico",
+      "team_b": "Spain",
+      "prob": 0.0113,
+      "count": 113
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Japan",
+      "prob": 0.0102,
+      "count": 102
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Austria",
+      "prob": 0.0098,
+      "count": 98
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Morocco",
+      "prob": 0.0098,
+      "count": 98
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Switzerland",
+      "prob": 0.0098,
+      "count": 98
+    }
+  ]
+}

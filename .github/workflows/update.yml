@@ -1,0 +1,66 @@
+name: Update predictions
+
+on:
+  # Every 6 hours: 00:00, 06:00, 12:00, 18:00 UTC
+  # In IST: 05:30, 11:30, 17:30, 23:30
+  schedule:
+    - cron: '0 */6 * * *'
+
+  # Manual trigger from the Actions tab in GitHub
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force re-run even if data unchanged'
+        required: false
+        default: 'false'
+
+# Don't run two updates at the same time
+concurrency:
+  group: update-predictions
+  cancel-in-progress: false
+
+# Token needs write access to push the updated data files
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run update pipeline
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            python update.py --force
+          else
+            python update.py
+          fi
+
+      - name: Commit and push updated data
+        run: |
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git config user.name  "wcpredict-bot"
+            git config user.email "wcpredict-bot@users.noreply.github.com"
+            git add data/
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "auto: update predictions ($TIMESTAMP) [skip ci]"
+            git push
+            echo "Pushed updated data."
+          else
+            echo "No changes to commit."
+          fi
