@@ -4,39 +4,39 @@ Spain,2173.1
 France,2128.4
 England,2093.7
 Colombia,2073.7
-Brazil,2053.6
+Brazil,2064.2
 Portugal,2023.1
 Germany,2001.6
 Netherlands,1996.6
+Morocco,1991.9
 Mexico,1987.7
 Japan,1974.0
-Morocco,1973.4
 Norway,1958.8
 Ecuador,1952.5
 Uruguay,1942.8
 Switzerland,1935.4
 Italy,1933.0
-Australia,1929.9
 Belgium,1925.7
 Croatia,1922.4
 Denmark,1919.5
 Austria,1910.5
-Turkey,1885.8
+United States,1900.0
+Australia,1888.6
 Senegal,1881.7
 Canada,1873.9
 Nigeria,1872.8
 Iran,1868.8
 South Korea,1867.5
-United States,1858.7
+Paraguay,1864.7
 Algeria,1854.6
 Ivory Coast,1853.3
+Turkey,1851.0
 Yugoslavia,1850.2
 Ukraine,1832.9
-Scotland,1832.4
-Paraguay,1830.0
 Russia,1824.5
 Sweden,1822.7
 Venezuela,1817.4
+Scotland,1814.0
 Egypt,1810.6
 Serbia,1807.4
 Jersey,1805.5
@@ -71,14 +71,14 @@ Mali,1698.5
 Israel,1697.5
 Iraq,1691.9
 Northern Cyprus,1689.7
-Occitania,1686.7
 Padania,1686.7
+Occitania,1686.7
 Cape Verde,1682.7
 Bolivia,1681.7
 Tunisia,1680.0
-Haiti,1673.3
 Ghana,1664.0
 South Africa,1663.6
+Haiti,1662.7
 Isle of Wight,1660.1
 Albania,1653.8
 Jamaica,1650.2
@@ -152,8 +152,8 @@ Silesia,1506.4
 Crimea,1504.8
 Shetland,1503.2
 Brittany,1502.9
-Nicaragua,1501.9
 United Koreans in Japan,1501.9
+Nicaragua,1501.9
 Délvidék,1500.2
 Madagascar,1499.7
 Uganda,1496.1
@@ -171,8 +171,8 @@ El Salvador,1487.9
 Martinique,1487.8
 Seborga,1486.4
 Guyana,1485.9
-Kazakhstan,1484.1
 Székely Land,1484.1
+Kazakhstan,1484.1
 Sealand,1483.9
 Yoruba Nation,1483.5
 Mozambique,1483.1
@@ -197,8 +197,8 @@ Kuwait,1468.1
 Greenland,1465.5
 Niger,1465.3
 Romani people,1463.8
-Aymara,1463.2
 East Turkestan,1463.2
+Aymara,1463.2
 Sudan,1461.3
 Provence,1460.3
 Hmong,1459.8
