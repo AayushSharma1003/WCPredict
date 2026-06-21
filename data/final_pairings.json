@@ -1,126 +1,126 @@
 {
   "n_sims": 10000,
-  "n_unique_pairings": 479,
+  "n_unique_pairings": 471,
   "pairings": [
     {
       "team_a": "Argentina",
       "team_b": "Spain",
-      "prob": 0.0776,
-      "count": 776
+      "prob": 0.0799,
+      "count": 799
     },
     {
       "team_a": "Argentina",
       "team_b": "France",
-      "prob": 0.0485,
-      "count": 485
-    },
-    {
-      "team_a": "Colombia",
-      "team_b": "Spain",
-      "prob": 0.0316,
-      "count": 316
+      "prob": 0.051,
+      "count": 510
     },
     {
       "team_a": "England",
       "team_b": "Spain",
-      "prob": 0.0306,
-      "count": 306
-    },
-    {
-      "team_a": "England",
-      "team_b": "France",
-      "prob": 0.0227,
-      "count": 227
+      "prob": 0.0314,
+      "count": 314
     },
     {
       "team_a": "Colombia",
-      "team_b": "France",
-      "prob": 0.0216,
-      "count": 216
-    },
-    {
-      "team_a": "France",
       "team_b": "Spain",
-      "prob": 0.0206,
-      "count": 206
-    },
-    {
-      "team_a": "Brazil",
-      "team_b": "Spain",
-      "prob": 0.0185,
-      "count": 185
+      "prob": 0.0262,
+      "count": 262
     },
     {
       "team_a": "Argentina",
       "team_b": "Germany",
-      "prob": 0.0171,
-      "count": 171
+      "prob": 0.0253,
+      "count": 253
     },
     {
-      "team_a": "Argentina",
-      "team_b": "Morocco",
-      "prob": 0.0161,
-      "count": 161
-    },
-    {
-      "team_a": "Brazil",
+      "team_a": "England",
       "team_b": "France",
-      "prob": 0.016,
-      "count": 160
+      "prob": 0.0235,
+      "count": 235
     },
     {
-      "team_a": "Argentina",
-      "team_b": "Brazil",
-      "prob": 0.0156,
-      "count": 156
-    },
-    {
-      "team_a": "Argentina",
-      "team_b": "United States",
-      "prob": 0.0151,
-      "count": 151
-    },
-    {
-      "team_a": "Argentina",
-      "team_b": "Portugal",
-      "prob": 0.015,
-      "count": 150
-    },
-    {
-      "team_a": "Argentina",
-      "team_b": "Colombia",
-      "prob": 0.0146,
-      "count": 146
-    },
-    {
-      "team_a": "Mexico",
+      "team_a": "France",
       "team_b": "Spain",
-      "prob": 0.0124,
-      "count": 124
+      "prob": 0.0213,
+      "count": 213
+    },
+    {
+      "team_a": "Colombia",
+      "team_b": "France",
+      "prob": 0.0208,
+      "count": 208
     },
     {
       "team_a": "Argentina",
       "team_b": "Netherlands",
-      "prob": 0.0107,
-      "count": 107
+      "prob": 0.0182,
+      "count": 182
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Portugal",
+      "prob": 0.0143,
+      "count": 143
+    },
+    {
+      "team_a": "Brazil",
+      "team_b": "Spain",
+      "prob": 0.0142,
+      "count": 142
+    },
+    {
+      "team_a": "Brazil",
+      "team_b": "France",
+      "prob": 0.0141,
+      "count": 141
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Colombia",
+      "prob": 0.0138,
+      "count": 138
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Morocco",
+      "prob": 0.0133,
+      "count": 133
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "United States",
+      "prob": 0.0131,
+      "count": 131
+    },
+    {
+      "team_a": "England",
+      "team_b": "Germany",
+      "prob": 0.0121,
+      "count": 121
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Brazil",
+      "prob": 0.0116,
+      "count": 116
+    },
+    {
+      "team_a": "Mexico",
+      "team_b": "Spain",
+      "prob": 0.0109,
+      "count": 109
+    },
+    {
+      "team_a": "Portugal",
+      "team_b": "Spain",
+      "prob": 0.0103,
+      "count": 103
     },
     {
       "team_a": "Argentina",
       "team_b": "Japan",
-      "prob": 0.0104,
-      "count": 104
-    },
-    {
-      "team_a": "France",
-      "team_b": "Mexico",
-      "prob": 0.0097,
-      "count": 97
-    },
-    {
-      "team_a": "Argentina",
-      "team_b": "England",
-      "prob": 0.009,
-      "count": 90
+      "prob": 0.0101,
+      "count": 101
     }
   ]
 }

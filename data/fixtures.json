@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-20T08:44:13+00:00",
+  "generated_utc": "2026-06-21T10:00:57+00:00",
   "schedule_source": "data/wc_schedule.csv",
   "n_matches": 72,
   "matches": [
@@ -94,14 +94,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.7822,
-        "draw": 0.1517,
-        "away_win": 0.0661,
+        "home_win": 0.783,
+        "draw": 0.1511,
+        "away_win": 0.0659,
         "exp_goals_home": 2.5,
         "exp_goals_away": 0.61,
         "favourite": "Mexico",
         "favourite_code": "MEX",
-        "edge": 0.7161,
+        "edge": 0.7171,
         "top_scorelines": [
           {
             "score": "2-0",
@@ -109,15 +109,15 @@
           },
           {
             "score": "3-0",
-            "prob": 0.1161
+            "prob": 0.1163
           },
           {
             "score": "1-0",
-            "prob": 0.1075
+            "prob": 0.1074
           },
           {
             "score": "2-1",
-            "prob": 0.085
+            "prob": 0.0849
           }
         ]
       },
@@ -246,30 +246,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.4618,
-        "draw": 0.2929,
-        "away_win": 0.2454,
+        "home_win": 0.4622,
+        "draw": 0.2925,
+        "away_win": 0.2453,
         "exp_goals_home": 1.35,
         "exp_goals_away": 0.91,
         "favourite": "South Korea",
         "favourite_code": "KOR",
-        "edge": 0.2164,
+        "edge": 0.2168,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1359
+            "prob": 0.1357
           },
           {
             "score": "1-0",
-            "prob": 0.1327
+            "prob": 0.1329
           },
           {
             "score": "0-0",
-            "prob": 0.1116
+            "prob": 0.1114
           },
           {
             "score": "2-0",
-            "prob": 0.0949
+            "prob": 0.095
           }
         ]
       },
@@ -393,18 +393,18 @@
         ]
       },
       "prediction": {
-        "home_win": 0.6876,
-        "draw": 0.2005,
-        "away_win": 0.1119,
+        "home_win": 0.6883,
+        "draw": 0.2,
+        "away_win": 0.1117,
         "exp_goals_home": 2.11,
         "exp_goals_away": 0.73,
         "favourite": "Canada",
         "favourite_code": "CAN",
-        "edge": 0.5757,
+        "edge": 0.5766,
         "top_scorelines": [
           {
             "score": "2-0",
-            "prob": 0.1297
+            "prob": 0.1298
           },
           {
             "score": "1-0",
@@ -412,7 +412,7 @@
           },
           {
             "score": "1-1",
-            "prob": 0.0955
+            "prob": 0.0952
           },
           {
             "score": "2-1",
@@ -448,7 +448,7 @@
       "home": {
         "team": "United States",
         "code": "USA",
-        "elo": 1858.7,
+        "elo": 1900.0,
         "form": [
           {
             "res": "W",
@@ -485,7 +485,7 @@
       "away": {
         "team": "Paraguay",
         "code": "PAR",
-        "elo": 1830.0,
+        "elo": 1864.7,
         "form": [
           {
             "res": "L",
@@ -520,30 +520,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.4543,
-        "draw": 0.2789,
-        "away_win": 0.2668,
-        "exp_goals_home": 1.45,
-        "exp_goals_away": 1.05,
+        "home_win": 0.4618,
+        "draw": 0.2778,
+        "away_win": 0.2603,
+        "exp_goals_home": 1.46,
+        "exp_goals_away": 1.03,
         "favourite": "United States",
         "favourite_code": "USA",
-        "edge": 0.1875,
+        "edge": 0.2015,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1327
+            "prob": 0.1321
           },
           {
             "score": "1-0",
-            "prob": 0.1116
+            "prob": 0.1133
           },
           {
             "score": "2-1",
-            "prob": 0.0905
+            "prob": 0.091
           },
           {
             "score": "0-0",
-            "prob": 0.0899
+            "prob": 0.0901
           }
         ]
       },
@@ -625,7 +625,7 @@
       "home": {
         "team": "Australia",
         "code": "AUS",
-        "elo": 1929.9,
+        "elo": 1888.6,
         "form": [
           {
             "res": "L",
@@ -662,7 +662,7 @@
       "away": {
         "team": "Turkey",
         "code": "TUR",
-        "elo": 1885.8,
+        "elo": 1851.0,
         "form": [
           {
             "res": "D",
@@ -697,14 +697,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.3923,
-        "draw": 0.3053,
-        "away_win": 0.3024,
-        "exp_goals_home": 1.19,
-        "exp_goals_away": 1.01,
+        "home_win": 0.3861,
+        "draw": 0.3048,
+        "away_win": 0.3091,
+        "exp_goals_home": 1.18,
+        "exp_goals_away": 1.03,
         "favourite": "Australia",
         "favourite_code": "AUS",
-        "edge": 0.09,
+        "edge": 0.0771,
         "top_scorelines": [
           {
             "score": "1-1",
@@ -712,15 +712,15 @@
           },
           {
             "score": "1-0",
-            "prob": 0.1233
+            "prob": 0.1215
           },
           {
             "score": "0-0",
-            "prob": 0.1181
+            "prob": 0.1171
           },
           {
             "score": "0-1",
-            "prob": 0.1035
+            "prob": 0.1047
           }
         ]
       },
@@ -767,7 +767,7 @@
       "home": {
         "team": "Brazil",
         "code": "BRA",
-        "elo": 2053.6,
+        "elo": 2064.2,
         "form": [
           {
             "res": "D",
@@ -804,7 +804,7 @@
       "away": {
         "team": "Morocco",
         "code": "MAR",
-        "elo": 1973.4,
+        "elo": 1991.9,
         "form": [
           {
             "res": "D",
@@ -839,30 +839,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.4298,
-        "draw": 0.3022,
-        "away_win": 0.2679,
-        "exp_goals_home": 1.26,
-        "exp_goals_away": 0.94,
+        "home_win": 0.4214,
+        "draw": 0.3034,
+        "away_win": 0.2751,
+        "exp_goals_home": 1.24,
+        "exp_goals_away": 0.95,
         "favourite": "Brazil",
         "favourite_code": "BRA",
-        "edge": 0.1619,
+        "edge": 0.1463,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1391
+            "prob": 0.1396
           },
           {
             "score": "1-0",
-            "prob": 0.132
+            "prob": 0.1309
           },
           {
             "score": "0-0",
-            "prob": 0.1189
+            "prob": 0.1195
           },
           {
             "score": "0-1",
-            "prob": 0.0961
+            "prob": 0.0984
           }
         ]
       },
@@ -914,7 +914,7 @@
       "home": {
         "team": "Haiti",
         "code": "HAI",
-        "elo": 1673.3,
+        "elo": 1662.7,
         "form": [
           {
             "res": "W",
@@ -951,7 +951,7 @@
       "away": {
         "team": "Scotland",
         "code": "SCO",
-        "elo": 1832.4,
+        "elo": 1814.0,
         "form": [
           {
             "res": "W",
@@ -986,30 +986,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.2015,
-        "draw": 0.2764,
-        "away_win": 0.5221,
-        "exp_goals_home": 0.83,
-        "exp_goals_away": 1.5,
+        "home_win": 0.2077,
+        "draw": 0.2783,
+        "away_win": 0.514,
+        "exp_goals_home": 0.85,
+        "exp_goals_away": 1.48,
         "favourite": "Scotland",
         "favourite_code": "SCO",
-        "edge": 0.3206,
+        "edge": 0.3063,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.1381
+            "prob": 0.1372
           },
           {
             "score": "1-1",
-            "prob": 0.1285
+            "prob": 0.1295
           },
           {
             "score": "0-2",
-            "prob": 0.109
+            "prob": 0.107
           },
           {
             "score": "0-0",
-            "prob": 0.1043
+            "prob": 0.1047
           }
         ]
       },
@@ -1113,30 +1113,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.0773,
-        "draw": 0.18,
-        "away_win": 0.7428,
+        "home_win": 0.0771,
+        "draw": 0.1794,
+        "away_win": 0.7435,
         "exp_goals_home": 0.57,
         "exp_goals_away": 2.19,
         "favourite": "Switzerland",
         "favourite_code": "SUI",
-        "edge": 0.6655,
+        "edge": 0.6664,
         "top_scorelines": [
           {
             "score": "0-2",
-            "prob": 0.1517
+            "prob": 0.1518
           },
           {
             "score": "0-1",
-            "prob": 0.1336
+            "prob": 0.1337
           },
           {
             "score": "0-3",
-            "prob": 0.1109
+            "prob": 0.1111
           },
           {
             "score": "1-2",
-            "prob": 0.0865
+            "prob": 0.0864
           }
         ]
       },
@@ -1178,7 +1178,7 @@
       "home": {
         "team": "Germany",
         "code": "GER",
-        "elo": 2001.6,
+        "elo": 2019.5,
         "form": [
           {
             "res": "W",
@@ -1215,7 +1215,7 @@
       "away": {
         "team": "Curaçao",
         "code": "CUW",
-        "elo": 1577.4,
+        "elo": 1601.2,
         "form": [
           {
             "res": "D",
@@ -1250,30 +1250,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.796,
-        "draw": 0.1489,
-        "away_win": 0.0551,
-        "exp_goals_home": 2.44,
+        "home_win": 0.7912,
+        "draw": 0.1518,
+        "away_win": 0.057,
+        "exp_goals_home": 2.41,
         "exp_goals_away": 0.51,
         "favourite": "Germany",
         "favourite_code": "GER",
-        "edge": 0.7409,
+        "edge": 0.7342,
         "top_scorelines": [
           {
             "score": "2-0",
-            "prob": 0.156
-          },
-          {
-            "score": "3-0",
-            "prob": 0.1267
+            "prob": 0.1562
           },
           {
             "score": "1-0",
-            "prob": 0.1241
+            "prob": 0.1258
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1254
           },
           {
             "score": "2-1",
-            "prob": 0.0794
+            "prob": 0.0801
           }
         ]
       },
@@ -1305,7 +1305,7 @@
       "home": {
         "team": "Ivory Coast",
         "code": "CIV",
-        "elo": 1853.3,
+        "elo": 1835.4,
         "form": [
           {
             "res": "W",
@@ -1342,7 +1342,7 @@
       "away": {
         "team": "Ecuador",
         "code": "ECU",
-        "elo": 1952.5,
+        "elo": 1928.7,
         "form": [
           {
             "res": "W",
@@ -1377,30 +1377,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.2514,
-        "draw": 0.2963,
-        "away_win": 0.4524,
-        "exp_goals_home": 0.92,
-        "exp_goals_away": 1.32,
+        "home_win": 0.2567,
+        "draw": 0.2967,
+        "away_win": 0.4466,
+        "exp_goals_home": 0.93,
+        "exp_goals_away": 1.31,
         "favourite": "Ecuador",
         "favourite_code": "ECU",
-        "edge": 0.201,
+        "edge": 0.1898,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.137
+            "prob": 0.1373
           },
           {
             "score": "0-1",
-            "prob": 0.1332
+            "prob": 0.132
           },
           {
             "score": "0-0",
-            "prob": 0.1145
+            "prob": 0.1142
           },
           {
             "score": "0-2",
-            "prob": 0.0932
+            "prob": 0.0915
           }
         ]
       },
@@ -1432,7 +1432,7 @@
       "home": {
         "team": "Netherlands",
         "code": "NED",
-        "elo": 1996.6,
+        "elo": 2026.8,
         "form": [
           {
             "res": "W",
@@ -1469,7 +1469,7 @@
       "away": {
         "team": "Japan",
         "code": "JPN",
-        "elo": 1974.0,
+        "elo": 1991.5,
         "form": [
           {
             "res": "W",
@@ -1504,30 +1504,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.3688,
-        "draw": 0.3084,
-        "away_win": 0.3228,
-        "exp_goals_home": 1.14,
-        "exp_goals_away": 1.05,
+        "home_win": 0.3821,
+        "draw": 0.3076,
+        "away_win": 0.3103,
+        "exp_goals_home": 1.16,
+        "exp_goals_away": 1.02,
         "favourite": "Netherlands",
         "favourite_code": "NED",
-        "edge": 0.0459,
+        "edge": 0.0718,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1421
-          },
-          {
-            "score": "0-0",
-            "prob": 0.1207
+            "prob": 0.1416
           },
           {
             "score": "1-0",
-            "prob": 0.12
+            "prob": 0.1232
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1208
           },
           {
             "score": "0-1",
-            "prob": 0.1098
+            "prob": 0.1072
           }
         ]
       },
@@ -1579,7 +1579,7 @@
       "home": {
         "team": "Sweden",
         "code": "SWE",
-        "elo": 1822.7,
+        "elo": 1792.5,
         "form": [
           {
             "res": "D",
@@ -1616,7 +1616,7 @@
       "away": {
         "team": "Tunisia",
         "code": "TUN",
-        "elo": 1680.0,
+        "elo": 1662.5,
         "form": [
           {
             "res": "D",
@@ -1651,30 +1651,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.5036,
-        "draw": 0.2817,
-        "away_win": 0.2147,
-        "exp_goals_home": 1.46,
-        "exp_goals_away": 0.86,
+        "home_win": 0.4901,
+        "draw": 0.2847,
+        "away_win": 0.2252,
+        "exp_goals_home": 1.43,
+        "exp_goals_away": 0.88,
         "favourite": "Sweden",
         "favourite_code": "SWE",
-        "edge": 0.2889,
+        "edge": 0.2649,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1363
+            "prob": 0.1345
           },
           {
             "score": "1-1",
-            "prob": 0.131
+            "prob": 0.1325
           },
           {
             "score": "0-0",
-            "prob": 0.1062
+            "prob": 0.1069
           },
           {
             "score": "2-0",
-            "prob": 0.1046
+            "prob": 0.1012
           }
         ]
       },
@@ -1803,30 +1803,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.4706,
-        "draw": 0.2918,
+        "home_win": 0.471,
+        "draw": 0.2914,
         "away_win": 0.2376,
         "exp_goals_home": 1.37,
         "exp_goals_away": 0.89,
         "favourite": "Belgium",
         "favourite_code": "BEL",
-        "edge": 0.2329,
+        "edge": 0.2334,
         "top_scorelines": [
           {
-            "score": "1-1",
-            "prob": 0.1351
+            "score": "1-0",
+            "prob": 0.1352
           },
           {
-            "score": "1-0",
-            "prob": 0.135
+            "score": "1-1",
+            "prob": 0.1349
           },
           {
             "score": "0-0",
-            "prob": 0.1121
+            "prob": 0.1119
           },
           {
             "score": "2-0",
-            "prob": 0.0974
+            "prob": 0.0975
           }
         ]
       },
@@ -1955,30 +1955,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.5135,
-        "draw": 0.2795,
-        "away_win": 0.207,
-        "exp_goals_home": 1.47,
+        "home_win": 0.514,
+        "draw": 0.2791,
+        "away_win": 0.2069,
+        "exp_goals_home": 1.48,
         "exp_goals_away": 0.84,
         "favourite": "Iran",
         "favourite_code": "IRN",
-        "edge": 0.3066,
+        "edge": 0.3071,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1382
+            "prob": 0.1384
           },
           {
             "score": "1-1",
-            "prob": 0.1298
+            "prob": 0.1296
           },
           {
             "score": "2-0",
-            "prob": 0.1073
+            "prob": 0.1074
           },
           {
             "score": "0-0",
-            "prob": 0.1061
+            "prob": 0.1059
           }
         ]
       },
@@ -2097,30 +2097,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.1418,
-        "draw": 0.2438,
-        "away_win": 0.6144,
+        "home_win": 0.1417,
+        "draw": 0.2433,
+        "away_win": 0.615,
         "exp_goals_home": 0.71,
         "exp_goals_away": 1.74,
         "favourite": "Uruguay",
         "favourite_code": "URU",
-        "edge": 0.4725,
+        "edge": 0.4734,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.144
+            "prob": 0.1441
           },
           {
             "score": "0-2",
-            "prob": 0.1307
+            "prob": 0.1308
           },
           {
             "score": "1-1",
-            "prob": 0.1131
+            "prob": 0.1129
           },
           {
             "score": "0-0",
-            "prob": 0.093
+            "prob": 0.0928
           }
         ]
       },
@@ -2244,30 +2244,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.8455,
-        "draw": 0.1177,
-        "away_win": 0.0368,
-        "exp_goals_home": 2.71,
+        "home_win": 0.8464,
+        "draw": 0.117,
+        "away_win": 0.0366,
+        "exp_goals_home": 2.72,
         "exp_goals_away": 0.44,
         "favourite": "Spain",
         "favourite_code": "ESP",
-        "edge": 0.8087,
+        "edge": 0.8098,
         "top_scorelines": [
           {
             "score": "2-0",
-            "prob": 0.1566
+            "prob": 0.1565
           },
           {
             "score": "3-0",
-            "prob": 0.1416
+            "prob": 0.1418
           },
           {
             "score": "1-0",
-            "prob": 0.1124
+            "prob": 0.1121
           },
           {
             "score": "4-0",
-            "prob": 0.0961
+            "prob": 0.0964
           }
         ]
       },
@@ -2371,14 +2371,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.717,
-        "draw": 0.1962,
-        "away_win": 0.0868,
-        "exp_goals_home": 2.05,
+        "home_win": 0.7179,
+        "draw": 0.1955,
+        "away_win": 0.0866,
+        "exp_goals_home": 2.06,
         "exp_goals_away": 0.57,
         "favourite": "Argentina",
         "favourite_code": "ARG",
-        "edge": 0.6302,
+        "edge": 0.6314,
         "top_scorelines": [
           {
             "score": "2-0",
@@ -2386,15 +2386,15 @@
           },
           {
             "score": "1-0",
-            "prob": 0.1432
+            "prob": 0.1431
           },
           {
             "score": "3-0",
-            "prob": 0.1044
+            "prob": 0.1046
           },
           {
             "score": "1-1",
-            "prob": 0.0902
+            "prob": 0.0899
           }
         ]
       },
@@ -2508,30 +2508,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.5461,
-        "draw": 0.2697,
-        "away_win": 0.1842,
+        "home_win": 0.5467,
+        "draw": 0.2692,
+        "away_win": 0.1841,
         "exp_goals_home": 1.55,
         "exp_goals_away": 0.79,
         "favourite": "Austria",
         "favourite_code": "AUT",
-        "edge": 0.3619,
+        "edge": 0.3626,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1415
+            "prob": 0.1416
           },
           {
             "score": "1-1",
-            "prob": 0.1251
+            "prob": 0.1249
           },
           {
             "score": "2-0",
-            "prob": 0.1153
+            "prob": 0.1154
           },
           {
             "score": "0-0",
-            "prob": 0.1028
+            "prob": 0.1026
           }
         ]
       },
@@ -2635,30 +2635,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.6142,
-        "draw": 0.2459,
-        "away_win": 0.1398,
+        "home_win": 0.615,
+        "draw": 0.2453,
+        "away_win": 0.1397,
         "exp_goals_home": 1.72,
         "exp_goals_away": 0.69,
         "favourite": "France",
         "favourite_code": "FRA",
-        "edge": 0.4744,
+        "edge": 0.4753,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1482
+            "prob": 0.1483
           },
           {
             "score": "2-0",
-            "prob": 0.1327
+            "prob": 0.1328
           },
           {
             "score": "1-1",
-            "prob": 0.1132
+            "prob": 0.113
           },
           {
             "score": "0-0",
-            "prob": 0.0966
+            "prob": 0.0963
           }
         ]
       },
@@ -2777,26 +2777,26 @@
         ]
       },
       "prediction": {
-        "home_win": 0.1271,
-        "draw": 0.2325,
-        "away_win": 0.6404,
+        "home_win": 0.1269,
+        "draw": 0.2319,
+        "away_win": 0.6411,
         "exp_goals_home": 0.68,
         "exp_goals_away": 1.82,
         "favourite": "Norway",
         "favourite_code": "NOR",
-        "edge": 0.5133,
+        "edge": 0.5142,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.1438
+            "prob": 0.144
           },
           {
             "score": "0-2",
-            "prob": 0.1362
+            "prob": 0.1363
           },
           {
             "score": "1-1",
-            "prob": 0.1078
+            "prob": 0.1076
           },
           {
             "score": "1-2",
@@ -2904,30 +2904,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.5308,
-        "draw": 0.2773,
-        "away_win": 0.192,
+        "home_win": 0.5314,
+        "draw": 0.2768,
+        "away_win": 0.1918,
         "exp_goals_home": 1.49,
         "exp_goals_away": 0.79,
         "favourite": "England",
         "favourite_code": "ENG",
-        "edge": 0.3388,
+        "edge": 0.3395,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1445
+            "prob": 0.1446
           },
           {
             "score": "1-1",
-            "prob": 0.1277
+            "prob": 0.1274
           },
           {
             "score": "2-0",
-            "prob": 0.1133
+            "prob": 0.1134
           },
           {
             "score": "0-0",
-            "prob": 0.109
+            "prob": 0.1086
           }
         ]
       },
@@ -3086,30 +3086,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.2255,
-        "draw": 0.2851,
-        "away_win": 0.4894,
+        "home_win": 0.2254,
+        "draw": 0.2847,
+        "away_win": 0.4899,
         "exp_goals_home": 0.88,
         "exp_goals_away": 1.42,
         "favourite": "Panama",
         "favourite_code": "PAN",
-        "edge": 0.264,
+        "edge": 0.2645,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.1343
+            "prob": 0.1345
           },
           {
             "score": "1-1",
-            "prob": 0.1327
+            "prob": 0.1325
           },
           {
             "score": "0-0",
-            "prob": 0.1071
+            "prob": 0.107
           },
           {
             "score": "0-2",
-            "prob": 0.101
+            "prob": 0.1011
           }
         ]
       },
@@ -3213,26 +3213,26 @@
         ]
       },
       "prediction": {
-        "home_win": 0.6313,
-        "draw": 0.2372,
-        "away_win": 0.1314,
+        "home_win": 0.6321,
+        "draw": 0.2367,
+        "away_win": 0.1312,
         "exp_goals_home": 1.78,
         "exp_goals_away": 0.68,
         "favourite": "Portugal",
         "favourite_code": "POR",
-        "edge": 0.4999,
+        "edge": 0.5008,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1456
+            "prob": 0.1457
           },
           {
             "score": "2-0",
-            "prob": 0.1351
+            "prob": 0.1352
           },
           {
             "score": "1-1",
-            "prob": 0.1097
+            "prob": 0.1095
           },
           {
             "score": "2-1",
@@ -3340,14 +3340,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.1145,
-        "draw": 0.2234,
-        "away_win": 0.662,
+        "home_win": 0.1143,
+        "draw": 0.2228,
+        "away_win": 0.6628,
         "exp_goals_home": 0.64,
         "exp_goals_away": 1.87,
         "favourite": "Colombia",
         "favourite_code": "COL",
-        "edge": 0.5475,
+        "edge": 0.5485,
         "top_scorelines": [
           {
             "score": "0-1",
@@ -3355,11 +3355,11 @@
           },
           {
             "score": "0-2",
-            "prob": 0.1417
+            "prob": 0.1418
           },
           {
             "score": "1-1",
-            "prob": 0.1032
+            "prob": 0.1029
           },
           {
             "score": "1-2",
@@ -3467,14 +3467,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.7651,
-        "draw": 0.1606,
-        "away_win": 0.0743,
+        "home_win": 0.7658,
+        "draw": 0.1601,
+        "away_win": 0.0741,
         "exp_goals_home": 2.43,
         "exp_goals_away": 0.64,
         "favourite": "Canada",
         "favourite_code": "CAN",
-        "edge": 0.6908,
+        "edge": 0.6918,
         "top_scorelines": [
           {
             "score": "2-0",
@@ -3482,7 +3482,7 @@
           },
           {
             "score": "3-0",
-            "prob": 0.111
+            "prob": 0.1111
           },
           {
             "score": "1-0",
@@ -3490,7 +3490,7 @@
           },
           {
             "score": "2-1",
-            "prob": 0.0877
+            "prob": 0.0876
           }
         ]
       },
@@ -3604,30 +3604,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.4535,
-        "draw": 0.2929,
+        "home_win": 0.4538,
+        "draw": 0.2926,
         "away_win": 0.2536,
         "exp_goals_home": 1.34,
         "exp_goals_away": 0.94,
         "favourite": "Czech Republic",
         "favourite_code": "CZE",
-        "edge": 0.1999,
+        "edge": 0.2002,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1364
+            "prob": 0.1363
           },
           {
             "score": "1-0",
-            "prob": 0.1294
+            "prob": 0.1296
           },
           {
             "score": "0-0",
-            "prob": 0.1098
+            "prob": 0.1097
           },
           {
             "score": "2-0",
-            "prob": 0.0922
+            "prob": 0.0923
           }
         ]
       },
@@ -3741,14 +3741,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.5603,
-        "draw": 0.2533,
-        "away_win": 0.1864,
+        "home_win": 0.5609,
+        "draw": 0.2528,
+        "away_win": 0.1863,
         "exp_goals_home": 1.7,
         "exp_goals_away": 0.88,
         "favourite": "Mexico",
         "favourite_code": "MEX",
-        "edge": 0.3739,
+        "edge": 0.3747,
         "top_scorelines": [
           {
             "score": "1-0",
@@ -3756,11 +3756,11 @@
           },
           {
             "score": "1-1",
-            "prob": 0.1203
+            "prob": 0.1201
           },
           {
             "score": "2-0",
-            "prob": 0.1095
+            "prob": 0.1096
           },
           {
             "score": "2-1",
@@ -3923,26 +3923,26 @@
         ]
       },
       "prediction": {
-        "home_win": 0.6663,
-        "draw": 0.2201,
-        "away_win": 0.1136,
+        "home_win": 0.667,
+        "draw": 0.2195,
+        "away_win": 0.1134,
         "exp_goals_home": 1.9,
         "exp_goals_away": 0.65,
         "favourite": "Switzerland",
         "favourite_code": "SUI",
-        "edge": 0.5527,
+        "edge": 0.5536,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1421
+            "prob": 0.1422
           },
           {
             "score": "2-0",
-            "prob": 0.1407
+            "prob": 0.1408
           },
           {
             "score": "1-1",
-            "prob": 0.1022
+            "prob": 0.1019
           },
           {
             "score": "2-1",
@@ -3980,12 +3980,15 @@
         "city": "Philadelphia",
         "country": "United States"
       },
-      "status": "upcoming",
-      "score": null,
+      "status": "played",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "home": {
         "team": "Brazil",
         "code": "BRA",
-        "elo": 2053.6,
+        "elo": 2064.2,
         "form": [
           {
             "res": "L",
@@ -4022,7 +4025,7 @@
       "away": {
         "team": "Haiti",
         "code": "HAI",
-        "elo": 1673.3,
+        "elo": 1662.7,
         "form": [
           {
             "res": "L",
@@ -4057,30 +4060,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.7547,
-        "draw": 0.174,
-        "away_win": 0.0714,
-        "exp_goals_home": 2.23,
-        "exp_goals_away": 0.55,
+        "home_win": 0.775,
+        "draw": 0.1619,
+        "away_win": 0.0631,
+        "exp_goals_home": 2.32,
+        "exp_goals_away": 0.53,
         "favourite": "Brazil",
         "favourite_code": "BRA",
-        "edge": 0.6833,
+        "edge": 0.7119,
         "top_scorelines": [
           {
             "score": "2-0",
-            "prob": 0.1546
+            "prob": 0.1563
           },
           {
             "score": "1-0",
-            "prob": 0.1341
+            "prob": 0.1304
           },
           {
             "score": "3-0",
-            "prob": 0.1149
+            "prob": 0.1209
           },
           {
             "score": "2-1",
-            "prob": 0.0847
+            "prob": 0.0822
           }
         ]
       },
@@ -4124,12 +4127,15 @@
         "city": "Foxborough",
         "country": "United States"
       },
-      "status": "upcoming",
-      "score": null,
+      "status": "played",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "home": {
         "team": "Scotland",
         "code": "SCO",
-        "elo": 1832.4,
+        "elo": 1814.0,
         "form": [
           {
             "res": "L",
@@ -4166,7 +4172,7 @@
       "away": {
         "team": "Morocco",
         "code": "MAR",
-        "elo": 1973.4,
+        "elo": 1991.9,
         "form": [
           {
             "res": "W",
@@ -4201,30 +4207,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.2159,
-        "draw": 0.2852,
-        "away_win": 0.4989,
-        "exp_goals_home": 0.85,
-        "exp_goals_away": 1.43,
+        "home_win": 0.1869,
+        "draw": 0.2723,
+        "away_win": 0.5408,
+        "exp_goals_home": 0.79,
+        "exp_goals_away": 1.53,
         "favourite": "Morocco",
         "favourite_code": "MAR",
-        "edge": 0.283,
+        "edge": 0.354,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.1391
+            "prob": 0.1431
           },
           {
             "score": "1-1",
-            "prob": 0.1319
-          },
-          {
-            "score": "0-0",
-            "prob": 0.1102
+            "prob": 0.1259
           },
           {
             "score": "0-2",
-            "prob": 0.1047
+            "prob": 0.1148
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1052
           }
         ]
       },
@@ -4258,12 +4264,15 @@
         "city": "Santa Clara",
         "country": "United States"
       },
-      "status": "upcoming",
-      "score": null,
+      "status": "played",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "home": {
         "team": "Turkey",
         "code": "TUR",
-        "elo": 1885.8,
+        "elo": 1851.0,
         "form": [
           {
             "res": "W",
@@ -4300,7 +4309,7 @@
       "away": {
         "team": "Paraguay",
         "code": "PAR",
-        "elo": 1830.0,
+        "elo": 1864.7,
         "form": [
           {
             "res": "W",
@@ -4335,30 +4344,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.4055,
-        "draw": 0.303,
-        "away_win": 0.2915,
-        "exp_goals_home": 1.23,
-        "exp_goals_away": 1.0,
-        "favourite": "Turkey",
-        "favourite_code": "TUR",
-        "edge": 0.1141,
+        "home_win": 0.3329,
+        "draw": 0.306,
+        "away_win": 0.3611,
+        "exp_goals_home": 1.08,
+        "exp_goals_away": 1.13,
+        "favourite": "Paraguay",
+        "favourite_code": "PAR",
+        "edge": 0.0281,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1403
-          },
-          {
-            "score": "1-0",
-            "prob": 0.1247
+            "prob": 0.1417
           },
           {
             "score": "0-0",
-            "prob": 0.1162
+            "prob": 0.1173
           },
           {
             "score": "0-1",
-            "prob": 0.1
+            "prob": 0.1162
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1101
           }
         ]
       },
@@ -4382,12 +4391,15 @@
         "city": "Seattle",
         "country": "United States"
       },
-      "status": "upcoming",
-      "score": null,
+      "status": "played",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "home": {
         "team": "United States",
         "code": "USA",
-        "elo": 1858.7,
+        "elo": 1900.0,
         "form": [
           {
             "res": "L",
@@ -4424,7 +4436,7 @@
       "away": {
         "team": "Australia",
         "code": "AUS",
-        "elo": 1929.9,
+        "elo": 1888.6,
         "form": [
           {
             "res": "W",
@@ -4459,30 +4471,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.3413,
-        "draw": 0.2886,
-        "away_win": 0.3701,
-        "exp_goals_home": 1.2,
-        "exp_goals_away": 1.26,
-        "favourite": "Australia",
-        "favourite_code": "AUS",
-        "edge": 0.0288,
+        "home_win": 0.4339,
+        "draw": 0.2826,
+        "away_win": 0.2835,
+        "exp_goals_home": 1.39,
+        "exp_goals_away": 1.08,
+        "favourite": "United States",
+        "favourite_code": "USA",
+        "edge": 0.1504,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1372
-          },
-          {
-            "score": "0-1",
-            "prob": 0.1003
+            "prob": 0.1343
           },
           {
             "score": "1-0",
-            "prob": 0.0952
+            "prob": 0.1101
           },
           {
             "score": "0-0",
-            "prob": 0.0939
+            "prob": 0.0919
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0884
           }
         ]
       },
@@ -4531,12 +4543,15 @@
         "city": "Kansas City",
         "country": "United States"
       },
-      "status": "upcoming",
-      "score": null,
+      "status": "played",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "home": {
         "team": "Ecuador",
         "code": "ECU",
-        "elo": 1952.5,
+        "elo": 1928.7,
         "form": [
           {
             "res": "D",
@@ -4573,7 +4588,7 @@
       "away": {
         "team": "Curaçao",
         "code": "CUW",
-        "elo": 1577.4,
+        "elo": 1601.2,
         "form": [
           {
             "res": "L",
@@ -4608,30 +4623,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.7523,
-        "draw": 0.1747,
-        "away_win": 0.0731,
-        "exp_goals_home": 2.23,
-        "exp_goals_away": 0.56,
+        "home_win": 0.7063,
+        "draw": 0.1996,
+        "away_win": 0.0941,
+        "exp_goals_home": 2.05,
+        "exp_goals_away": 0.61,
         "favourite": "Ecuador",
         "favourite_code": "ECU",
-        "edge": 0.6792,
+        "edge": 0.6122,
         "top_scorelines": [
           {
             "score": "2-0",
-            "prob": 0.1529
+            "prob": 0.1471
           },
           {
             "score": "1-0",
-            "prob": 0.1324
+            "prob": 0.1386
           },
           {
             "score": "3-0",
-            "prob": 0.1137
+            "prob": 0.1003
           },
           {
-            "score": "2-1",
-            "prob": 0.0854
+            "score": "1-1",
+            "prob": 0.0928
           }
         ]
       },
@@ -4655,12 +4670,15 @@
         "city": "Toronto",
         "country": "Canada"
       },
-      "status": "upcoming",
-      "score": null,
+      "status": "played",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "home": {
         "team": "Germany",
         "code": "GER",
-        "elo": 2001.6,
+        "elo": 2019.5,
         "form": [
           {
             "res": "W",
@@ -4697,7 +4715,7 @@
       "away": {
         "team": "Ivory Coast",
         "code": "CIV",
-        "elo": 1853.3,
+        "elo": 1835.4,
         "form": [
           {
             "res": "L",
@@ -4732,30 +4750,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.5066,
-        "draw": 0.2834,
-        "away_win": 0.2099,
-        "exp_goals_home": 1.44,
-        "exp_goals_away": 0.83,
+        "home_win": 0.5473,
+        "draw": 0.2704,
+        "away_win": 0.1823,
+        "exp_goals_home": 1.54,
+        "exp_goals_away": 0.78,
         "favourite": "Germany",
         "favourite_code": "GER",
-        "edge": 0.2967,
+        "edge": 0.365,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1405
+            "prob": 0.1441
           },
           {
             "score": "1-1",
-            "prob": 0.1309
-          },
-          {
-            "score": "0-0",
-            "prob": 0.11
+            "prob": 0.1249
           },
           {
             "score": "2-0",
-            "prob": 0.1067
+            "prob": 0.1165
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1048
           }
         ]
       },
@@ -4789,12 +4807,15 @@
         "city": "Houston",
         "country": "United States"
       },
-      "status": "upcoming",
-      "score": null,
+      "status": "played",
+      "score": {
+        "home": 5,
+        "away": 1
+      },
       "home": {
         "team": "Netherlands",
         "code": "NED",
-        "elo": 1996.6,
+        "elo": 2026.8,
         "form": [
           {
             "res": "W",
@@ -4831,7 +4852,7 @@
       "away": {
         "team": "Sweden",
         "code": "SWE",
-        "elo": 1822.7,
+        "elo": 1792.5,
         "form": [
           {
             "res": "W",
@@ -4866,30 +4887,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.5356,
-        "draw": 0.2744,
-        "away_win": 0.19,
-        "exp_goals_home": 1.52,
-        "exp_goals_away": 0.8,
+        "home_win": 0.6036,
+        "draw": 0.2491,
+        "away_win": 0.1474,
+        "exp_goals_home": 1.7,
+        "exp_goals_away": 0.71,
         "favourite": "Netherlands",
         "favourite_code": "NED",
-        "edge": 0.3456,
+        "edge": 0.4562,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1427
-          },
-          {
-            "score": "1-1",
-            "prob": 0.1268
+            "prob": 0.146
           },
           {
             "score": "2-0",
-            "prob": 0.1136
+            "prob": 0.1293
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1151
           },
           {
             "score": "0-0",
-            "prob": 0.1061
+            "prob": 0.0963
           }
         ]
       },
@@ -4968,12 +4989,15 @@
         "city": "Guadalupe",
         "country": "Mexico"
       },
-      "status": "upcoming",
-      "score": null,
+      "status": "played",
+      "score": {
+        "home": 0,
+        "away": 4
+      },
       "home": {
         "team": "Tunisia",
         "code": "TUN",
-        "elo": 1680.0,
+        "elo": 1662.5,
         "form": [
           {
             "res": "W",
@@ -5010,7 +5034,7 @@
       "away": {
         "team": "Japan",
         "code": "JPN",
-        "elo": 1974.0,
+        "elo": 1991.5,
         "form": [
           {
             "res": "W",
@@ -5045,30 +5069,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.1117,
-        "draw": 0.219,
-        "away_win": 0.6693,
-        "exp_goals_home": 0.64,
-        "exp_goals_away": 1.91,
+        "home_win": 0.0936,
+        "draw": 0.2001,
+        "away_win": 0.7063,
+        "exp_goals_home": 0.6,
+        "exp_goals_away": 2.04,
         "favourite": "Japan",
         "favourite_code": "JPN",
-        "edge": 0.5576,
+        "edge": 0.6127,
         "top_scorelines": [
           {
-            "score": "0-1",
-            "prob": 0.1427
+            "score": "0-2",
+            "prob": 0.1479
           },
           {
-            "score": "0-2",
-            "prob": 0.1417
+            "score": "0-1",
+            "prob": 0.14
+          },
+          {
+            "score": "0-3",
+            "prob": 0.1005
           },
           {
             "score": "1-1",
-            "prob": 0.1015
-          },
-          {
-            "score": "1-2",
-            "prob": 0.0914
+            "prob": 0.0928
           }
         ]
       },
@@ -5199,30 +5223,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.4062,
-        "draw": 0.3036,
-        "away_win": 0.2902,
+        "home_win": 0.4065,
+        "draw": 0.3032,
+        "away_win": 0.2903,
         "exp_goals_home": 1.22,
         "exp_goals_away": 0.99,
         "favourite": "Belgium",
         "favourite_code": "BEL",
-        "edge": 0.116,
+        "edge": 0.1163,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1404
+            "prob": 0.1402
           },
           {
             "score": "1-0",
-            "prob": 0.1256
+            "prob": 0.1258
           },
           {
             "score": "0-0",
-            "prob": 0.1172
+            "prob": 0.117
           },
           {
             "score": "0-1",
-            "prob": 0.1003
+            "prob": 0.1004
           }
         ]
       },
@@ -5324,25 +5348,25 @@
       },
       "prediction": {
         "home_win": 0.2565,
-        "draw": 0.2947,
-        "away_win": 0.4488,
+        "draw": 0.2943,
+        "away_win": 0.4491,
         "exp_goals_home": 0.94,
         "exp_goals_away": 1.33,
         "favourite": "Egypt",
         "favourite_code": "EGY",
-        "edge": 0.1922,
+        "edge": 0.1926,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.137
+            "prob": 0.1368
           },
           {
             "score": "0-1",
-            "prob": 0.1298
+            "prob": 0.13
           },
           {
             "score": "0-0",
-            "prob": 0.1114
+            "prob": 0.1112
           },
           {
             "score": "0-2",
@@ -5467,30 +5491,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.8324,
-        "draw": 0.1264,
-        "away_win": 0.0412,
+        "home_win": 0.8332,
+        "draw": 0.1258,
+        "away_win": 0.041,
         "exp_goals_home": 2.63,
         "exp_goals_away": 0.46,
         "favourite": "Spain",
         "favourite_code": "ESP",
-        "edge": 0.7912,
+        "edge": 0.7922,
         "top_scorelines": [
           {
             "score": "2-0",
-            "prob": 0.1579
+            "prob": 0.1578
           },
           {
             "score": "3-0",
-            "prob": 0.1382
+            "prob": 0.1384
           },
           {
             "score": "1-0",
-            "prob": 0.1169
+            "prob": 0.1167
           },
           {
             "score": "4-0",
-            "prob": 0.0907
+            "prob": 0.091
           }
         ]
       },
@@ -5611,26 +5635,26 @@
         ]
       },
       "prediction": {
-        "home_win": 0.6334,
-        "draw": 0.2355,
-        "away_win": 0.1311,
+        "home_win": 0.634,
+        "draw": 0.235,
+        "away_win": 0.131,
         "exp_goals_home": 1.8,
         "exp_goals_away": 0.69,
         "favourite": "Uruguay",
         "favourite_code": "URU",
-        "edge": 0.5022,
+        "edge": 0.5031,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1437
+            "prob": 0.1438
           },
           {
             "score": "2-0",
-            "prob": 0.1346
+            "prob": 0.1347
           },
           {
             "score": "1-1",
-            "prob": 0.1093
+            "prob": 0.109
           },
           {
             "score": "2-1",
@@ -5735,14 +5759,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.6591,
-        "draw": 0.226,
-        "away_win": 0.1148,
+        "home_win": 0.66,
+        "draw": 0.2254,
+        "away_win": 0.1146,
         "exp_goals_home": 1.85,
         "exp_goals_away": 0.63,
         "favourite": "Argentina",
         "favourite_code": "ARG",
-        "edge": 0.5443,
+        "edge": 0.5454,
         "top_scorelines": [
           {
             "score": "1-0",
@@ -5750,11 +5774,11 @@
           },
           {
             "score": "2-0",
-            "prob": 0.1427
+            "prob": 0.1428
           },
           {
             "score": "1-1",
-            "prob": 0.1039
+            "prob": 0.1036
           },
           {
             "score": "2-1",
@@ -5874,14 +5898,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.8035,
-        "draw": 0.1449,
-        "away_win": 0.0517,
-        "exp_goals_home": 2.46,
+        "home_win": 0.8043,
+        "draw": 0.1442,
+        "away_win": 0.0515,
+        "exp_goals_home": 2.47,
         "exp_goals_away": 0.49,
         "favourite": "France",
         "favourite_code": "FRA",
-        "edge": 0.7518,
+        "edge": 0.7529,
         "top_scorelines": [
           {
             "score": "2-0",
@@ -5889,15 +5913,15 @@
           },
           {
             "score": "3-0",
-            "prob": 0.1297
+            "prob": 0.1299
           },
           {
             "score": "1-0",
-            "prob": 0.1247
+            "prob": 0.1246
           },
           {
             "score": "4-0",
-            "prob": 0.0798
+            "prob": 0.0801
           }
         ]
       },
@@ -5998,30 +6022,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.2288,
-        "draw": 0.2875,
-        "away_win": 0.4837,
+        "home_win": 0.2287,
+        "draw": 0.2871,
+        "away_win": 0.4842,
         "exp_goals_home": 0.88,
         "exp_goals_away": 1.4,
         "favourite": "Algeria",
         "favourite_code": "ALG",
-        "edge": 0.2549,
+        "edge": 0.2554,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.135
+            "prob": 0.1352
           },
           {
             "score": "1-1",
-            "prob": 0.1335
+            "prob": 0.1333
           },
           {
             "score": "0-0",
-            "prob": 0.1091
+            "prob": 0.109
           },
           {
             "score": "0-2",
-            "prob": 0.1001
+            "prob": 0.1002
           }
         ]
       },
@@ -6137,30 +6161,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.4278,
-        "draw": 0.301,
-        "away_win": 0.2712,
+        "home_win": 0.4282,
+        "draw": 0.3006,
+        "away_win": 0.2713,
         "exp_goals_home": 1.27,
         "exp_goals_away": 0.95,
         "favourite": "Norway",
         "favourite_code": "NOR",
-        "edge": 0.1566,
+        "edge": 0.1569,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1391
+            "prob": 0.1389
           },
           {
             "score": "1-0",
-            "prob": 0.1298
+            "prob": 0.1299
           },
           {
             "score": "0-0",
-            "prob": 0.1166
+            "prob": 0.1164
           },
           {
             "score": "0-1",
-            "prob": 0.0957
+            "prob": 0.0958
           }
         ]
       },
@@ -6271,18 +6295,18 @@
         ]
       },
       "prediction": {
-        "home_win": 0.6844,
-        "draw": 0.2124,
-        "away_win": 0.1033,
+        "home_win": 0.6852,
+        "draw": 0.2117,
+        "away_win": 0.1031,
         "exp_goals_home": 1.95,
         "exp_goals_away": 0.62,
         "favourite": "Colombia",
         "favourite_code": "COL",
-        "edge": 0.5811,
+        "edge": 0.5821,
         "top_scorelines": [
           {
             "score": "2-0",
-            "prob": 0.1456
+            "prob": 0.1457
           },
           {
             "score": "1-0",
@@ -6290,11 +6314,11 @@
           },
           {
             "score": "1-1",
-            "prob": 0.0981
+            "prob": 0.0978
           },
           {
             "score": "3-0",
-            "prob": 0.0946
+            "prob": 0.0948
           }
         ]
       },
@@ -6395,14 +6419,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.7985,
-        "draw": 0.1478,
-        "away_win": 0.0537,
+        "home_win": 0.7993,
+        "draw": 0.1472,
+        "away_win": 0.0535,
         "exp_goals_home": 2.44,
         "exp_goals_away": 0.5,
         "favourite": "England",
         "favourite_code": "ENG",
-        "edge": 0.7448,
+        "edge": 0.7459,
         "top_scorelines": [
           {
             "score": "2-0",
@@ -6410,15 +6434,15 @@
           },
           {
             "score": "3-0",
-            "prob": 0.1281
+            "prob": 0.1283
           },
           {
             "score": "1-0",
-            "prob": 0.1254
+            "prob": 0.1252
           },
           {
             "score": "2-1",
-            "prob": 0.0787
+            "prob": 0.0785
           }
         ]
       },
@@ -6529,30 +6553,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.2262,
-        "draw": 0.288,
-        "away_win": 0.4858,
+        "home_win": 0.2261,
+        "draw": 0.2876,
+        "away_win": 0.4863,
         "exp_goals_home": 0.87,
         "exp_goals_away": 1.4,
         "favourite": "Croatia",
         "favourite_code": "CRO",
-        "edge": 0.2596,
+        "edge": 0.2601,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.1367
+            "prob": 0.1369
           },
           {
             "score": "1-1",
-            "prob": 0.1334
+            "prob": 0.1332
           },
           {
             "score": "0-0",
-            "prob": 0.1105
+            "prob": 0.1103
           },
           {
             "score": "0-2",
-            "prob": 0.1011
+            "prob": 0.1012
           }
         ]
       },
@@ -6653,30 +6677,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.6081,
-        "draw": 0.2474,
-        "away_win": 0.1446,
+        "home_win": 0.6088,
+        "draw": 0.2468,
+        "away_win": 0.1444,
         "exp_goals_home": 1.71,
         "exp_goals_away": 0.71,
         "favourite": "Portugal",
         "favourite_code": "POR",
-        "edge": 0.4635,
+        "edge": 0.4644,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1459
+            "prob": 0.146
           },
           {
             "score": "2-0",
-            "prob": 0.1303
+            "prob": 0.1304
           },
           {
             "score": "1-1",
-            "prob": 0.1144
+            "prob": 0.1141
           },
           {
             "score": "0-0",
-            "prob": 0.0956
+            "prob": 0.0953
           }
         ]
       },
@@ -6777,22 +6801,22 @@
         ]
       },
       "prediction": {
-        "home_win": 0.4294,
-        "draw": 0.2954,
+        "home_win": 0.4297,
+        "draw": 0.2952,
         "away_win": 0.2751,
         "exp_goals_home": 1.3,
         "exp_goals_away": 0.99,
         "favourite": "Bosnia and Herzegovina",
         "favourite_code": "BIH",
-        "edge": 0.1543,
+        "edge": 0.1545,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1381
+            "prob": 0.1379
           },
           {
             "score": "1-0",
-            "prob": 0.1237
+            "prob": 0.124
           },
           {
             "score": "0-0",
@@ -6800,7 +6824,7 @@
           },
           {
             "score": "0-1",
-            "prob": 0.0921
+            "prob": 0.0923
           }
         ]
       },
@@ -6916,9 +6940,9 @@
         ]
       },
       "prediction": {
-        "home_win": 0.3517,
-        "draw": 0.289,
-        "away_win": 0.3594,
+        "home_win": 0.3519,
+        "draw": 0.2886,
+        "away_win": 0.3596,
         "exp_goals_home": 1.22,
         "exp_goals_away": 1.23,
         "favourite": "Switzerland",
@@ -6927,19 +6951,19 @@
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1373
+            "prob": 0.1371
           },
           {
             "score": "0-1",
-            "prob": 0.0987
+            "prob": 0.0988
           },
           {
             "score": "1-0",
-            "prob": 0.0973
+            "prob": 0.0974
           },
           {
             "score": "0-0",
-            "prob": 0.0942
+            "prob": 0.094
           }
         ]
       },
@@ -7050,18 +7074,18 @@
         ]
       },
       "prediction": {
-        "home_win": 0.6824,
-        "draw": 0.2039,
-        "away_win": 0.1136,
+        "home_win": 0.6832,
+        "draw": 0.2034,
+        "away_win": 0.1134,
         "exp_goals_home": 2.08,
         "exp_goals_away": 0.73,
         "favourite": "Mexico",
         "favourite_code": "MEX",
-        "edge": 0.5688,
+        "edge": 0.5698,
         "top_scorelines": [
           {
             "score": "2-0",
-            "prob": 0.1307
+            "prob": 0.1308
           },
           {
             "score": "1-0",
@@ -7069,11 +7093,11 @@
           },
           {
             "score": "1-1",
-            "prob": 0.097
+            "prob": 0.0967
           },
           {
             "score": "2-1",
-            "prob": 0.095
+            "prob": 0.0949
           }
         ]
       },
@@ -7112,14 +7136,8 @@
       "home": {
         "team": "Morocco",
         "code": "MAR",
-        "elo": 1973.4,
+        "elo": 1991.9,
         "form": [
-          {
-            "res": "W",
-            "opp": "PAR",
-            "score": "2-1",
-            "date": "2026-03-31"
-          },
           {
             "res": "W",
             "opp": "BUR",
@@ -7143,20 +7161,20 @@
             "opp": "BRA",
             "score": "1-1",
             "date": "2026-06-13"
+          },
+          {
+            "res": "W",
+            "opp": "SCO",
+            "score": "1-0",
+            "date": "2026-06-19"
           }
         ]
       },
       "away": {
         "team": "Haiti",
         "code": "HAI",
-        "elo": 1673.3,
+        "elo": 1662.7,
         "form": [
-          {
-            "res": "L",
-            "opp": "TUN",
-            "score": "0-1",
-            "date": "2026-03-28"
-          },
           {
             "res": "D",
             "opp": "ICE",
@@ -7180,34 +7198,40 @@
             "opp": "SCO",
             "score": "0-1",
             "date": "2026-06-13"
+          },
+          {
+            "res": "L",
+            "opp": "BRA",
+            "score": "0-3",
+            "date": "2026-06-19"
           }
         ]
       },
       "prediction": {
-        "home_win": 0.6758,
-        "draw": 0.2157,
-        "away_win": 0.1084,
-        "exp_goals_home": 1.93,
-        "exp_goals_away": 0.64,
+        "home_win": 0.7065,
+        "draw": 0.2,
+        "away_win": 0.0935,
+        "exp_goals_home": 2.04,
+        "exp_goals_away": 0.6,
         "favourite": "Morocco",
         "favourite_code": "MAR",
-        "edge": 0.5674,
+        "edge": 0.613,
         "top_scorelines": [
           {
             "score": "2-0",
-            "prob": 0.1429
+            "prob": 0.148
           },
           {
             "score": "1-0",
-            "prob": 0.1423
-          },
-          {
-            "score": "1-1",
-            "prob": 0.1001
+            "prob": 0.14
           },
           {
             "score": "3-0",
-            "prob": 0.0919
+            "prob": 0.1006
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0928
           }
         ]
       },
@@ -7236,14 +7260,8 @@
       "home": {
         "team": "Scotland",
         "code": "SCO",
-        "elo": 1832.4,
+        "elo": 1814.0,
         "form": [
-          {
-            "res": "L",
-            "opp": "JPN",
-            "score": "0-1",
-            "date": "2026-03-28"
-          },
           {
             "res": "L",
             "opp": "CIV",
@@ -7267,20 +7285,20 @@
             "opp": "HAI",
             "score": "1-0",
             "date": "2026-06-13"
+          },
+          {
+            "res": "L",
+            "opp": "MAR",
+            "score": "0-1",
+            "date": "2026-06-19"
           }
         ]
       },
       "away": {
         "team": "Brazil",
         "code": "BRA",
-        "elo": 2053.6,
+        "elo": 2064.2,
         "form": [
-          {
-            "res": "L",
-            "opp": "FRA",
-            "score": "1-2",
-            "date": "2026-03-26"
-          },
           {
             "res": "W",
             "opp": "CRO",
@@ -7304,34 +7322,40 @@
             "opp": "MAR",
             "score": "1-1",
             "date": "2026-06-13"
+          },
+          {
+            "res": "W",
+            "opp": "HAI",
+            "score": "3-0",
+            "date": "2026-06-19"
           }
         ]
       },
       "prediction": {
-        "home_win": 0.1562,
-        "draw": 0.2561,
-        "away_win": 0.5877,
-        "exp_goals_home": 0.73,
-        "exp_goals_away": 1.65,
+        "home_win": 0.1373,
+        "draw": 0.2423,
+        "away_win": 0.6203,
+        "exp_goals_home": 0.69,
+        "exp_goals_away": 1.74,
         "favourite": "Brazil",
         "favourite_code": "BRA",
-        "edge": 0.4314,
+        "edge": 0.483,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.1463
+            "prob": 0.1468
           },
           {
             "score": "0-2",
-            "prob": 0.1261
+            "prob": 0.1333
           },
           {
             "score": "1-1",
-            "prob": 0.1182
+            "prob": 0.1119
           },
           {
             "score": "0-0",
-            "prob": 0.0996
+            "prob": 0.0941
           }
         ]
       },
@@ -7487,30 +7511,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.168,
-        "draw": 0.2598,
-        "away_win": 0.5723,
+        "home_win": 0.1678,
+        "draw": 0.2593,
+        "away_win": 0.5729,
         "exp_goals_home": 0.77,
         "exp_goals_away": 1.63,
         "favourite": "South Korea",
         "favourite_code": "KOR",
-        "edge": 0.4043,
+        "edge": 0.4051,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.1417
+            "prob": 0.1419
           },
           {
             "score": "0-2",
-            "prob": 0.1209
+            "prob": 0.121
           },
           {
             "score": "1-1",
-            "prob": 0.1207
+            "prob": 0.1205
           },
           {
             "score": "0-0",
-            "prob": 0.0982
+            "prob": 0.098
           }
         ]
       },
@@ -7539,14 +7563,8 @@
       "home": {
         "team": "Curaçao",
         "code": "CUW",
-        "elo": 1577.4,
+        "elo": 1601.2,
         "form": [
-          {
-            "res": "L",
-            "opp": "CHI",
-            "score": "0-2",
-            "date": "2026-03-27"
-          },
           {
             "res": "L",
             "opp": "AUS",
@@ -7570,20 +7588,20 @@
             "opp": "GER",
             "score": "1-7",
             "date": "2026-06-14"
+          },
+          {
+            "res": "D",
+            "opp": "ECU",
+            "score": "0-0",
+            "date": "2026-06-20"
           }
         ]
       },
       "away": {
         "team": "Ivory Coast",
         "code": "CIV",
-        "elo": 1853.3,
+        "elo": 1835.4,
         "form": [
-          {
-            "res": "L",
-            "opp": "EGY",
-            "score": "2-3",
-            "date": "2026-01-10"
-          },
           {
             "res": "W",
             "opp": "KOR",
@@ -7607,34 +7625,40 @@
             "opp": "ECU",
             "score": "1-0",
             "date": "2026-06-14"
+          },
+          {
+            "res": "L",
+            "opp": "GER",
+            "score": "1-2",
+            "date": "2026-06-20"
           }
         ]
       },
       "prediction": {
-        "home_win": 0.1215,
-        "draw": 0.2257,
-        "away_win": 0.6528,
-        "exp_goals_home": 0.67,
-        "exp_goals_away": 1.87,
+        "home_win": 0.1471,
+        "draw": 0.2452,
+        "away_win": 0.6077,
+        "exp_goals_home": 0.73,
+        "exp_goals_away": 1.73,
         "favourite": "Ivory Coast",
         "favourite_code": "CIV",
-        "edge": 0.5313,
+        "edge": 0.4607,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.1409
+            "prob": 0.1418
           },
           {
             "score": "0-2",
-            "prob": 0.1372
+            "prob": 0.1282
           },
           {
             "score": "1-1",
-            "prob": 0.1051
+            "prob": 0.1142
           },
           {
             "score": "1-2",
-            "prob": 0.0926
+            "prob": 0.0933
           }
         ]
       },
@@ -7663,14 +7687,8 @@
       "home": {
         "team": "Ecuador",
         "code": "ECU",
-        "elo": 1952.5,
+        "elo": 1928.7,
         "form": [
-          {
-            "res": "D",
-            "opp": "MAR",
-            "score": "1-1",
-            "date": "2026-03-27"
-          },
           {
             "res": "D",
             "opp": "NED",
@@ -7694,20 +7712,20 @@
             "opp": "CIV",
             "score": "0-1",
             "date": "2026-06-14"
+          },
+          {
+            "res": "D",
+            "opp": "CUW",
+            "score": "0-0",
+            "date": "2026-06-20"
           }
         ]
       },
       "away": {
         "team": "Germany",
         "code": "GER",
-        "elo": 2001.6,
+        "elo": 2019.5,
         "form": [
-          {
-            "res": "W",
-            "opp": "SUI",
-            "score": "4-3",
-            "date": "2026-03-27"
-          },
           {
             "res": "W",
             "opp": "GHA",
@@ -7731,34 +7749,40 @@
             "opp": "CUW",
             "score": "7-1",
             "date": "2026-06-14"
+          },
+          {
+            "res": "W",
+            "opp": "CIV",
+            "score": "2-1",
+            "date": "2026-06-20"
           }
         ]
       },
       "prediction": {
-        "home_win": 0.2971,
-        "draw": 0.3061,
-        "away_win": 0.3968,
-        "exp_goals_home": 1.0,
-        "exp_goals_away": 1.2,
+        "home_win": 0.2586,
+        "draw": 0.299,
+        "away_win": 0.4424,
+        "exp_goals_home": 0.92,
+        "exp_goals_away": 1.29,
         "favourite": "Germany",
         "favourite_code": "GER",
-        "edge": 0.0997,
+        "edge": 0.1838,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1411
+            "prob": 0.1379
           },
           {
             "score": "0-1",
-            "prob": 0.1254
+            "prob": 0.1333
           },
           {
             "score": "0-0",
-            "prob": 0.1197
+            "prob": 0.1168
           },
           {
             "score": "1-0",
-            "prob": 0.1033
+            "prob": 0.0931
           }
         ]
       },
@@ -7802,14 +7826,8 @@
       "home": {
         "team": "Japan",
         "code": "JPN",
-        "elo": 1974.0,
+        "elo": 1991.5,
         "form": [
-          {
-            "res": "W",
-            "opp": "BOL",
-            "score": "3-0",
-            "date": "2025-11-18"
-          },
           {
             "res": "W",
             "opp": "SCO",
@@ -7833,20 +7851,20 @@
             "opp": "NED",
             "score": "2-2",
             "date": "2026-06-14"
+          },
+          {
+            "res": "W",
+            "opp": "TUN",
+            "score": "4-0",
+            "date": "2026-06-20"
           }
         ]
       },
       "away": {
         "team": "Sweden",
         "code": "SWE",
-        "elo": 1822.7,
+        "elo": 1792.5,
         "form": [
-          {
-            "res": "W",
-            "opp": "UKR",
-            "score": "3-1",
-            "date": "2026-03-26"
-          },
           {
             "res": "W",
             "opp": "POL",
@@ -7870,34 +7888,40 @@
             "opp": "TUN",
             "score": "5-1",
             "date": "2026-06-14"
+          },
+          {
+            "res": "L",
+            "opp": "NED",
+            "score": "1-5",
+            "date": "2026-06-20"
           }
         ]
       },
       "prediction": {
-        "home_win": 0.5105,
-        "draw": 0.2819,
-        "away_win": 0.2076,
-        "exp_goals_home": 1.46,
-        "exp_goals_away": 0.83,
+        "home_win": 0.5647,
+        "draw": 0.2639,
+        "away_win": 0.1714,
+        "exp_goals_home": 1.59,
+        "exp_goals_away": 0.76,
         "favourite": "Japan",
         "favourite_code": "JPN",
-        "edge": 0.3029,
+        "edge": 0.3933,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1402
+            "prob": 0.1443
           },
           {
             "score": "1-1",
-            "prob": 0.1304
-          },
-          {
-            "score": "0-0",
-            "prob": 0.1089
+            "prob": 0.1221
           },
           {
             "score": "2-0",
-            "prob": 0.1075
+            "prob": 0.1203
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1017
           }
         ]
       },
@@ -7951,14 +7975,8 @@
       "home": {
         "team": "Paraguay",
         "code": "PAR",
-        "elo": 1830.0,
+        "elo": 1864.7,
         "form": [
-          {
-            "res": "W",
-            "opp": "MEX",
-            "score": "2-1",
-            "date": "2025-11-18"
-          },
           {
             "res": "W",
             "opp": "GRE",
@@ -7982,20 +8000,20 @@
             "opp": "USA",
             "score": "1-4",
             "date": "2026-06-12"
+          },
+          {
+            "res": "W",
+            "opp": "TUR",
+            "score": "1-0",
+            "date": "2026-06-19"
           }
         ]
       },
       "away": {
         "team": "Australia",
         "code": "AUS",
-        "elo": 1929.9,
+        "elo": 1888.6,
         "form": [
-          {
-            "res": "W",
-            "opp": "CAM",
-            "score": "1-0",
-            "date": "2026-03-27"
-          },
           {
             "res": "W",
             "opp": "CUW",
@@ -8019,34 +8037,40 @@
             "opp": "TUR",
             "score": "2-0",
             "date": "2026-06-13"
+          },
+          {
+            "res": "L",
+            "opp": "USA",
+            "score": "0-2",
+            "date": "2026-06-19"
           }
         ]
       },
       "prediction": {
-        "home_win": 0.2509,
-        "draw": 0.2957,
-        "away_win": 0.4535,
-        "exp_goals_home": 0.92,
-        "exp_goals_away": 1.33,
+        "home_win": 0.3225,
+        "draw": 0.3059,
+        "away_win": 0.3716,
+        "exp_goals_home": 1.06,
+        "exp_goals_away": 1.15,
         "favourite": "Australia",
         "favourite_code": "AUS",
-        "edge": 0.2026,
+        "edge": 0.049,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1368
+            "prob": 0.1416
           },
           {
             "score": "0-1",
-            "prob": 0.1329
+            "prob": 0.1187
           },
           {
             "score": "0-0",
-            "prob": 0.1138
+            "prob": 0.1177
           },
           {
-            "score": "0-2",
-            "prob": 0.0933
+            "score": "1-0",
+            "prob": 0.108
           }
         ]
       },
@@ -8105,14 +8129,8 @@
       "home": {
         "team": "Tunisia",
         "code": "TUN",
-        "elo": 1680.0,
+        "elo": 1662.5,
         "form": [
-          {
-            "res": "W",
-            "opp": "HAI",
-            "score": "1-0",
-            "date": "2026-03-28"
-          },
           {
             "res": "D",
             "opp": "CAN",
@@ -8136,20 +8154,20 @@
             "opp": "SWE",
             "score": "1-5",
             "date": "2026-06-14"
+          },
+          {
+            "res": "L",
+            "opp": "JPN",
+            "score": "0-4",
+            "date": "2026-06-20"
           }
         ]
       },
       "away": {
         "team": "Netherlands",
         "code": "NED",
-        "elo": 1996.6,
+        "elo": 2026.8,
         "form": [
-          {
-            "res": "W",
-            "opp": "NOR",
-            "score": "2-1",
-            "date": "2026-03-27"
-          },
           {
             "res": "D",
             "opp": "ECU",
@@ -8173,34 +8191,40 @@
             "opp": "JPN",
             "score": "2-2",
             "date": "2026-06-14"
+          },
+          {
+            "res": "W",
+            "opp": "SWE",
+            "score": "5-1",
+            "date": "2026-06-20"
           }
         ]
       },
       "prediction": {
-        "home_win": 0.0999,
-        "draw": 0.2075,
-        "away_win": 0.6926,
-        "exp_goals_home": 0.62,
-        "exp_goals_away": 1.99,
+        "home_win": 0.0777,
+        "draw": 0.1816,
+        "away_win": 0.7408,
+        "exp_goals_home": 0.56,
+        "exp_goals_away": 2.17,
         "favourite": "Netherlands",
         "favourite_code": "NED",
-        "edge": 0.5926,
+        "edge": 0.6631,
         "top_scorelines": [
           {
             "score": "0-2",
-            "prob": 0.1459
+            "prob": 0.1528
           },
           {
             "score": "0-1",
-            "prob": 0.1414
+            "prob": 0.1361
           },
           {
             "score": "0-3",
-            "prob": 0.0967
+            "prob": 0.1106
           },
           {
-            "score": "1-1",
-            "prob": 0.0962
+            "score": "1-2",
+            "prob": 0.0863
           }
         ]
       },
@@ -8249,14 +8273,8 @@
       "home": {
         "team": "United States",
         "code": "USA",
-        "elo": 1858.7,
+        "elo": 1900.0,
         "form": [
-          {
-            "res": "L",
-            "opp": "BEL",
-            "score": "2-5",
-            "date": "2026-03-28"
-          },
           {
             "res": "L",
             "opp": "POR",
@@ -8280,20 +8298,20 @@
             "opp": "PAR",
             "score": "4-1",
             "date": "2026-06-12"
+          },
+          {
+            "res": "W",
+            "opp": "AUS",
+            "score": "2-0",
+            "date": "2026-06-19"
           }
         ]
       },
       "away": {
         "team": "Turkey",
         "code": "TUR",
-        "elo": 1885.8,
+        "elo": 1851.0,
         "form": [
-          {
-            "res": "W",
-            "opp": "ROM",
-            "score": "1-0",
-            "date": "2026-03-26"
-          },
           {
             "res": "W",
             "opp": "KOS",
@@ -8317,34 +8335,40 @@
             "opp": "AUS",
             "score": "0-2",
             "date": "2026-06-13"
+          },
+          {
+            "res": "L",
+            "opp": "PAR",
+            "score": "0-1",
+            "date": "2026-06-19"
           }
         ]
       },
       "prediction": {
-        "home_win": 0.3899,
-        "draw": 0.2872,
-        "away_win": 0.3228,
-        "exp_goals_home": 1.3,
-        "exp_goals_away": 1.16,
+        "home_win": 0.478,
+        "draw": 0.2745,
+        "away_win": 0.2475,
+        "exp_goals_home": 1.5,
+        "exp_goals_away": 1.01,
         "favourite": "United States",
         "favourite_code": "USA",
-        "edge": 0.0671,
+        "edge": 0.2305,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1366
+            "prob": 0.1305
           },
           {
             "score": "1-0",
-            "prob": 0.1032
+            "prob": 0.115
           },
           {
-            "score": "0-0",
-            "prob": 0.0931
+            "score": "2-1",
+            "prob": 0.0923
           },
           {
-            "score": "0-1",
-            "prob": 0.0913
+            "score": "2-0",
+            "prob": 0.0915
           }
         ]
       },
@@ -8475,30 +8499,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.3307,
-        "draw": 0.3031,
-        "away_win": 0.3663,
+        "home_win": 0.3308,
+        "draw": 0.3028,
+        "away_win": 0.3664,
         "exp_goals_home": 1.09,
         "exp_goals_away": 1.16,
         "favourite": "Saudi Arabia",
         "favourite_code": "KSA",
-        "edge": 0.0356,
+        "edge": 0.0357,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1413
+            "prob": 0.1411
           },
           {
             "score": "0-1",
-            "prob": 0.1141
+            "prob": 0.1144
           },
           {
             "score": "0-0",
-            "prob": 0.1132
+            "prob": 0.1131
           },
           {
             "score": "1-0",
-            "prob": 0.1066
+            "prob": 0.1068
           }
         ]
       },
@@ -8599,30 +8623,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.2893,
-        "draw": 0.3023,
-        "away_win": 0.4084,
-        "exp_goals_home": 1.0,
+        "home_win": 0.2894,
+        "draw": 0.302,
+        "away_win": 0.4087,
+        "exp_goals_home": 0.99,
         "exp_goals_away": 1.23,
         "favourite": "Iran",
         "favourite_code": "IRN",
-        "edge": 0.1191,
+        "edge": 0.1193,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1401
+            "prob": 0.14
           },
           {
             "score": "0-1",
-            "prob": 0.1249
+            "prob": 0.125
           },
           {
             "score": "0-0",
-            "prob": 0.1157
+            "prob": 0.1155
           },
           {
             "score": "1-0",
-            "prob": 0.0992
+            "prob": 0.0993
           }
         ]
       },
@@ -8733,30 +8757,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.1644,
-        "draw": 0.2587,
-        "away_win": 0.5769,
+        "home_win": 0.1642,
+        "draw": 0.2583,
+        "away_win": 0.5775,
         "exp_goals_home": 0.75,
         "exp_goals_away": 1.63,
         "favourite": "Belgium",
         "favourite_code": "BEL",
-        "edge": 0.4125,
+        "edge": 0.4133,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.1432
+            "prob": 0.1433
           },
           {
             "score": "0-2",
-            "prob": 0.1225
+            "prob": 0.1226
           },
           {
             "score": "1-1",
-            "prob": 0.12
+            "prob": 0.1198
           },
           {
             "score": "0-0",
-            "prob": 0.0987
+            "prob": 0.0985
           }
         ]
       },
@@ -8857,30 +8881,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.1932,
-        "draw": 0.2786,
-        "away_win": 0.5282,
+        "home_win": 0.1931,
+        "draw": 0.2781,
+        "away_win": 0.5288,
         "exp_goals_home": 0.79,
         "exp_goals_away": 1.48,
         "favourite": "France",
         "favourite_code": "FRA",
-        "edge": 0.3349,
+        "edge": 0.3357,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.1451
+            "prob": 0.1452
           },
           {
             "score": "1-1",
-            "prob": 0.1281
+            "prob": 0.1278
           },
           {
             "score": "0-2",
-            "prob": 0.1129
+            "prob": 0.113
           },
           {
             "score": "0-0",
-            "prob": 0.1101
+            "prob": 0.1098
           }
         ]
       },
@@ -9036,30 +9060,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.556,
-        "draw": 0.2659,
-        "away_win": 0.1781,
+        "home_win": 0.5566,
+        "draw": 0.2654,
+        "away_win": 0.178,
         "exp_goals_home": 1.58,
         "exp_goals_away": 0.78,
         "favourite": "Senegal",
         "favourite_code": "SEN",
-        "edge": 0.3779,
+        "edge": 0.3786,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1414
+            "prob": 0.1415
           },
           {
             "score": "1-1",
-            "prob": 0.1235
+            "prob": 0.1233
           },
           {
             "score": "2-0",
-            "prob": 0.1173
+            "prob": 0.1174
           },
           {
             "score": "0-0",
-            "prob": 0.1008
+            "prob": 0.1007
           }
         ]
       },
@@ -9160,14 +9184,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.1504,
-        "draw": 0.2545,
-        "away_win": 0.5951,
+        "home_win": 0.1502,
+        "draw": 0.2539,
+        "away_win": 0.5958,
         "exp_goals_home": 0.71,
         "exp_goals_away": 1.66,
         "favourite": "Spain",
         "favourite_code": "ESP",
-        "edge": 0.4447,
+        "edge": 0.4456,
         "top_scorelines": [
           {
             "score": "0-1",
@@ -9175,15 +9199,15 @@
           },
           {
             "score": "0-2",
-            "prob": 0.129
+            "prob": 0.1291
           },
           {
             "score": "1-1",
-            "prob": 0.1169
+            "prob": 0.1167
           },
           {
             "score": "0-0",
-            "prob": 0.1008
+            "prob": 0.1004
           }
         ]
       },
@@ -9339,30 +9363,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.2912,
-        "draw": 0.3034,
-        "away_win": 0.4053,
+        "home_win": 0.2913,
+        "draw": 0.3031,
+        "away_win": 0.4056,
         "exp_goals_home": 0.99,
         "exp_goals_away": 1.22,
         "favourite": "Austria",
         "favourite_code": "AUT",
-        "edge": 0.1141,
+        "edge": 0.1143,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1404
+            "prob": 0.1402
           },
           {
             "score": "0-1",
-            "prob": 0.1252
+            "prob": 0.1253
           },
           {
             "score": "0-0",
-            "prob": 0.1169
+            "prob": 0.1167
           },
           {
             "score": "1-0",
-            "prob": 0.1003
+            "prob": 0.1005
           }
         ]
       },
@@ -9473,30 +9497,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.3975,
-        "draw": 0.3073,
-        "away_win": 0.2952,
+        "home_win": 0.3978,
+        "draw": 0.3068,
+        "away_win": 0.2953,
         "exp_goals_home": 1.19,
         "exp_goals_away": 0.99,
         "favourite": "Colombia",
         "favourite_code": "COL",
-        "edge": 0.1023,
+        "edge": 0.1025,
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1412
+            "prob": 0.141
           },
           {
             "score": "1-0",
-            "prob": 0.1269
+            "prob": 0.127
           },
           {
             "score": "0-0",
-            "prob": 0.1215
+            "prob": 0.1212
           },
           {
             "score": "0-1",
-            "prob": 0.1039
+            "prob": 0.104
           }
         ]
       },
@@ -9597,30 +9621,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.632,
-        "draw": 0.2359,
-        "away_win": 0.1321,
-        "exp_goals_home": 1.79,
+        "home_win": 0.6327,
+        "draw": 0.2354,
+        "away_win": 0.1319,
+        "exp_goals_home": 1.8,
         "exp_goals_away": 0.69,
         "favourite": "Croatia",
         "favourite_code": "CRO",
-        "edge": 0.4998,
+        "edge": 0.5007,
         "top_scorelines": [
           {
             "score": "1-0",
-            "prob": 0.1433
+            "prob": 0.1434
           },
           {
             "score": "2-0",
-            "prob": 0.1341
+            "prob": 0.1342
           },
           {
             "score": "1-1",
-            "prob": 0.1095
+            "prob": 0.1093
           },
           {
             "score": "2-1",
-            "prob": 0.0927
+            "prob": 0.0926
           }
         ]
       },
@@ -9721,9 +9745,9 @@
         ]
       },
       "prediction": {
-        "home_win": 0.326,
-        "draw": 0.3045,
-        "away_win": 0.3695,
+        "home_win": 0.3262,
+        "draw": 0.3041,
+        "away_win": 0.3697,
         "exp_goals_home": 1.07,
         "exp_goals_away": 1.16,
         "favourite": "Uzbekistan",
@@ -9732,19 +9756,19 @@
         "top_scorelines": [
           {
             "score": "1-1",
-            "prob": 0.1415
+            "prob": 0.1413
           },
           {
             "score": "0-1",
-            "prob": 0.1163
+            "prob": 0.1165
           },
           {
             "score": "0-0",
-            "prob": 0.1152
+            "prob": 0.1151
           },
           {
             "score": "1-0",
-            "prob": 0.107
+            "prob": 0.1072
           }
         ]
       },
@@ -9845,30 +9869,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.0418,
-        "draw": 0.128,
-        "away_win": 0.8302,
+        "home_win": 0.0416,
+        "draw": 0.1273,
+        "away_win": 0.8311,
         "exp_goals_home": 0.46,
         "exp_goals_away": 2.61,
         "favourite": "Argentina",
         "favourite_code": "ARG",
-        "edge": 0.7884,
+        "edge": 0.7895,
         "top_scorelines": [
           {
             "score": "0-2",
-            "prob": 0.1585
+            "prob": 0.1584
           },
           {
             "score": "0-3",
-            "prob": 0.1378
+            "prob": 0.138
           },
           {
             "score": "0-1",
-            "prob": 0.1181
+            "prob": 0.1179
           },
           {
             "score": "0-4",
-            "prob": 0.0899
+            "prob": 0.0902
           }
         ]
       },
@@ -9969,30 +9993,30 @@
         ]
       },
       "prediction": {
-        "home_win": 0.109,
-        "draw": 0.2184,
-        "away_win": 0.6726,
+        "home_win": 0.1087,
+        "draw": 0.2178,
+        "away_win": 0.6734,
         "exp_goals_home": 0.63,
         "exp_goals_away": 1.91,
         "favourite": "England",
         "favourite_code": "ENG",
-        "edge": 0.5637,
+        "edge": 0.5647,
         "top_scorelines": [
           {
             "score": "0-1",
-            "prob": 0.1452
+            "prob": 0.1453
           },
           {
             "score": "0-2",
-            "prob": 0.1438
+            "prob": 0.1439
           },
           {
             "score": "1-1",
-            "prob": 0.1008
+            "prob": 0.1006
           },
           {
             "score": "0-3",
-            "prob": 0.0914
+            "prob": 0.0915
           }
         ]
       },
