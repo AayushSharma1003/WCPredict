@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>WCPredict — a live forecast of the 2026 World Cup</title>
+<meta name="description" content="A live statistical forecast of the 2026 FIFA World Cup, rebuilt from full match history every six hours." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<style>
+  :root{
+    --paper:    #f3f0e8;
+    --paper-2:  #efebe1;
+    --ink:      #232019;
+    --ink-2:    #5a554a;
+    --ink-3:    #8f897a;
+    --line:     rgba(35,32,25,0.14);
+    --line-2:   rgba(35,32,25,0.08);
+    --clay:     #b15a3c;
+    --clay-d:   #9b4c30;
+    --turf:     #3f8055;
+  }
+
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.5;
+    /* faint paper grain + warm vignette */
+    background-image:
+      radial-gradient(120% 120% at 50% -10%, rgba(255,255,255,0.5) 0%, rgba(243,240,232,0) 45%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  }
+  ::selection{ background:rgba(177,90,60,0.18); }
+  a{ color:inherit; }
+
+  /* ---------- top bar ---------- */
+  .bar{
+    display:flex; justify-content:space-between; align-items:center;
+    padding:24px clamp(22px,5vw,64px);
+    max-width:1240px; margin:0 auto;
+  }
+  .word{
+    font-family:'Fraunces',serif; font-weight:600; font-size:20px; letter-spacing:-0.01em;
+  }
+  .word .p{ color:var(--clay); }
+  .status{
+    display:flex; align-items:center; gap:9px;
+    font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:0.12em;
+    color:var(--ink-3); text-transform:uppercase;
+  }
+  .status .dot{
+    width:7px; height:7px; border-radius:50%; background:var(--turf);
+    box-shadow:0 0 0 0 rgba(63,128,85,0.5); animation:pulse 2.6s ease-out infinite;
+  }
+  @keyframes pulse{
+    0%{ box-shadow:0 0 0 0 rgba(63,128,85,0.45); }
+    70%{ box-shadow:0 0 0 8px rgba(63,128,85,0); }
+    100%{ box-shadow:0 0 0 0 rgba(63,128,85,0); }
+  }
+
+  /* ---------- hero ---------- */
+  .hero{
+    max-width:1240px; margin:0 auto;
+    padding:clamp(20px,4vw,40px) clamp(22px,5vw,64px) 40px;
+    display:grid; grid-template-columns:1.05fr 0.95fr; gap:clamp(40px,6vw,96px);
+    align-items:center; min-height:calc(100svh - 170px);
+  }
+  .lead{ max-width:560px; }
+
+  .mark-wrap{
+    width:118px; height:118px; margin-bottom:30px;
+  }
+  .mark-wrap svg{ width:100%; height:100%; display:block; overflow:visible; }
+  .mark-wrap svg [data-draw]{
+    fill:none; stroke:var(--ink); stroke-width:2.1;
+    stroke-linecap:round; stroke-linejoin:round;
+    stroke-dasharray:100;
+  }
+
+  .eyebrow{
+    font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:0.22em;
+    color:var(--ink-3); text-transform:uppercase; margin-bottom:18px;
+    display:flex; align-items:center; gap:12px;
+  }
+  .eyebrow::before{ content:""; width:26px; height:1px; background:var(--ink-3); }
+
+  h1{
+    font-family:'Fraunces',serif; font-weight:600;
+    font-size:clamp(58px,10vw,116px); line-height:0.92; letter-spacing:-0.025em;
+    margin-bottom:22px;
+  }
+  h1 .p{ color:var(--clay); }
+
+  .tagline{
+    font-size:clamp(16px,1.7vw,18px); color:var(--ink-2); max-width:440px; line-height:1.6;
+  }
+
+  .favourite{
+    margin-top:26px; font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+    font-size:clamp(17px,1.9vw,21px); color:var(--ink); line-height:1.45; max-width:430px;
+  }
+  .favourite b{ font-style:normal; font-weight:600; }
+
+  .cta-row{ display:flex; flex-wrap:wrap; gap:14px; margin-top:34px; }
+  .btn{
+    display:inline-flex; align-items:center; gap:9px;
+    font-size:14.5px; font-weight:500; padding:13px 22px; border-radius:9px;
+    text-decoration:none; transition:transform .15s ease, background .15s ease, border-color .15s ease;
+  }
+  .btn .arr{ transition:transform .2s ease; }
+  .btn:hover .arr{ transform:translateX(3px); }
+  .btn-primary{ background:var(--clay); color:#f7f2ea; }
+  .btn-primary:hover{ background:var(--clay-d); }
+  .btn-ghost{ border:1px solid var(--line); color:var(--ink); }
+  .btn-ghost:hover{ border-color:var(--ink-3); }
+
+  /* ---------- ledger card ---------- */
+  .card{
+    border:1px solid var(--line); border-radius:18px; background:rgba(255,255,255,0.28);
+    padding:clamp(22px,2.4vw,30px);
+  }
+  .card-head{
+    font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.14em;
+    color:var(--ink-3); text-transform:uppercase; line-height:1.6;
+    padding-bottom:18px; border-bottom:1px solid var(--line-2); margin-bottom:6px;
+  }
+  .row{
+    display:grid; grid-template-columns:22px 48px 1fr 54px; align-items:center; gap:14px;
+    padding:14px 0; border-bottom:1px solid var(--line-2);
+  }
+  .row:last-child{ border-bottom:0; }
+  .row .rk{ font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--ink-3); }
+  .row .cd{ font-family:'JetBrains Mono',monospace; font-size:15px; font-weight:500; letter-spacing:0.05em; }
+  .row .nm{ display:flex; flex-direction:column; gap:6px; }
+  .row .nm .lbl{ font-size:14px; color:var(--ink-2); }
+  .row .nm .meter{ height:3px; background:rgba(35,32,25,0.08); border-radius:2px; position:relative; overflow:hidden; }
+  .row .nm .meter i{ position:absolute; inset:0 auto 0 0; width:0; background:var(--ink); border-radius:2px; transition:width 1s cubic-bezier(.4,0,.1,1); }
+  .row .pc{ font-family:'JetBrains Mono',monospace; font-size:14px; text-align:right; font-variant-numeric:tabular-nums; }
+  .row.lead .cd, .row.lead .pc{ color:var(--clay); }
+  .row.lead .nm .meter i{ background:var(--clay); }
+
+  /* ---------- footnote ---------- */
+  .foot{
+    max-width:1240px; margin:0 auto;
+    padding:26px clamp(22px,5vw,64px) 40px;
+    border-top:1px solid var(--line-2);
+    display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:14px;
+  }
+  .foot .quote{ font-family:'Fraunces',serif; font-style:italic; font-size:14px; color:var(--ink-3); }
+  .foot .meta{ font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:0.1em; color:var(--ink-3); text-transform:uppercase; }
+  .foot .meta a{ color:var(--ink-2); text-decoration:none; border-bottom:1px solid var(--line); }
+  .foot .meta a:hover{ color:var(--clay); }
+
+  /* ---------- responsive ---------- */
+  @media (max-width:860px){
+    .hero{ grid-template-columns:1fr; gap:42px; min-height:0; padding-top:8px; padding-bottom:56px; }
+    .lead{ max-width:none; }
+    .mark-wrap{ margin:0 auto 24px; }
+    .lead{ text-align:center; }
+    .eyebrow{ justify-content:center; }
+    .tagline, .favourite{ margin-left:auto; margin-right:auto; }
+    .cta-row{ justify-content:center; }
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    .status .dot{ animation:none; }
+  }
+</style>
+</head>
+<body>
+
+  <header class="bar">
+    <div class="word">WC<span class="p">Predict</span></div>
+    <div class="status"><span class="dot"></span> Live · refreshes every 6 hours</div>
+  </header>
+
+  <main class="hero">
+    <section class="lead">
+      <div class="mark-wrap" aria-hidden="true">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <g id="ball">
+            <circle data-draw cx="50" cy="50" r="38" pathLength="100"></circle>
+            <polygon data-draw points="50,36 63.3,45.7 58.2,61.3 41.8,61.3 36.7,45.7" pathLength="100"></polygon>
+            <path data-draw pathLength="100" d="M50,36 L50,12 M63.3,45.7 L86.1,38.3 M58.2,61.3 L72.3,80.7 M41.8,61.3 L27.7,80.7 M36.7,45.7 L13.9,38.3"></path>
+          </g>
+          <g id="trophy">
+            <path data-draw pathLength="100" d="M31,29 L69,29 M33,29 C33,50 42,58 50,58 C58,58 67,50 67,29"></path>
+            <path data-draw pathLength="100" d="M34,31 C24,32 23,45 36,46 M66,31 C76,32 77,45 64,46"></path>
+            <path data-draw pathLength="100" d="M50,58 L50,67 M41,67 L59,67 L61,73 L39,73 Z M37,73 L63,73 L65,80 L35,80 Z"></path>
+          </g>
+        </svg>
+      </div>
+
+      <div class="eyebrow">FIFA World Cup 2026 · live forecast</div>
+
+      <h1>WC<span class="p">Predict</span></h1>
+
+      <p class="tagline">
+        A statistical forecast of the 2026 World Cup, rebuilt from the full international match record every six hours.
+      </p>
+
+      <p class="favourite" id="favourite">
+        Today the model gives <b>Argentina</b> the best chance — <b>21.9%</b> to lift the trophy.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="bracket.html">See the full predicted bracket <span class="arr">→</span></a>
+        <a class="btn btn-ghost" href="today.html">Today's matches <span class="arr">→</span></a>
+      </div>
+    </section>
+
+    <aside class="card" id="card">
+      <div class="card-head" id="cardHead">Most likely to lift the trophy<br>10,000 Monte Carlo tournaments</div>
+      <div id="rows"></div>
+    </aside>
+  </main>
+
+  <footer class="foot">
+    <div class="quote">"The math has picked its sides."</div>
+    <div class="meta">Forecast by Elo · Dixon–Coles · Monte Carlo &nbsp;·&nbsp; <a href="https://github.com/AayushSharma1003/WCPredict" target="_blank" rel="noopener">source</a></div>
+  </footer>
+
+<script>
+/* ====================================================================
+   1. INK MARK — football draws into a trophy and back every ~5s
+   ==================================================================== */
+(function mark(){
+  const ball   = Array.from(document.querySelectorAll('#ball [data-draw]'));
+  const trophy = Array.from(document.querySelectorAll('#trophy [data-draw]'));
+  const wrap   = document.querySelector('.mark-wrap svg');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // initial: ball drawn, trophy hidden
+  ball.forEach(p=>{ p.style.strokeDashoffset=0;   p.style.opacity=1; });
+  trophy.forEach(p=>{ p.style.strokeDashoffset=100; p.style.opacity=0; });
+
+  let showingBall = true;
+  function swap(){
+    showingBall = !showingBall;
+    const inSet  = showingBall ? ball : trophy;
+    const outSet = showingBall ? trophy : ball;
+    outSet.forEach(p=>{
+      p.style.transition='stroke-dashoffset .65s ease, opacity .5s ease';
+      p.style.strokeDashoffset=100; p.style.opacity=0;
+    });
+    inSet.forEach((p,i)=>{
+      p.style.transition='stroke-dashoffset .85s ease .18s, opacity .5s ease .18s';
+      p.style.strokeDashoffset=0; p.style.opacity=1;
+    });
+  }
+  setInterval(swap, 5000);
+
+  // gentle whirl while it's a ball; ease upright while it's a trophy
+  if(!reduce){
+    let angle = 0;
+    (function tick(){
+      if(showingBall){ angle = (angle + 0.22) % 360; }
+      else { const target = angle > 180 ? 360 : 0; angle += (target - angle) * 0.07; }
+      wrap.style.transform = `rotate(${angle}deg)`;
+      requestAnimationFrame(tick);
+    })();
+  }
+})();
+
+/* ====================================================================
+   2. LIVE DATA — fetch the backend's committed forecast, fall back to
+      the last known snapshot so the page always renders.
+   ==================================================================== */
+const CODES = {
+  "Argentina":"ARG","Spain":"ESP","France":"FRA","England":"ENG","Colombia":"COL",
+  "Brazil":"BRA","Portugal":"POR","Germany":"GER","Mexico":"MEX","Netherlands":"NED",
+  "Japan":"JPN","Morocco":"MAR","Norway":"NOR","Ecuador":"ECU","Uruguay":"URU",
+  "Switzerland":"SUI","Italy":"ITA","Australia":"AUS","Belgium":"BEL","Croatia":"CRO",
+  "Denmark":"DEN","Austria":"AUT","Turkey":"TUR","Senegal":"SEN","Canada":"CAN",
+  "United States":"USA","South Korea":"KOR"
+};
+const code = t => CODES[t] || t.slice(0,3).toUpperCase();
+
+// last known snapshot (from tournament_simulation.csv) — fallback only
+const FALLBACK = [
+  ["Argentina",0.2193],["Spain",0.1637],["France",0.1210],["England",0.0875],
+  ["Colombia",0.0720],["Brazil",0.0525]
+];
+
+const SOURCES = [
+  "data/tournament_simulation.csv",
+  "https://raw.githubusercontent.com/AayushSharma1003/WCPredict/main/data/tournament_simulation.csv"
+];
+
+function parseCup(csv){
+  const lines = csv.trim().split(/\r?\n/);
+  const head  = lines[0].split(",");
+  const ti = head.indexOf("team"), ci = head.indexOf("P(Cup)");
+  if(ti<0 || ci<0) throw new Error("unexpected columns");
+  return lines.slice(1).map(l=>{ const c=l.split(","); return [c[ti], parseFloat(c[ci])]; })
+              .filter(r=>r[0] && !isNaN(r[1]))
+              .sort((a,b)=>b[1]-a[1]);
+}
+
+async function loadForecast(){
+  for(const url of SOURCES){
+    try{
+      const r = await fetch(url, {cache:"no-store"});
+      if(!r.ok) continue;
+      const rows = parseCup(await r.text());
+      if(rows.length) return {rows, live:true};
+    }catch(e){ /* try next */ }
+  }
+  return {rows:FALLBACK, live:false};
+}
+
+function render(rows){
+  const top = rows.slice(0,6);
+  const max = top[0][1];
+  const host = document.getElementById('rows');
+  host.innerHTML = top.map(([team,p],i)=>`
+    <div class="row${i===0?' lead':''}">
+      <span class="rk">${String(i+1).padStart(2,'0')}</span>
+      <span class="cd">${code(team)}</span>
+      <span class="nm">
+        <span class="lbl">${team}</span>
+        <span class="meter"><i data-w="${(p/max*100).toFixed(0)}"></i></span>
+      </span>
+      <span class="pc">${(p*100).toFixed(1)}%</span>
+    </div>`).join('');
+  // draw the bars after layout
+  requestAnimationFrame(()=> setTimeout(()=>{
+    host.querySelectorAll('.meter i').forEach((el,i)=>{ setTimeout(()=>el.style.width=el.dataset.w+'%', i*70); });
+  },60));
+
+  const fav = rows[0];
+  document.getElementById('favourite').innerHTML =
+    `Today the model gives <b>${fav[0]}</b> the best chance — <b>${(fav[1]*100).toFixed(1)}%</b> to lift the trophy.`;
+}
+
+function relTime(iso){const t=new Date(iso);if(isNaN(t))return null;const s=Math.floor((Date.now()-t)/1000);if(s<90)return"just now";const m=Math.floor(s/60);if(m<60)return m+"m ago";const h=Math.floor(m/60);if(h<24)return h+"h ago";return Math.floor(h/24)+"d ago";}
+async function stampFreshness(){
+  for(const u of ["data/fixtures.json","https://raw.githubusercontent.com/AayushSharma1003/WCPredict/main/data/fixtures.json"]){
+    try{ const r=await fetch(u,{cache:"no-store"}); if(r.ok){ const j=await r.json(); const rel=j.generated_utc?relTime(j.generated_utc):null;
+      const el=document.getElementById("live"); if(el&&rel) el.innerHTML=`<span class="dot"></span> Updated ${rel} · refreshes every 6h`; return; } }catch(e){}
+  }
+}
+stampFreshness();
+loadForecast().then(({rows,live})=>{
+  render(rows);
+  if(!live){
+    document.getElementById('cardHead').innerHTML =
+      'Most likely to lift the trophy<br>10,000 Monte Carlo tournaments · last known snapshot';
+  }
+});
+</script>
+</body>
+</html>

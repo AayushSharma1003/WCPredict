@@ -1,0 +1,73 @@
+match_no,date,kickoff_utc,stage,group,home_team,away_team,neutral,city,country
+1,2026-06-11,,group,A,Mexico,South Africa,FALSE,Mexico City,Mexico
+2,2026-06-11,,group,A,South Korea,Czech Republic,TRUE,Zapopan,Mexico
+3,2026-06-12,,group,B,Canada,Bosnia and Herzegovina,FALSE,Toronto,Canada
+4,2026-06-12,,group,D,United States,Paraguay,FALSE,Inglewood,United States
+5,2026-06-13,,group,D,Australia,Turkey,TRUE,Vancouver,Canada
+6,2026-06-13,,group,C,Brazil,Morocco,TRUE,East Rutherford,United States
+7,2026-06-13,,group,C,Haiti,Scotland,TRUE,Foxborough,United States
+8,2026-06-13,,group,B,Qatar,Switzerland,TRUE,Santa Clara,United States
+9,2026-06-14,,group,E,Germany,Curaçao,TRUE,Houston,United States
+10,2026-06-14,,group,E,Ivory Coast,Ecuador,TRUE,Philadelphia,United States
+11,2026-06-14,,group,F,Netherlands,Japan,TRUE,Arlington,United States
+12,2026-06-14,,group,F,Sweden,Tunisia,TRUE,Guadalupe,Mexico
+13,2026-06-15,,group,G,Belgium,Egypt,TRUE,Seattle,United States
+14,2026-06-15,,group,G,Iran,New Zealand,TRUE,Inglewood,United States
+15,2026-06-15,,group,H,Saudi Arabia,Uruguay,TRUE,Miami Gardens,United States
+16,2026-06-15,,group,H,Spain,Cape Verde,TRUE,Atlanta,United States
+17,2026-06-16,,group,J,Argentina,Algeria,TRUE,Kansas City,United States
+18,2026-06-16,,group,J,Austria,Jordan,TRUE,Santa Clara,United States
+19,2026-06-16,,group,I,France,Senegal,TRUE,East Rutherford,United States
+20,2026-06-16,,group,I,Iraq,Norway,TRUE,Foxborough,United States
+21,2026-06-17,,group,L,England,Croatia,TRUE,Arlington,United States
+22,2026-06-17,,group,L,Ghana,Panama,TRUE,Toronto,Canada
+23,2026-06-17,,group,K,Portugal,DR Congo,TRUE,Houston,United States
+24,2026-06-17,,group,K,Uzbekistan,Colombia,TRUE,Mexico City,Mexico
+25,2026-06-18,,group,B,Canada,Qatar,FALSE,Vancouver,Canada
+26,2026-06-18,,group,A,Czech Republic,South Africa,TRUE,Atlanta,United States
+27,2026-06-18,,group,A,Mexico,South Korea,FALSE,Zapopan,Mexico
+28,2026-06-18,,group,B,Switzerland,Bosnia and Herzegovina,TRUE,Inglewood,United States
+29,2026-06-19,,group,C,Brazil,Haiti,TRUE,Philadelphia,United States
+30,2026-06-19,,group,C,Scotland,Morocco,TRUE,Foxborough,United States
+31,2026-06-19,,group,D,Turkey,Paraguay,TRUE,Santa Clara,United States
+32,2026-06-19,,group,D,United States,Australia,FALSE,Seattle,United States
+33,2026-06-20,,group,E,Ecuador,Curaçao,TRUE,Kansas City,United States
+34,2026-06-20,,group,E,Germany,Ivory Coast,TRUE,Toronto,Canada
+35,2026-06-20,,group,F,Netherlands,Sweden,TRUE,Houston,United States
+36,2026-06-20,,group,F,Tunisia,Japan,TRUE,Guadalupe,Mexico
+37,2026-06-21,,group,G,Belgium,Iran,TRUE,Inglewood,United States
+38,2026-06-21,,group,G,New Zealand,Egypt,TRUE,Vancouver,Canada
+39,2026-06-21,,group,H,Spain,Saudi Arabia,TRUE,Atlanta,United States
+40,2026-06-21,,group,H,Uruguay,Cape Verde,TRUE,Miami Gardens,United States
+41,2026-06-22,,group,J,Argentina,Austria,TRUE,Arlington,United States
+42,2026-06-22,,group,I,France,Iraq,TRUE,Philadelphia,United States
+43,2026-06-22,,group,J,Jordan,Algeria,TRUE,Santa Clara,United States
+44,2026-06-22,,group,I,Norway,Senegal,TRUE,East Rutherford,United States
+45,2026-06-23,,group,K,Colombia,DR Congo,TRUE,Zapopan,Mexico
+46,2026-06-23,,group,L,England,Ghana,TRUE,Foxborough,United States
+47,2026-06-23,,group,L,Panama,Croatia,TRUE,Toronto,Canada
+48,2026-06-23,,group,K,Portugal,Uzbekistan,TRUE,Houston,United States
+49,2026-06-24,,group,B,Bosnia and Herzegovina,Qatar,TRUE,Seattle,United States
+50,2026-06-24,,group,B,Canada,Switzerland,FALSE,Vancouver,Canada
+51,2026-06-24,,group,A,Mexico,Czech Republic,FALSE,Mexico City,Mexico
+52,2026-06-24,,group,C,Morocco,Haiti,TRUE,Atlanta,United States
+53,2026-06-24,,group,C,Scotland,Brazil,TRUE,Miami Gardens,United States
+54,2026-06-24,,group,A,South Africa,South Korea,TRUE,Guadalupe,Mexico
+55,2026-06-25,,group,E,Curaçao,Ivory Coast,TRUE,Philadelphia,United States
+56,2026-06-25,,group,E,Ecuador,Germany,TRUE,East Rutherford,United States
+57,2026-06-25,,group,F,Japan,Sweden,TRUE,Arlington,United States
+58,2026-06-25,,group,D,Paraguay,Australia,TRUE,Santa Clara,United States
+59,2026-06-25,,group,F,Tunisia,Netherlands,TRUE,Kansas City,United States
+60,2026-06-25,,group,D,United States,Turkey,FALSE,Inglewood,United States
+61,2026-06-26,,group,H,Cape Verde,Saudi Arabia,TRUE,Houston,United States
+62,2026-06-26,,group,G,Egypt,Iran,TRUE,Seattle,United States
+63,2026-06-26,,group,G,New Zealand,Belgium,TRUE,Vancouver,Canada
+64,2026-06-26,,group,I,Norway,France,TRUE,Foxborough,United States
+65,2026-06-26,,group,I,Senegal,Iraq,TRUE,Toronto,Canada
+66,2026-06-26,,group,H,Uruguay,Spain,TRUE,Zapopan,Mexico
+67,2026-06-27,,group,J,Algeria,Austria,TRUE,Kansas City,United States
+68,2026-06-27,,group,K,Colombia,Portugal,TRUE,Miami Gardens,United States
+69,2026-06-27,,group,L,Croatia,Ghana,TRUE,Philadelphia,United States
+70,2026-06-27,,group,K,DR Congo,Uzbekistan,TRUE,Atlanta,United States
+71,2026-06-27,,group,J,Jordan,Argentina,TRUE,Arlington,United States
+72,2026-06-27,,group,L,Panama,England,TRUE,East Rutherford,United States

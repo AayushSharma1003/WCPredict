@@ -4,7 +4,7 @@ on:
   # Every 6 hours: 00:00, 06:00, 12:00, 18:00 UTC
   # In IST: 05:30, 11:30, 17:30, 23:30
   schedule:
-    - cron: '0 */6 * * *'
+     - cron: '0 * * * *'  
 
   # Manual trigger from the Actions tab in GitHub
   workflow_dispatch:
@@ -31,19 +31,24 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: pip
+          cache-dependency-path: requirements-ci.txt
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirements-ci.txt
 
       - name: Run update pipeline
+        env:
+          LINEUPS_API_KEY: ${{ secrets.LINEUPS_API_KEY }}
         run: |
           if [ "${{ github.event.inputs.force }}" = "true" ]; then
             python update.py --force
@@ -59,6 +64,7 @@ jobs:
             git add data/
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
             git commit -m "auto: update predictions ($TIMESTAMP) [skip ci]"
+            git pull --rebase --autostash
             git push
             echo "Pushed updated data."
           else

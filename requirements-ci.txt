@@ -1,0 +1,8 @@
+# Lean dependency set for the GitHub Actions pipeline.
+# Only what elo / dixon_coles / model / simulate / diagnose / fixtures / scrape import.
+# (sklearn + matplotlib live in requirements.txt for evaluate.py, which is not in the cron.)
+numpy>=1.24,<3.0
+pandas>=2.0,<4.0
+scipy>=1.10,<2.0
+statsmodels>=0.14,<1.0
+requests>=2.31,<3.0

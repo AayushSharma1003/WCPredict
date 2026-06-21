@@ -53,6 +53,7 @@ EXPECTED_OUTPUTS = {
     "data/bracket_view.json":         "json",
     "data/final_pairings.json":       "json",
     "data/champion_routes.json":      "json",
+    "data/fixtures.json":             "json",
 }
 
 # Pipeline steps in order: (display_name, command)
@@ -61,6 +62,8 @@ PIPELINE_STEPS = [
     ("Re-fit Dixon-Coles parameters", ["python", "dixon_coles.py"]),
     ("Run tournament simulations",    ["python", "simulate_tournament.py"]),
     ("Run diagnostic simulations",    ["python", "diagnose_tournament.py"]),
+    ("Build fixtures + match predictions", ["python", "fixtures.py"]),
+    ("Fetch confirmed lineups (best-effort)", ["python", "lineups.py"]),
 ]
 
 

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Today's matches — WCPredict</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --paper:#f3f0e8; --paper-2:#efebe1; --ink:#232019; --ink-2:#5a554a; --ink-3:#8f897a;
+    --line:rgba(35,32,25,0.14); --line-2:rgba(35,32,25,0.08);
+    --clay:#b15a3c; --clay-d:#9b4c30; --turf:#3f8055; --draw:#9a9384;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--paper); color:var(--ink); font-family:'Inter',system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased; line-height:1.5;
+    background-image:radial-gradient(120% 120% at 50% -10%, rgba(255,255,255,0.5) 0%, rgba(243,240,232,0) 45%);
+  }
+  ::selection{background:rgba(177,90,60,0.18);}
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:920px;margin:0 auto;padding:0 clamp(20px,5vw,40px);}
+
+  .bar{display:flex;justify-content:space-between;align-items:center;padding:24px 0;}
+  .word{font-family:'Fraunces',serif;font-weight:600;font-size:19px;letter-spacing:-0.01em;}
+  .word .p{color:var(--clay);}
+  .status{display:flex;align-items:center;gap:9px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.12em;color:var(--ink-3);text-transform:uppercase;}
+  .status .dot{width:7px;height:7px;border-radius:50%;background:var(--turf);}
+
+  header.page{padding:18px 0 8px;border-top:1px solid var(--line-2);}
+  .eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.22em;color:var(--ink-3);text-transform:uppercase;}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(30px,5vw,46px);letter-spacing:-0.02em;margin-top:8px;}
+
+  .datenav{display:flex;align-items:center;gap:14px;margin:22px 0 8px;}
+  .datenav button{
+    font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--ink-2);
+    background:none;border:1px solid var(--line);border-radius:8px;width:34px;height:34px;cursor:pointer;transition:.15s;
+  }
+  .datenav button:hover:not(:disabled){border-color:var(--ink-3);color:var(--ink);}
+  .datenav button:disabled{opacity:.32;cursor:default;}
+  .datenav .cur{font-family:'Fraunces',serif;font-style:italic;font-size:20px;flex:1;}
+  .datenav .today{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--clay);border:1px solid var(--line);border-radius:999px;padding:7px 13px;cursor:pointer;}
+  .datenav .today:hover{border-color:var(--clay);}
+
+  .count{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;color:var(--ink-3);text-transform:uppercase;margin:10px 0 14px;}
+
+  .match{
+    display:block;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,0.28);
+    padding:18px 20px;margin-bottom:14px;transition:.16s;
+  }
+  .match:hover{border-color:var(--ink-3);transform:translateY(-1px);}
+  .match-top{display:flex;justify-content:space-between;align-items:center;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.12em;color:var(--ink-3);text-transform:uppercase;margin-bottom:14px;}
+  .match-top .ko{color:var(--ink-2);}
+
+  .teams{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:14px;}
+  .team{display:flex;flex-direction:column;gap:5px;}
+  .team.away{align-items:flex-end;text-align:right;}
+  .team .cd{font-family:'JetBrains Mono',monospace;font-size:20px;font-weight:500;letter-spacing:.04em;}
+  .team .nm{font-size:13px;color:var(--ink-2);}
+  .team .elo{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--ink-3);}
+  .mid{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:64px;}
+  .mid .score{font-family:'Fraunces',serif;font-weight:600;font-size:26px;letter-spacing:.02em;}
+  .mid .ft{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.16em;color:var(--ink-3);text-transform:uppercase;}
+  .mid .vs{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--ink-3);}
+
+  .form{display:flex;gap:4px;margin-top:2px;}
+  .team.away .form{justify-content:flex-end;}
+  .form i{width:14px;height:14px;border-radius:3px;font-style:normal;font-family:'JetBrains Mono',monospace;font-size:9px;display:flex;align-items:center;justify-content:center;color:#fff;}
+  .form i.W{background:var(--turf);} .form i.D{background:var(--draw);} .form i.L{background:var(--clay);}
+
+  .pred{margin-top:16px;}
+  .pred .pbar{display:flex;height:6px;border-radius:4px;overflow:hidden;background:var(--line-2);}
+  .pred .pbar span{display:block;}
+  .pred .pbar .h{background:var(--clay);} .pred .pbar .d{background:var(--draw);} .pred .pbar .a{background:var(--ink);}
+  .pred .plabels{display:flex;justify-content:space-between;margin-top:7px;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-3);}
+  .pred .plabels b{color:var(--ink);font-weight:500;}
+  .pred .plabels .mid-l{color:var(--ink-3);} .pred .plabels .fav b{color:var(--clay);}
+
+  .empty{padding:60px 0;text-align:center;color:var(--ink-3);font-family:'Fraunces',serif;font-style:italic;font-size:18px;}
+  footer{padding:30px 0;border-top:1px solid var(--line-2);margin-top:30px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.1em;color:var(--ink-3);text-transform:uppercase;}
+  footer a{border-bottom:1px solid var(--line);}
+  @media(max-width:560px){ .team .nm{display:none;} }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="bar">
+      <a class="word" href="index.html">WC<span class="p">Predict</span></a>
+      <div class="status" id="status"><span class="dot"></span> Live</div>
+    </div>
+
+    <header class="page">
+      <div class="eyebrow">Match centre</div>
+      <h1>Today's matches</h1>
+    </header>
+
+    <div class="datenav">
+      <button id="prev" aria-label="Previous day">‹</button>
+      <div class="cur" id="cur">—</div>
+      <button id="next" aria-label="Next day">›</button>
+      <span class="today" id="todayBtn">Today</span>
+    </div>
+    <div class="count" id="count"></div>
+
+    <div id="list"></div>
+
+    <footer>WCPREDICT · <a href="bracket.html">Full bracket →</a></footer>
+  </div>
+
+<script>
+const CODE_NM = {}; // names come from data; codes too
+const pct = x => (x*100).toFixed(0) + "%";
+const todayStr = new Date().toISOString().slice(0,10);
+
+// minimal fallback so the page renders without a server (real data comes from fetch)
+const FALLBACK = { matches: [
+  {match_no:31,date:todayStr,kickoff_utc:null,stage:"group",group:"J",neutral:true,status:"upcoming",score:null,
+   home:{team:"Argentina",code:"ARG",elo:2200,form:[{res:"W"},{res:"W"},{res:"D"},{res:"W"},{res:"W"}]},
+   away:{team:"Algeria",code:"ALG",elo:1855,form:[{res:"L"},{res:"D"},{res:"W"},{res:"L"},{res:"D"}]},
+   prediction:{home_win:0.78,draw:0.14,away_win:0.08,favourite_code:"ARG"}},
+  {match_no:34,date:todayStr,kickoff_utc:null,stage:"group",group:"H",neutral:true,status:"upcoming",score:null,
+   home:{team:"Spain",code:"ESP",elo:2173,form:[{res:"W"},{res:"W"},{res:"W"},{res:"D"},{res:"W"}]},
+   away:{team:"Uruguay",code:"URU",elo:1943,form:[{res:"D"},{res:"W"},{res:"L"},{res:"W"},{res:"D"}]},
+   prediction:{home_win:0.62,draw:0.23,away_win:0.15,favourite_code:"ESP"}},
+  {match_no:28,date:todayStr,kickoff_utc:null,stage:"group",group:"C",neutral:false,status:"played",score:{home:2,away:1},
+   home:{team:"Brazil",code:"BRA",elo:2053,form:[{res:"W"},{res:"L"},{res:"W"},{res:"W"},{res:"D"}]},
+   away:{team:"Scotland",code:"SCO",elo:1832,form:[{res:"D"},{res:"L"},{res:"D"},{res:"W"},{res:"L"}]},
+   prediction:{home_win:0.71,draw:0.19,away_win:0.10,favourite_code:"BRA"}},
+]};
+
+let DATA = null, dates = [], idx = 0;
+
+function relTime(iso){const t=new Date(iso);if(isNaN(t))return null;const s=Math.floor((Date.now()-t)/1000);if(s<90)return"just now";const m=Math.floor(s/60);if(m<60)return m+"m ago";const h=Math.floor(m/60);if(h<24)return h+"h ago";return Math.floor(h/24)+"d ago";}
+async function load(){
+  for(const u of ["data/fixtures.json","https://raw.githubusercontent.com/AayushSharma1003/WCPredict/main/data/fixtures.json"]){
+    try{ const r = await fetch(u,{cache:"no-store"}); if(r.ok){ DATA = await r.json(); break; } }catch(e){}
+  }
+  if(!DATA) DATA = FALLBACK;
+  const r=DATA.generated_utc?relTime(DATA.generated_utc):null;
+  const st=document.getElementById("status"); if(st) st.innerHTML=`<span class="dot"></span> ${r?("Updated "+r+" · "):""}refreshes every 6h`;
+
+  dates = [...new Set(DATA.matches.map(m=>m.date))].sort();
+  // default to today, else nearest upcoming, else last
+  idx = dates.indexOf(todayStr);
+  if(idx<0){ idx = dates.findIndex(d=>d>=todayStr); if(idx<0) idx = dates.length-1; }
+  render();
+}
+
+function fmtDate(d){
+  return new Date(d+"T12:00:00Z").toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric"});
+}
+function fmtKO(iso){
+  if(!iso) return null;
+  const t = new Date(iso); if(isNaN(t)) return null;
+  return t.toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"});
+}
+function formStrip(form){
+  return `<div class="form">${(form||[]).slice(-5).map(f=>`<i class="${f.res}">${f.res}</i>`).join("")}</div>`;
+}
+
+function matchCard(m){
+  const ko = fmtKO(m.kickoff_utc);
+  const meta = [m.stage==="group" ? `Group ${m.group}` : (m.stage||"").toUpperCase(), ko].filter(Boolean).join(" · ");
+  const p = m.prediction;
+  const mid = m.status==="played" && m.score
+    ? `<div class="score">${m.score.home}–${m.score.away}</div><div class="ft">Full time</div>`
+    : `<div class="vs">v</div>`;
+
+  let pred = "";
+  if(p){
+    const h=p.home_win, d=p.draw, a=p.away_win;
+    const favH = p.favourite_code===m.home.code, favA = p.favourite_code===m.away.code;
+    pred = `<div class="pred">
+      <div class="pbar"><span class="h" style="width:${h*100}%"></span><span class="d" style="width:${d*100}%"></span><span class="a" style="width:${a*100}%"></span></div>
+      <div class="plabels">
+        <span class="${favH?'fav':''}">${m.home.code} <b>${pct(h)}</b></span>
+        <span class="mid-l">Draw ${pct(d)}</span>
+        <span class="${favA?'fav':''}">${m.away.code} <b>${pct(a)}</b></span>
+      </div></div>`;
+  }
+
+  return `<a class="match" href="match.html?m=${m.match_no}">
+    <div class="match-top"><span>${meta}</span><span class="ko">${m.status==="played"?"Result":"Prediction"}</span></div>
+    <div class="teams">
+      <div class="team home">
+        <span class="cd">${m.home.code}</span><span class="nm">${m.home.team}</span>
+        ${formStrip(m.home.form)}
+      </div>
+      <div class="mid">${mid}</div>
+      <div class="team away">
+        <span class="cd">${m.away.code}</span><span class="nm">${m.away.team}</span>
+        ${formStrip(m.away.form)}
+      </div>
+    </div>
+    ${pred}
+  </a>`;
+}
+
+function render(){
+  const d = dates[idx];
+  document.getElementById("cur").textContent = fmtDate(d) + (d===todayStr ? "" : "");
+  document.getElementById("prev").disabled = idx<=0;
+  document.getElementById("next").disabled = idx>=dates.length-1;
+
+  const day = DATA.matches.filter(m=>m.date===d)
+                .sort((a,b)=>(a.kickoff_utc||"").localeCompare(b.kickoff_utc||"") || a.match_no-b.match_no);
+  document.getElementById("count").textContent =
+    `${day.length} match${day.length!==1?"es":""}${d===todayStr?" today":""}`;
+  document.getElementById("list").innerHTML =
+    day.length ? day.map(matchCard).join("") : `<div class="empty">No matches scheduled this day.</div>`;
+}
+
+document.getElementById("prev").onclick = ()=>{ if(idx>0){idx--;render();} };
+document.getElementById("next").onclick = ()=>{ if(idx<dates.length-1){idx++;render();} };
+document.getElementById("todayBtn").onclick = ()=>{
+  let i = dates.indexOf(todayStr);
+  if(i<0){ i = dates.findIndex(x=>x>=todayStr); if(i<0) i=dates.length-1; }
+  idx=i; render();
+};
+
+load();
+</script>
+</body>
+</html>

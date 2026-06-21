@@ -1,0 +1,47 @@
+name: Lineups (frequent)
+
+# Confirmed XIs appear ~1h before kickoff, so check often. lineups.py uses only
+# the Python standard library, so this job needs no dependency install and runs
+# in well under a minute.
+on:
+  schedule:
+    - cron: "*/20 * * * *"     # every 20 minutes
+  workflow_dispatch:
+
+concurrency:
+  group: wcpredict-lineups
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  lineups:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch confirmed lineups (best-effort)
+        env:
+          LINEUPS_API_KEY: ${{ secrets.LINEUPS_API_KEY }}   # optional; free key used if unset
+        run: python lineups.py --days 1
+
+      - name: Commit lineups if changed
+        run: |
+          if [[ -n "$(git status --porcelain data/lineups.json)" ]]; then
+            git config user.name  "wcpredict-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/lineups.json
+            git commit -m "Update lineups [skip ci]"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push
+          else
+            echo "No lineup changes."
+          fi
