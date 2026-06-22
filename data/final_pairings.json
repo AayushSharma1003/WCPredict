@@ -1,126 +1,126 @@
 {
   "n_sims": 10000,
-  "n_unique_pairings": 471,
+  "n_unique_pairings": 455,
   "pairings": [
     {
       "team_a": "Argentina",
       "team_b": "Spain",
-      "prob": 0.0799,
-      "count": 799
+      "prob": 0.1024,
+      "count": 1024
     },
     {
       "team_a": "Argentina",
       "team_b": "France",
-      "prob": 0.051,
-      "count": 510
+      "prob": 0.0593,
+      "count": 593
     },
     {
       "team_a": "England",
       "team_b": "Spain",
-      "prob": 0.0314,
-      "count": 314
+      "prob": 0.0372,
+      "count": 372
     },
     {
       "team_a": "Colombia",
       "team_b": "Spain",
-      "prob": 0.0262,
-      "count": 262
+      "prob": 0.0341,
+      "count": 341
     },
     {
       "team_a": "Argentina",
       "team_b": "Germany",
-      "prob": 0.0253,
-      "count": 253
+      "prob": 0.0268,
+      "count": 268
     },
     {
       "team_a": "England",
       "team_b": "France",
-      "prob": 0.0235,
-      "count": 235
-    },
-    {
-      "team_a": "France",
-      "team_b": "Spain",
       "prob": 0.0213,
       "count": 213
     },
     {
-      "team_a": "Colombia",
-      "team_b": "France",
-      "prob": 0.0208,
-      "count": 208
+      "team_a": "Brazil",
+      "team_b": "Spain",
+      "prob": 0.021,
+      "count": 210
     },
     {
       "team_a": "Argentina",
       "team_b": "Netherlands",
-      "prob": 0.0182,
-      "count": 182
+      "prob": 0.0209,
+      "count": 209
+    },
+    {
+      "team_a": "Colombia",
+      "team_b": "France",
+      "prob": 0.0194,
+      "count": 194
+    },
+    {
+      "team_a": "France",
+      "team_b": "Spain",
+      "prob": 0.0174,
+      "count": 174
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "Colombia",
+      "prob": 0.0158,
+      "count": 158
     },
     {
       "team_a": "Argentina",
       "team_b": "Portugal",
+      "prob": 0.0149,
+      "count": 149
+    },
+    {
+      "team_a": "Argentina",
+      "team_b": "United States",
       "prob": 0.0143,
       "count": 143
     },
     {
-      "team_a": "Brazil",
+      "team_a": "Mexico",
       "team_b": "Spain",
       "prob": 0.0142,
       "count": 142
     },
     {
-      "team_a": "Brazil",
-      "team_b": "France",
+      "team_a": "Argentina",
+      "team_b": "Morocco",
       "prob": 0.0141,
       "count": 141
     },
     {
-      "team_a": "Argentina",
-      "team_b": "Colombia",
-      "prob": 0.0138,
-      "count": 138
-    },
-    {
-      "team_a": "Argentina",
-      "team_b": "Morocco",
-      "prob": 0.0133,
-      "count": 133
-    },
-    {
-      "team_a": "Argentina",
-      "team_b": "United States",
+      "team_a": "Brazil",
+      "team_b": "France",
       "prob": 0.0131,
       "count": 131
     },
     {
-      "team_a": "England",
-      "team_b": "Germany",
-      "prob": 0.0121,
-      "count": 121
-    },
-    {
       "team_a": "Argentina",
       "team_b": "Brazil",
-      "prob": 0.0116,
-      "count": 116
-    },
-    {
-      "team_a": "Mexico",
-      "team_b": "Spain",
-      "prob": 0.0109,
-      "count": 109
-    },
-    {
-      "team_a": "Portugal",
-      "team_b": "Spain",
-      "prob": 0.0103,
-      "count": 103
+      "prob": 0.0124,
+      "count": 124
     },
     {
       "team_a": "Argentina",
       "team_b": "Japan",
-      "prob": 0.0101,
-      "count": 101
+      "prob": 0.011,
+      "count": 110
+    },
+    {
+      "team_a": "England",
+      "team_b": "Germany",
+      "prob": 0.0105,
+      "count": 105
+    },
+    {
+      "team_a": "Colombia",
+      "team_b": "Portugal",
+      "prob": 0.0099,
+      "count": 99
     }
   ]
 }
