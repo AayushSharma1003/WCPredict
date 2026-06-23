@@ -1,19 +1,7 @@
 {
-  "generated_utc": "2026-06-22T02:08:59+00:00",
+  "generated_utc": "2026-06-23T00:17:10+00:00",
   "provider": "apifootball",
   "lineups": {
-    "2026-06-22|Argentina|Austria": {
-      "status": "not_announced"
-    },
-    "2026-06-22|France|Iraq": {
-      "status": "not_announced"
-    },
-    "2026-06-22|Jordan|Algeria": {
-      "status": "not_announced"
-    },
-    "2026-06-22|Norway|Senegal": {
-      "status": "not_announced"
-    },
     "2026-06-23|Colombia|DR Congo": {
       "status": "not_announced"
     },
@@ -24,6 +12,24 @@
       "status": "not_announced"
     },
     "2026-06-23|Portugal|Uzbekistan": {
+      "status": "not_announced"
+    },
+    "2026-06-24|Bosnia and Herzegovina|Qatar": {
+      "status": "not_announced"
+    },
+    "2026-06-24|Canada|Switzerland": {
+      "status": "not_announced"
+    },
+    "2026-06-24|Mexico|Czech Republic": {
+      "status": "not_announced"
+    },
+    "2026-06-24|Morocco|Haiti": {
+      "status": "not_announced"
+    },
+    "2026-06-24|Scotland|Brazil": {
+      "status": "not_announced"
+    },
+    "2026-06-24|South Africa|South Korea": {
       "status": "not_announced"
     }
   }
