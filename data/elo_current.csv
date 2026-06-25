@@ -12,14 +12,13 @@ Morocco,2003.6
 Mexico,2001.6
 Japan,1991.5
 Norway,1982.3
+Switzerland,1968.8
 Croatia,1941.7
 Italy,1933.0
 Ecuador,1928.7
 Uruguay,1923.8
 Belgium,1920.8
 Denmark,1919.5
-Switzerland,1908.8
-Canada,1900.6
 United States,1900.0
 Austria,1896.2
 Australia,1888.6
@@ -31,6 +30,7 @@ Senegal,1858.2
 Turkey,1851.0
 Yugoslavia,1850.2
 Egypt,1843.7
+Canada,1840.6
 Ivory Coast,1835.4
 Ukraine,1832.9
 Russia,1824.5
@@ -72,8 +72,8 @@ Israel,1697.5
 Saudi Arabia,1693.0
 Northern Cyprus,1689.7
 Ghana,1689.3
-Occitania,1686.7
 Padania,1686.7
+Occitania,1686.7
 Iraq,1684.0
 New Zealand,1683.5
 Bolivia,1681.7
@@ -152,8 +152,8 @@ Silesia,1506.4
 Crimea,1504.8
 Shetland,1503.2
 Brittany,1502.9
-Nicaragua,1501.9
 United Koreans in Japan,1501.9
+Nicaragua,1501.9
 Délvidék,1500.2
 Madagascar,1499.7
 Uganda,1496.1
@@ -197,8 +197,8 @@ Kuwait,1468.1
 Greenland,1465.5
 Niger,1465.3
 Romani people,1463.8
-East Turkestan,1463.2
 Aymara,1463.2
+East Turkestan,1463.2
 Sudan,1461.3
 Provence,1460.3
 Hmong,1459.8
@@ -219,8 +219,8 @@ Estonia,1441.0
 Malawi,1438.7
 Western Isles,1436.2
 Fiji,1432.5
-Kyrgyzstan,1431.2
 Namibia,1431.2
+Kyrgyzstan,1431.2
 Tajikistan,1431.0
 Manchukuo,1430.4
 Găgăuzia,1429.7
