@@ -6,43 +6,43 @@ Brazil,2084.3
 Colombia,2082.3
 England,2068.4
 Portugal,2047.3
-Netherlands,2026.8
-Germany,2019.5
+Netherlands,2036.7
 Morocco,2003.6
 Mexico,2001.6
-Japan,1991.5
 Norway,1982.3
+Germany,1981.8
+Japan,1976.0
 Switzerland,1968.8
+Ecuador,1966.3
 Croatia,1941.7
 Italy,1933.0
-Ecuador,1928.7
 Uruguay,1923.8
 Belgium,1920.8
 Denmark,1919.5
-United States,1900.0
 Austria,1896.2
-Australia,1888.6
+Turkey,1893.1
+Australia,1886.6
 Algeria,1874.2
 Iran,1873.6
 Nigeria,1872.8
-Paraguay,1864.7
+Paraguay,1866.8
 Senegal,1858.2
-Turkey,1851.0
+United States,1857.8
+Ivory Coast,1854.0
 Yugoslavia,1850.2
 Egypt,1843.7
 Canada,1840.6
-Ivory Coast,1835.4
 Ukraine,1832.9
 Russia,1824.5
 South Korea,1821.7
 Venezuela,1817.4
+Sweden,1808.0
 Serbia,1807.4
 Jersey,1805.5
 Chile,1802.4
 Greece,1802.1
 Czechoslovakia,1796.8
 Scotland,1793.8
-Sweden,1792.5
 Basque Country,1787.5
 Panama,1774.4
 Peru,1766.6
@@ -78,9 +78,9 @@ Iraq,1684.0
 New Zealand,1683.5
 Bolivia,1681.7
 Bosnia and Herzegovina,1680.6
-Tunisia,1662.5
 Isle of Wight,1660.1
 Albania,1653.8
+Tunisia,1652.6
 Haiti,1651.0
 Jamaica,1650.2
 Catalonia,1649.3
@@ -95,7 +95,6 @@ Abkhazia,1628.3
 Iceland,1617.5
 Kárpátalja,1606.9
 New Caledonia,1602.5
-Curaçao,1601.2
 Kernow,1593.2
 Angola,1591.4
 Rhodes,1591.3
@@ -105,6 +104,7 @@ Finland,1588.6
 Syria,1587.5
 Panjab,1585.7
 Réunion,1585.2
+Curaçao,1582.7
 Tamil Eelam,1580.9
 Belarus,1573.8
 Oman,1572.6
