@@ -34,11 +34,14 @@ import pandas as pd
 
 from scrape import (
     fetch_remote_csv,
+    fetch_shootouts,
     validate_csv,
     hash_csv,
     save_atomically,
     LOCAL_PATH,
     RESULTS_URL,
+    SHOOTOUTS_PATH,
+    SHOOTOUTS_URL,
 )
 
 ROOT      = Path(__file__).resolve().parent
@@ -192,6 +195,17 @@ def main():
     # ---- 3. Save fresh CSV (atomic) ----
     log("Saving fresh results.csv (atomic write)")
     save_atomically(remote_bytes, local_path)
+
+    # Also refresh shootouts.csv. Best-effort: knockout resolution falls back
+    # to Monte Carlo simulation for drawn KOs if this is missing, so we
+    # don't abort the pipeline if the sibling file is unavailable.
+    log(f"Fetching shootouts.csv (best-effort) from {SHOOTOUTS_URL}")
+    try:
+        sh_bytes = fetch_shootouts()
+        save_atomically(sh_bytes, ROOT / SHOOTOUTS_PATH)
+        log(f"  ✓ shootouts.csv saved ({len(sh_bytes):,} bytes)")
+    except Exception as e:
+        log(f"  ! shootouts.csv fetch failed ({e}); continuing without it")
 
     # ---- 4-7. Pipeline ----
     for step_name, cmd in PIPELINE_STEPS:

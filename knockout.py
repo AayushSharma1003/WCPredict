@@ -11,12 +11,25 @@ A knockout match goes:
 The bracket builder uses bracket_data.get_third_place_assignment to turn the
 final group standings + the 8 advancing third-placed teams into the 16 R32
 matchups, per FIFA's official 495-scenario Annex C.
+
+resolve_match(...) is the wrapper the simulators call — it uses an actually
+played result if available, else falls back to Monte Carlo. This is what lets
+the pipeline keep producing sensible predictions after knockouts have started
+playing (Argentina beating Jordan in R32 should be a certainty, not a coin
+flip, in the R16 sims that follow).
 """
 
+from pathlib import Path
+
 import numpy as np
+import pandas as pd
 
 from model import predict_lambda, scoreline_matrix, MAX_GOALS
 from bracket_data import R32_SCHEDULE, get_third_place_assignment
+
+# Knockouts start June 28, 2026 (R32). Anything on/after this date in the
+# WC tournament is a knockout match.
+KO_START = pd.Timestamp("2026-06-28")
 
 # Extra time is 30 of 90 minutes.
 ET_FRACTION = 30.0 / 90.0
@@ -122,6 +135,120 @@ def build_r32_bracket(final_groups: dict, advancing_thirds_set: set) -> list:
         team_b = resolve(slot_b, slot_a)
         matches.append((match_id, team_a, team_b))
     return matches
+
+
+# ---- Actually-played knockout results ----
+
+def load_played_knockouts(results_path="data/results.csv",
+                          shootouts_path="data/shootouts.csv") -> dict:
+    """Load all played WC knockout matches, keyed by unordered team pair.
+
+    Two files feed into this:
+      - results.csv:  regulation/ET final score for every played match.
+                      A drawn KO here means it went to penalties.
+      - shootouts.csv (optional, best-effort): the sibling martj42 file naming
+                      the shootout winner. If it's missing or doesn't cover a
+                      particular drawn KO, that match is skipped and the
+                      simulators fall back to Monte Carlo for it.
+
+    The frozenset key exploits the fact that any given pair of teams meets
+    at most once in the knockout stage, so orientation doesn't matter.
+
+    Returns:
+        dict[frozenset[str, str], dict] with fields:
+            winner, loser, score_a, score_b, went_to_et, went_to_pens
+        oriented as (team_a=winner, team_b=loser).
+    """
+    results_path   = Path(results_path)
+    shootouts_path = Path(shootouts_path)
+
+    if not results_path.exists():
+        return {}
+
+    df = pd.read_csv(results_path, parse_dates=["date"])
+    ko = df[(df["tournament"] == "FIFA World Cup")
+            & (df["date"] >= KO_START)
+            & df["home_score"].notna()].copy()
+    if ko.empty:
+        return {}
+
+    # Best-effort shootout lookup: (date_str, frozenset({home, away})) → winner
+    shootout_winner = {}
+    if shootouts_path.exists():
+        try:
+            sh = pd.read_csv(shootouts_path, parse_dates=["date"])
+            for r in sh.itertuples(index=False):
+                key = (pd.Timestamp(r.date).strftime("%Y-%m-%d"),
+                       frozenset({r.home_team, r.away_team}))
+                shootout_winner[key] = r.winner
+        except Exception as e:
+            print(f"  ! shootouts.csv unreadable ({e}), continuing without it")
+
+    out = {}
+    for r in ko.itertuples(index=False):
+        h, a = r.home_team, r.away_team
+        sa, sb = int(r.home_score), int(r.away_score)
+        went_to_pens = False
+
+        if sa > sb:
+            winner, loser = h, a
+        elif sb > sa:
+            winner, loser = a, h
+        else:
+            # Drawn after regulation+ET → shootout. Consult shootouts.csv.
+            key = (pd.Timestamp(r.date).strftime("%Y-%m-%d"),
+                   frozenset({h, a}))
+            sw = shootout_winner.get(key)
+            if sw is None:
+                print(f"  ! {r.date.date()} {h} {sa}-{sb} {a}: shootout winner "
+                      f"unknown, will simulate")
+                continue
+            winner, loser = sw, (a if sw == h else h)
+            went_to_pens = True
+
+        out[frozenset({h, a})] = {
+            "winner":       winner,
+            "loser":        loser,
+            "score_a":      sa if winner == h else sb,
+            "score_b":      sb if winner == h else sa,
+            "went_to_et":   False,   # cannot reliably infer from results.csv alone
+            "went_to_pens": went_to_pens,
+        }
+    return out
+
+
+def resolve_match(team_a, team_b,
+                  params, elo,
+                  rng,
+                  played_ko=None,
+                  *, neutral=True):
+    """Return a knockout match result.
+
+    If (team_a, team_b) is present in `played_ko`, uses the real outcome
+    deterministically. Otherwise falls back to Monte Carlo via simulate_match.
+    Adds a "played_for_real" flag so callers can tell the two apart.
+    """
+    if played_ko:
+        actual = played_ko.get(frozenset({team_a, team_b}))
+        if actual is not None:
+            w = actual["winner"]
+            # Re-orient scores relative to the (team_a, team_b) framing
+            if w == team_a:
+                sa, sb = actual["score_a"], actual["score_b"]
+            else:
+                sa, sb = actual["score_b"], actual["score_a"]
+            return {
+                "winner": w,
+                "loser":  team_b if w == team_a else team_a,
+                "score_a": sa, "score_b": sb,
+                "went_to_et":   actual.get("went_to_et", False),
+                "went_to_pens": actual.get("went_to_pens", False),
+                "played_for_real": True,
+            }
+
+    r = simulate_match(team_a, team_b, params, elo, rng, neutral=neutral)
+    r["played_for_real"] = False
+    return r
 
 
 # ---- Self-test ----

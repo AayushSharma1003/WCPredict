@@ -28,7 +28,7 @@ import numpy as np
 
 from model import load_params, load_elo_table, validate_params
 from bracket_data import BRACKET_PAIRINGS, R32_SCHEDULE
-from knockout import simulate_match, build_r32_bracket
+from knockout import simulate_match, build_r32_bracket, load_played_knockouts, resolve_match
 from standings import WC_GROUPS, load_wc_group_stage
 from simulate_groups import (
     split_played_remaining,
@@ -78,6 +78,12 @@ def main():
     played_recs = played_records_by_group(played, WC_GROUPS)
     rem_recs    = remaining_records_by_group(remaining, WC_GROUPS)
 
+    # Deterministic results for KO matches already played (see knockout.py)
+    played_ko = load_played_knockouts()
+    if played_ko:
+        print(f"  Knockout stage — {len(played_ko)} match(es) already played, "
+              f"treating deterministically")
+
     # ---- Diagnostic counters ----
     # (match_id, side) → team → count
     side_counts   = defaultdict(lambda: defaultdict(int))
@@ -118,7 +124,7 @@ def main():
             joint_counts[m_id][(a, b)] += 1
             team_route[a].append(("R32", b))
             team_route[b].append(("R32", a))
-            res = simulate_match(a, b, params, elo, rng)
+            res = resolve_match(a, b, params, elo, rng, played_ko)
             winners[m_id] = res["winner"]
 
         # R16 → F
@@ -130,7 +136,7 @@ def main():
                 joint_counts[m_id][(a, b)] += 1
                 team_route[a].append((round_name, b))
                 team_route[b].append((round_name, a))
-                res = simulate_match(a, b, params, elo, rng)
+                res = resolve_match(a, b, params, elo, rng, played_ko)
                 winners[m_id] = res["winner"]
 
         # Final pairing (alphabetically ordered to deduplicate (A,B) and (B,A))
