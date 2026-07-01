@@ -1,5 +1,24 @@
 {
-  "generated_utc": "2026-06-28T00:11:00+00:00",
+  "generated_utc": "2026-07-01T11:13:22+00:00",
   "provider": "apifootball",
-  "lineups": {}
+  "lineups": {
+    "2026-07-01|England|DR Congo": {
+      "status": "not_announced"
+    },
+    "2026-07-01|United States|Bosnia and Herzegovina": {
+      "status": "not_announced"
+    },
+    "2026-07-01|Belgium|Senegal": {
+      "status": "not_announced"
+    },
+    "2026-07-02|Portugal|Croatia": {
+      "status": "not_announced"
+    },
+    "2026-07-02|Spain|Austria": {
+      "status": "not_announced"
+    },
+    "2026-07-02|Switzerland|Algeria": {
+      "status": "not_announced"
+    }
+  }
 }
