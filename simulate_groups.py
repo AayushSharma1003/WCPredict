@@ -44,6 +44,12 @@ def precompute_cdfs(remaining, params, elo):
 
 
 def sample_all(cdfs, n_sims, rng):
+    # Group stage is fully played → nothing left to sample.
+    # Return empty (n_sims, 0) arrays; downstream remaining_recs_by_group
+    # is empty for every group, so no index into these is ever attempted.
+    if cdfs.ndim < 2 or cdfs.shape[0] == 0:
+        empty = np.empty((n_sims, 0), dtype=np.int64)
+        return empty, empty
     n_matches = cdfs.shape[0]
     u = rng.random((n_sims, n_matches))
     idx = np.empty((n_sims, n_matches), dtype=np.int64)

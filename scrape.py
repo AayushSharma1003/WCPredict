@@ -29,6 +29,13 @@ RESULTS_URL = ("https://raw.githubusercontent.com/"
                "martj42/international_results/master/results.csv")
 LOCAL_PATH  = Path("data/results.csv")
 
+# Shootouts are a separate file in the same repo. We need this to know who won
+# a knockout match that ended level (regulation + ET). Fetched best-effort —
+# if it's ever unavailable the pipeline falls back to simulating drawn KOs.
+SHOOTOUTS_URL  = ("https://raw.githubusercontent.com/"
+                  "martj42/international_results/master/shootouts.csv")
+SHOOTOUTS_PATH = Path("data/shootouts.csv")
+
 REQUIRED_COLUMNS = {"date", "home_team", "away_team",
                     "home_score", "away_score",
                     "tournament", "city", "country", "neutral"}
@@ -42,6 +49,14 @@ MIN_EXPECTED_ROWS = 40_000
 def fetch_remote_csv() -> bytes:
     """Download the raw CSV from martj42's GitHub repo. Raises on failure."""
     r = requests.get(RESULTS_URL, timeout=TIMEOUT_SECONDS)
+    r.raise_for_status()
+    return r.content
+
+
+def fetch_shootouts() -> bytes:
+    """Download the shootouts CSV. Raises on failure — caller decides
+    whether to treat that as fatal."""
+    r = requests.get(SHOOTOUTS_URL, timeout=TIMEOUT_SECONDS)
     r.raise_for_status()
     return r.content
 

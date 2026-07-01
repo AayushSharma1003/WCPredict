@@ -26,7 +26,7 @@ import pandas as pd
 
 from model import load_params, load_elo_table, validate_params
 from bracket_data import BRACKET_PAIRINGS
-from knockout import simulate_match, build_r32_bracket
+from knockout import simulate_match, build_r32_bracket, load_played_knockouts, resolve_match
 
 # Reuse group-stage simulation building blocks from simulate_groups.py
 from standings import WC_GROUPS, load_wc_group_stage
@@ -66,6 +66,13 @@ def main():
     played_recs = played_records_by_group(played, WC_GROUPS)
     rem_recs    = remaining_records_by_group(remaining, WC_GROUPS)
 
+    # Any knockout matches that have already been played — we'll use their
+    # real outcomes deterministically instead of resampling.
+    played_ko = load_played_knockouts()
+    if played_ko:
+        print(f"  Knockout stage — {len(played_ko)} match(es) already played, "
+              f"treating deterministically")
+
     counts = defaultdict(lambda: {r: 0 for r in ROUNDS})
 
     print(f"Running {N_SIMS:,} full-tournament simulations...")
@@ -89,10 +96,10 @@ def main():
             counts[a]["R32"] += 1
             counts[b]["R32"] += 1
 
-        # 3. Simulate R32
+        # 3. Simulate R32 (or use real result if already played)
         winners = {}
         for m_id, a, b in r32_matches:
-            res = simulate_match(a, b, params, elo, rng)
+            res = resolve_match(a, b, params, elo, rng, played_ko)
             winners[m_id] = res["winner"]
 
         # 4. Simulate R16, QF, SF, F
@@ -102,7 +109,7 @@ def main():
                 b = winners[feed_b]
                 counts[a][round_name] += 1
                 counts[b][round_name] += 1
-                res = simulate_match(a, b, params, elo, rng)
+                res = resolve_match(a, b, params, elo, rng, played_ko)
                 winners[m_id] = res["winner"]
 
         # 5. Cup = winner of the final

@@ -81,6 +81,54 @@ BRACKET_PAIRINGS = {
 }
 
 
+# Knockout-stage schedule: match_id → (stage, venue-local date, kickoff UTC,
+# venue city, venue country). Source: FIFA official schedule as published on
+# fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026 and mirrored by
+# multiple outlets (Wikipedia, ESPN, Fox Sports, worldcupwiki.com).
+#
+# All venues are neutral. Kickoff times are UTC; the `date` field is the
+# match date at the venue's local calendar (matches with 8pm+ ET starts still
+# belong to that ET calendar day even though UTC has rolled over).
+KO_SCHEDULE = {
+    # ---- Round of 32: June 28 – July 3 ----
+    73:  ("R32", "2026-06-28", "19:00", "Inglewood",      "United States"),
+    76:  ("R32", "2026-06-29", "17:00", "Houston",        "United States"),
+    74:  ("R32", "2026-06-29", "20:30", "Foxborough",     "United States"),
+    75:  ("R32", "2026-06-29", "01:00", "Monterrey",      "Mexico"),
+    78:  ("R32", "2026-06-30", "17:00", "Arlington",      "United States"),
+    77:  ("R32", "2026-06-30", "21:00", "East Rutherford","United States"),
+    79:  ("R32", "2026-06-30", "01:00", "Mexico City",    "Mexico"),
+    80:  ("R32", "2026-07-01", "16:00", "Atlanta",        "United States"),
+    82:  ("R32", "2026-07-01", "20:00", "Seattle",        "United States"),
+    81:  ("R32", "2026-07-01", "00:00", "Santa Clara",    "United States"),
+    84:  ("R32", "2026-07-02", "19:00", "Inglewood",      "United States"),
+    83:  ("R32", "2026-07-02", "23:00", "Toronto",        "Canada"),
+    85:  ("R32", "2026-07-02", "03:00", "Vancouver",      "Canada"),
+    88:  ("R32", "2026-07-03", "18:00", "Arlington",      "United States"),
+    86:  ("R32", "2026-07-03", "22:00", "Miami Gardens",  "United States"),
+    87:  ("R32", "2026-07-03", "01:30", "Kansas City",    "United States"),
+    # ---- Round of 16: July 4 – 7 ----
+    90:  ("R16", "2026-07-04", "17:00", "Houston",        "United States"),
+    89:  ("R16", "2026-07-04", "21:00", "Philadelphia",   "United States"),
+    91:  ("R16", "2026-07-05", "20:00", "East Rutherford","United States"),
+    92:  ("R16", "2026-07-05", "00:00", "Mexico City",    "Mexico"),
+    93:  ("R16", "2026-07-06", "19:00", "Arlington",      "United States"),
+    94:  ("R16", "2026-07-06", "00:00", "Seattle",        "United States"),
+    95:  ("R16", "2026-07-07", "16:00", "Atlanta",        "United States"),
+    96:  ("R16", "2026-07-07", "20:00", "Vancouver",      "Canada"),
+    # ---- Quarter-finals: July 9 – 11 ----
+    97:  ("QF",  "2026-07-09", "20:00", "Foxborough",     "United States"),
+    98:  ("QF",  "2026-07-10", "19:00", "Inglewood",      "United States"),
+    99:  ("QF",  "2026-07-11", "21:00", "Miami Gardens",  "United States"),
+    100: ("QF",  "2026-07-11", "01:00", "Kansas City",    "United States"),
+    # ---- Semi-finals: July 14 – 15 ----
+    101: ("SF",  "2026-07-14", "19:00", "Arlington",      "United States"),
+    102: ("SF",  "2026-07-15", "19:00", "Atlanta",        "United States"),
+    # ---- Final: July 19 ----
+    104: ("F",   "2026-07-19", "19:00", "East Rutherford","United States"),
+}
+
+
 # ---- Annex C: 495-scenario lookup table ----
 # Each line: "KEY SOURCES" where KEY is the 8 sorted group letters of the
 # advancing thirds, and SOURCES is the 8-letter source-group sequence in
