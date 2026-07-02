@@ -3,7 +3,7 @@ Argentina,2219.2
 Spain,2191.2
 France,2178.7
 Brazil,2105.2
-England,2082.4
+England,2092.3
 Colombia,2079.3
 Portugal,2050.3
 Netherlands,2033.8
@@ -11,24 +11,24 @@ Mexico,2029.9
 Morocco,2006.5
 Norway,1973.4
 Germany,1972.2
+Belgium,1969.1
 Switzerland,1968.8
 Japan,1955.0
 Croatia,1953.1
-Belgium,1943.7
 Ecuador,1938.0
 Italy,1933.0
 Denmark,1919.5
 Uruguay,1912.6
 Austria,1894.3
 Turkey,1893.1
-Senegal,1890.4
 Australia,1886.6
 Paraguay,1876.4
 Algeria,1876.1
+United States,1873.0
 Nigeria,1872.8
 Iran,1871.1
+Senegal,1865.0
 Canada,1859.8
-United States,1857.8
 Yugoslavia,1850.2
 Egypt,1846.3
 Ukraine,1832.9
@@ -40,10 +40,10 @@ Serbia,1807.4
 Jersey,1805.5
 Chile,1802.4
 Greece,1802.1
-DR Congo,1800.2
 Czechoslovakia,1796.8
 Sweden,1796.2
 Scotland,1793.8
+DR Congo,1790.4
 Basque Country,1787.5
 Peru,1766.6
 Panama,1760.4
@@ -74,8 +74,8 @@ Northern Cyprus,1689.7
 Occitania,1686.7
 Padania,1686.7
 Bolivia,1681.7
-Bosnia and Herzegovina,1680.6
 Ghana,1678.0
+Bosnia and Herzegovina,1665.4
 New Zealand,1660.6
 Isle of Wight,1660.2
 Albania,1653.8
@@ -167,7 +167,7 @@ Madrid,1489.4
 Luhansk PR,1489.2
 Indonesia,1488.7
 North Vietnam,1488.2
-El Salvador,1487.8
+El Salvador,1487.9
 Martinique,1487.8
 Seborga,1486.4
 Guyana,1485.9
@@ -297,7 +297,7 @@ Eritrea,1209.3
 Aruba,1208.8
 São Tomé and Príncipe,1196.3
 Frøya,1194.4
-Afghanistan,1188.7
+Afghanistan,1187.4
 Dominica,1186.7
 Cook Islands,1177.3
 Gibraltar,1163.6
@@ -306,7 +306,7 @@ Myanmar,1148.2
 Andorra,1147.4
 Bonaire,1141.8
 Bangladesh,1137.9
-Pakistan,1136.5
+Pakistan,1137.1
 Nepal,1128.8
 Antigua and Barbuda,1127.3
 Tonga,1102.3
@@ -318,7 +318,7 @@ Somalia,1059.2
 Cayman Islands,1058.2
 British Virgin Islands,1037.2
 Seychelles,1033.5
-Maldives,1024.0
+Maldives,1024.7
 Mongolia,1018.7
 Turks and Caicos Islands,1014.0
 Sri Lanka,1011.1
@@ -326,7 +326,7 @@ Bahamas,1006.6
 Guam,1002.2
 Northern Mariana Islands,996.5
 United States Virgin Islands,985.9
-Liechtenstein,985.6
+Liechtenstein,985.5
 American Samoa,965.5
 Laos,952.3
 San Marino,937.0
