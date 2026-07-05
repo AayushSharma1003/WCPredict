@@ -1,17 +1,17 @@
 {
-  "generated_utc": "2026-07-04T00:13:36+00:00",
+  "generated_utc": "2026-07-05T01:23:34+00:00",
   "provider": "apifootball",
   "lineups": {
-    "2026-07-04|Paraguay|France": {
-      "status": "not_announced"
-    },
-    "2026-07-04|Canada|Morocco": {
-      "status": "not_announced"
-    },
     "2026-07-05|Brazil|Norway": {
       "status": "not_announced"
     },
     "2026-07-05|Mexico|England": {
+      "status": "not_announced"
+    },
+    "2026-07-06|Portugal|Spain": {
+      "status": "not_announced"
+    },
+    "2026-07-06|United States|Belgium": {
       "status": "not_announced"
     }
   }
