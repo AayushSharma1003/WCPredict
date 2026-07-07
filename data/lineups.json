@@ -1,13 +1,7 @@
 {
-  "generated_utc": "2026-07-06T04:20:55+00:00",
+  "generated_utc": "2026-07-07T01:23:13+00:00",
   "provider": "apifootball",
   "lineups": {
-    "2026-07-06|Portugal|Spain": {
-      "status": "not_announced"
-    },
-    "2026-07-06|United States|Belgium": {
-      "status": "not_announced"
-    },
     "2026-07-07|Argentina|Egypt": {
       "status": "not_announced"
     },
