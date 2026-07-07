@@ -1,18 +1,18 @@
 team,elo
+Spain,2226.2
 Argentina,2222.1
-Spain,2207.3
 France,2187.7
 England,2125.5
 Colombia,2084.7
-Portugal,2072.1
 Brazil,2064.3
+Portugal,2053.2
 Morocco,2038.0
 Netherlands,2033.8
+Belgium,2022.2
 Norway,2014.3
 Switzerland,2002.0
 Mexico,1996.7
 Germany,1972.2
-Belgium,1969.1
 Japan,1955.0
 Ecuador,1938.0
 Italy,1933.0
@@ -22,7 +22,6 @@ Uruguay,1912.6
 Turkey,1893.1
 Australia,1883.1
 Austria,1878.2
-United States,1873.0
 Nigeria,1872.8
 Iran,1871.1
 Paraguay,1867.4
@@ -35,6 +34,7 @@ Ivory Coast,1832.2
 Canada,1828.2
 Russia,1824.5
 South Korea,1821.7
+United States,1819.9
 Venezuela,1817.4
 Serbia,1807.4
 Jersey,1805.5
@@ -297,7 +297,7 @@ Eritrea,1209.3
 Aruba,1208.8
 São Tomé and Príncipe,1196.3
 Frøya,1194.4
-Afghanistan,1187.4
+Afghanistan,1188.7
 Dominica,1186.7
 Cook Islands,1177.3
 Gibraltar,1163.6
@@ -306,7 +306,7 @@ Myanmar,1148.2
 Andorra,1147.4
 Bonaire,1141.8
 Bangladesh,1137.9
-Pakistan,1137.1
+Pakistan,1136.5
 Nepal,1128.8
 Antigua and Barbuda,1127.3
 Tonga,1102.3
@@ -318,7 +318,7 @@ Somalia,1059.2
 Cayman Islands,1058.2
 British Virgin Islands,1037.2
 Seychelles,1033.5
-Maldives,1024.7
+Maldives,1024.0
 Mongolia,1018.7
 Turks and Caicos Islands,1014.0
 Sri Lanka,1011.1
