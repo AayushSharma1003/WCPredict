@@ -2,9 +2,87 @@
   "n_sims": 10000,
   "champions": [
     {
+      "team": "Argentina",
+      "cup_prob": 0.2772,
+      "cup_count": 2772,
+      "modal_route": [
+        {
+          "round": "R32",
+          "modal_opponent": "Cape Verde",
+          "modal_prob_given_champ": 1.0,
+          "top_opponents": [
+            {
+              "opponent": "Cape Verde",
+              "prob_given_champ": 1.0
+            }
+          ]
+        },
+        {
+          "round": "R16",
+          "modal_opponent": "Egypt",
+          "modal_prob_given_champ": 1.0,
+          "top_opponents": [
+            {
+              "opponent": "Egypt",
+              "prob_given_champ": 1.0
+            }
+          ]
+        },
+        {
+          "round": "QF",
+          "modal_opponent": "Switzerland",
+          "modal_prob_given_champ": 1.0,
+          "top_opponents": [
+            {
+              "opponent": "Switzerland",
+              "prob_given_champ": 1.0
+            }
+          ]
+        },
+        {
+          "round": "SF",
+          "modal_opponent": "England",
+          "modal_prob_given_champ": 0.5808080808080808,
+          "top_opponents": [
+            {
+              "opponent": "England",
+              "prob_given_champ": 0.5808080808080808
+            },
+            {
+              "opponent": "Norway",
+              "prob_given_champ": 0.41919191919191917
+            }
+          ]
+        },
+        {
+          "round": "F",
+          "modal_opponent": "Spain",
+          "modal_prob_given_champ": 0.38492063492063494,
+          "top_opponents": [
+            {
+              "opponent": "Spain",
+              "prob_given_champ": 0.38492063492063494
+            },
+            {
+              "opponent": "France",
+              "prob_given_champ": 0.3430735930735931
+            },
+            {
+              "opponent": "Morocco",
+              "prob_given_champ": 0.1497113997113997
+            },
+            {
+              "opponent": "Belgium",
+              "prob_given_champ": 0.12229437229437229
+            }
+          ]
+        }
+      ]
+    },
+    {
       "team": "Spain",
-      "cup_prob": 0.2661,
-      "cup_count": 2661,
+      "cup_prob": 0.2589,
+      "cup_count": 2589,
       "modal_route": [
         {
           "round": "R32",
@@ -42,124 +120,38 @@
         {
           "round": "SF",
           "modal_opponent": "France",
-          "modal_prob_given_champ": 0.6174370537391958,
+          "modal_prob_given_champ": 0.6172267284665894,
           "top_opponents": [
             {
               "opponent": "France",
-              "prob_given_champ": 0.6174370537391958
+              "prob_given_champ": 0.6172267284665894
             },
             {
               "opponent": "Morocco",
-              "prob_given_champ": 0.3825629462608042
+              "prob_given_champ": 0.38277327153341056
             }
           ]
         },
         {
           "round": "F",
           "modal_opponent": "Argentina",
-          "modal_prob_given_champ": 0.3333333333333333,
+          "modal_prob_given_champ": 0.4094244882193897,
           "top_opponents": [
             {
               "opponent": "Argentina",
-              "prob_given_champ": 0.3333333333333333
+              "prob_given_champ": 0.4094244882193897
             },
             {
               "opponent": "England",
-              "prob_given_champ": 0.3043968432919955
+              "prob_given_champ": 0.3120896098879876
             },
             {
               "opponent": "Norway",
-              "prob_given_champ": 0.155956407365652
-            },
-            {
-              "opponent": "Colombia",
-              "prob_given_champ": 0.13491168733558812
+              "prob_given_champ": 0.15179606025492468
             },
             {
               "opponent": "Switzerland",
-              "prob_given_champ": 0.061255167230364525
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "team": "Argentina",
-      "cup_prob": 0.2234,
-      "cup_count": 2234,
-      "modal_route": [
-        {
-          "round": "R32",
-          "modal_opponent": "Cape Verde",
-          "modal_prob_given_champ": 1.0,
-          "top_opponents": [
-            {
-              "opponent": "Cape Verde",
-              "prob_given_champ": 1.0
-            }
-          ]
-        },
-        {
-          "round": "R16",
-          "modal_opponent": "Egypt",
-          "modal_prob_given_champ": 1.0,
-          "top_opponents": [
-            {
-              "opponent": "Egypt",
-              "prob_given_champ": 1.0
-            }
-          ]
-        },
-        {
-          "round": "QF",
-          "modal_opponent": "Colombia",
-          "modal_prob_given_champ": 0.5658012533572068,
-          "top_opponents": [
-            {
-              "opponent": "Colombia",
-              "prob_given_champ": 0.5658012533572068
-            },
-            {
-              "opponent": "Switzerland",
-              "prob_given_champ": 0.4341987466427932
-            }
-          ]
-        },
-        {
-          "round": "SF",
-          "modal_opponent": "England",
-          "modal_prob_given_champ": 0.5984780662488809,
-          "top_opponents": [
-            {
-              "opponent": "England",
-              "prob_given_champ": 0.5984780662488809
-            },
-            {
-              "opponent": "Norway",
-              "prob_given_champ": 0.40152193375111905
-            }
-          ]
-        },
-        {
-          "round": "F",
-          "modal_opponent": "Spain",
-          "modal_prob_given_champ": 0.39256938227394805,
-          "top_opponents": [
-            {
-              "opponent": "Spain",
-              "prob_given_champ": 0.39256938227394805
-            },
-            {
-              "opponent": "France",
-              "prob_given_champ": 0.333034914950761
-            },
-            {
-              "opponent": "Morocco",
-              "prob_given_champ": 0.1495076096687556
-            },
-            {
-              "opponent": "Belgium",
-              "prob_given_champ": 0.12488809310653537
+              "prob_given_champ": 0.12668984163769795
             }
           ]
         }
@@ -167,8 +159,8 @@
     },
     {
       "team": "France",
-      "cup_prob": 0.1964,
-      "cup_count": 1964,
+      "cup_prob": 0.186,
+      "cup_count": 1860,
       "modal_route": [
         {
           "round": "R32",
@@ -206,42 +198,38 @@
         {
           "round": "SF",
           "modal_opponent": "Spain",
-          "modal_prob_given_champ": 0.6415478615071283,
+          "modal_prob_given_champ": 0.6327956989247312,
           "top_opponents": [
             {
               "opponent": "Spain",
-              "prob_given_champ": 0.6415478615071283
+              "prob_given_champ": 0.6327956989247312
             },
             {
               "opponent": "Belgium",
-              "prob_given_champ": 0.35845213849287166
+              "prob_given_champ": 0.3672043010752688
             }
           ]
         },
         {
           "round": "F",
-          "modal_opponent": "England",
-          "modal_prob_given_champ": 0.329938900203666,
+          "modal_opponent": "Argentina",
+          "modal_prob_given_champ": 0.42096774193548386,
           "top_opponents": [
             {
-              "opponent": "England",
-              "prob_given_champ": 0.329938900203666
+              "opponent": "Argentina",
+              "prob_given_champ": 0.42096774193548386
             },
             {
-              "opponent": "Argentina",
-              "prob_given_champ": 0.3085539714867617
+              "opponent": "England",
+              "prob_given_champ": 0.3118279569892473
             },
             {
               "opponent": "Norway",
-              "prob_given_champ": 0.16547861507128309
-            },
-            {
-              "opponent": "Colombia",
-              "prob_given_champ": 0.12525458248472504
+              "prob_given_champ": 0.13548387096774195
             },
             {
               "opponent": "Switzerland",
-              "prob_given_champ": 0.05855397148676171
+              "prob_given_champ": 0.13172043010752688
             }
           ]
         }
@@ -249,8 +237,8 @@
     },
     {
       "team": "England",
-      "cup_prob": 0.1327,
-      "cup_count": 1327,
+      "cup_prob": 0.1237,
+      "cup_count": 1237,
       "modal_route": [
         {
           "round": "R32",
@@ -288,128 +276,38 @@
         {
           "round": "SF",
           "modal_opponent": "Argentina",
-          "modal_prob_given_champ": 0.4996232102486812,
+          "modal_prob_given_champ": 0.6168148746968473,
           "top_opponents": [
             {
               "opponent": "Argentina",
-              "prob_given_champ": 0.4996232102486812
-            },
-            {
-              "opponent": "Colombia",
-              "prob_given_champ": 0.26978146194423513
+              "prob_given_champ": 0.6168148746968473
             },
             {
               "opponent": "Switzerland",
-              "prob_given_champ": 0.17709118311981914
-            },
-            {
-              "opponent": "Egypt",
-              "prob_given_champ": 0.053504144687264506
+              "prob_given_champ": 0.3831851253031528
             }
           ]
         },
         {
           "round": "F",
           "modal_opponent": "Spain",
-          "modal_prob_given_champ": 0.3790504898266767,
+          "modal_prob_given_champ": 0.3670169765561843,
           "top_opponents": [
             {
               "opponent": "Spain",
-              "prob_given_champ": 0.3790504898266767
+              "prob_given_champ": 0.3670169765561843
             },
             {
               "opponent": "France",
-              "prob_given_champ": 0.34513941220798794
+              "prob_given_champ": 0.32821341956346
             },
             {
               "opponent": "Morocco",
-              "prob_given_champ": 0.15071590052750566
+              "prob_given_champ": 0.16572352465642684
             },
             {
               "opponent": "Belgium",
-              "prob_given_champ": 0.12509419743782968
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "team": "Colombia",
-      "cup_prob": 0.0485,
-      "cup_count": 485,
-      "modal_route": [
-        {
-          "round": "R32",
-          "modal_opponent": "Ghana",
-          "modal_prob_given_champ": 1.0,
-          "top_opponents": [
-            {
-              "opponent": "Ghana",
-              "prob_given_champ": 1.0
-            }
-          ]
-        },
-        {
-          "round": "R16",
-          "modal_opponent": "Switzerland",
-          "modal_prob_given_champ": 1.0,
-          "top_opponents": [
-            {
-              "opponent": "Switzerland",
-              "prob_given_champ": 1.0
-            }
-          ]
-        },
-        {
-          "round": "QF",
-          "modal_opponent": "Argentina",
-          "modal_prob_given_champ": 0.7463917525773196,
-          "top_opponents": [
-            {
-              "opponent": "Argentina",
-              "prob_given_champ": 0.7463917525773196
-            },
-            {
-              "opponent": "Egypt",
-              "prob_given_champ": 0.2536082474226804
-            }
-          ]
-        },
-        {
-          "round": "SF",
-          "modal_opponent": "England",
-          "modal_prob_given_champ": 0.6164948453608248,
-          "top_opponents": [
-            {
-              "opponent": "England",
-              "prob_given_champ": 0.6164948453608248
-            },
-            {
-              "opponent": "Norway",
-              "prob_given_champ": 0.3835051546391753
-            }
-          ]
-        },
-        {
-          "round": "F",
-          "modal_opponent": "Spain",
-          "modal_prob_given_champ": 0.334020618556701,
-          "top_opponents": [
-            {
-              "opponent": "Spain",
-              "prob_given_champ": 0.334020618556701
-            },
-            {
-              "opponent": "France",
-              "prob_given_champ": 0.311340206185567
-            },
-            {
-              "opponent": "Morocco",
-              "prob_given_champ": 0.18350515463917524
-            },
-            {
-              "opponent": "Belgium",
-              "prob_given_champ": 0.1711340206185567
+              "prob_given_champ": 0.13904607922392886
             }
           ]
         }
@@ -417,8 +315,8 @@
     },
     {
       "team": "Morocco",
-      "cup_prob": 0.0418,
-      "cup_count": 418,
+      "cup_prob": 0.0421,
+      "cup_count": 421,
       "modal_route": [
         {
           "round": "R32",
@@ -456,42 +354,38 @@
         {
           "round": "SF",
           "modal_opponent": "Spain",
-          "modal_prob_given_champ": 0.6028708133971292,
+          "modal_prob_given_champ": 0.6033254156769596,
           "top_opponents": [
             {
               "opponent": "Spain",
-              "prob_given_champ": 0.6028708133971292
+              "prob_given_champ": 0.6033254156769596
             },
             {
               "opponent": "Belgium",
-              "prob_given_champ": 0.39712918660287083
+              "prob_given_champ": 0.39667458432304037
             }
           ]
         },
         {
           "round": "F",
           "modal_opponent": "Argentina",
-          "modal_prob_given_champ": 0.30861244019138756,
+          "modal_prob_given_champ": 0.36342042755344417,
           "top_opponents": [
             {
               "opponent": "Argentina",
-              "prob_given_champ": 0.30861244019138756
+              "prob_given_champ": 0.36342042755344417
             },
             {
               "opponent": "England",
-              "prob_given_champ": 0.2894736842105263
-            },
-            {
-              "opponent": "Norway",
-              "prob_given_champ": 0.18181818181818182
-            },
-            {
-              "opponent": "Colombia",
-              "prob_given_champ": 0.12679425837320574
+              "prob_given_champ": 0.2921615201900237
             },
             {
               "opponent": "Switzerland",
-              "prob_given_champ": 0.08133971291866028
+              "prob_given_champ": 0.1828978622327791
+            },
+            {
+              "opponent": "Norway",
+              "prob_given_champ": 0.16152019002375298
             }
           ]
         }
@@ -499,8 +393,8 @@
     },
     {
       "team": "Norway",
-      "cup_prob": 0.0402,
-      "cup_count": 402,
+      "cup_prob": 0.0393,
+      "cup_count": 393,
       "modal_route": [
         {
           "round": "R32",
@@ -538,46 +432,38 @@
         {
           "round": "SF",
           "modal_opponent": "Argentina",
-          "modal_prob_given_champ": 0.48258706467661694,
+          "modal_prob_given_champ": 0.6208651399491094,
           "top_opponents": [
             {
               "opponent": "Argentina",
-              "prob_given_champ": 0.48258706467661694
-            },
-            {
-              "opponent": "Colombia",
-              "prob_given_champ": 0.2462686567164179
+              "prob_given_champ": 0.6208651399491094
             },
             {
               "opponent": "Switzerland",
-              "prob_given_champ": 0.21144278606965175
-            },
-            {
-              "opponent": "Egypt",
-              "prob_given_champ": 0.05970149253731343
+              "prob_given_champ": 0.3791348600508906
             }
           ]
         },
         {
           "round": "F",
           "modal_opponent": "Spain",
-          "modal_prob_given_champ": 0.3383084577114428,
+          "modal_prob_given_champ": 0.3944020356234097,
           "top_opponents": [
             {
               "opponent": "Spain",
-              "prob_given_champ": 0.3383084577114428
+              "prob_given_champ": 0.3944020356234097
             },
             {
               "opponent": "France",
-              "prob_given_champ": 0.3358208955223881
+              "prob_given_champ": 0.3155216284987277
             },
             {
               "opponent": "Morocco",
-              "prob_given_champ": 0.16666666666666666
+              "prob_given_champ": 0.1806615776081425
             },
             {
               "opponent": "Belgium",
-              "prob_given_champ": 0.15920398009950248
+              "prob_given_champ": 0.10941475826972011
             }
           ]
         }
@@ -585,8 +471,8 @@
     },
     {
       "team": "Belgium",
-      "cup_prob": 0.0354,
-      "cup_count": 354,
+      "cup_prob": 0.037,
+      "cup_count": 370,
       "modal_route": [
         {
           "round": "R32",
@@ -624,42 +510,38 @@
         {
           "round": "SF",
           "modal_opponent": "France",
-          "modal_prob_given_champ": 0.5932203389830508,
+          "modal_prob_given_champ": 0.5324324324324324,
           "top_opponents": [
             {
               "opponent": "France",
-              "prob_given_champ": 0.5932203389830508
+              "prob_given_champ": 0.5324324324324324
             },
             {
               "opponent": "Morocco",
-              "prob_given_champ": 0.4067796610169492
+              "prob_given_champ": 0.46756756756756757
             }
           ]
         },
         {
           "round": "F",
-          "modal_opponent": "England",
-          "modal_prob_given_champ": 0.2909604519774011,
+          "modal_opponent": "Argentina",
+          "modal_prob_given_champ": 0.372972972972973,
           "top_opponents": [
             {
-              "opponent": "England",
-              "prob_given_champ": 0.2909604519774011
-            },
-            {
               "opponent": "Argentina",
-              "prob_given_champ": 0.2598870056497175
+              "prob_given_champ": 0.372972972972973
             },
             {
-              "opponent": "Colombia",
-              "prob_given_champ": 0.18361581920903955
-            },
-            {
-              "opponent": "Norway",
-              "prob_given_champ": 0.15819209039548024
+              "opponent": "England",
+              "prob_given_champ": 0.2918918918918919
             },
             {
               "opponent": "Switzerland",
-              "prob_given_champ": 0.0903954802259887
+              "prob_given_champ": 0.1891891891891892
+            },
+            {
+              "opponent": "Norway",
+              "prob_given_champ": 0.14594594594594595
             }
           ]
         }
@@ -667,8 +549,8 @@
     },
     {
       "team": "Switzerland",
-      "cup_prob": 0.0148,
-      "cup_count": 148,
+      "cup_prob": 0.0358,
+      "cup_count": 358,
       "modal_route": [
         {
           "round": "R32",
@@ -695,131 +577,49 @@
         {
           "round": "QF",
           "modal_opponent": "Argentina",
-          "modal_prob_given_champ": 0.668918918918919,
+          "modal_prob_given_champ": 1.0,
           "top_opponents": [
             {
               "opponent": "Argentina",
-              "prob_given_champ": 0.668918918918919
-            },
-            {
-              "opponent": "Egypt",
-              "prob_given_champ": 0.3310810810810811
+              "prob_given_champ": 1.0
             }
           ]
         },
         {
           "round": "SF",
           "modal_opponent": "England",
-          "modal_prob_given_champ": 0.581081081081081,
+          "modal_prob_given_champ": 0.5726256983240223,
           "top_opponents": [
             {
               "opponent": "England",
-              "prob_given_champ": 0.581081081081081
+              "prob_given_champ": 0.5726256983240223
             },
             {
               "opponent": "Norway",
-              "prob_given_champ": 0.4189189189189189
+              "prob_given_champ": 0.4273743016759777
             }
           ]
         },
         {
           "round": "F",
-          "modal_opponent": "France",
-          "modal_prob_given_champ": 0.3581081081081081,
+          "modal_opponent": "Spain",
+          "modal_prob_given_champ": 0.3743016759776536,
           "top_opponents": [
             {
-              "opponent": "France",
-              "prob_given_champ": 0.3581081081081081
+              "opponent": "Spain",
+              "prob_given_champ": 0.3743016759776536
             },
             {
-              "opponent": "Spain",
-              "prob_given_champ": 0.35135135135135137
+              "opponent": "France",
+              "prob_given_champ": 0.3407821229050279
             },
             {
               "opponent": "Morocco",
-              "prob_given_champ": 0.16216216216216217
+              "prob_given_champ": 0.1452513966480447
             },
             {
               "opponent": "Belgium",
-              "prob_given_champ": 0.12837837837837837
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "team": "Egypt",
-      "cup_prob": 0.0007,
-      "cup_count": 7,
-      "modal_route": [
-        {
-          "round": "R32",
-          "modal_opponent": "Australia",
-          "modal_prob_given_champ": 1.0,
-          "top_opponents": [
-            {
-              "opponent": "Australia",
-              "prob_given_champ": 1.0
-            }
-          ]
-        },
-        {
-          "round": "R16",
-          "modal_opponent": "Argentina",
-          "modal_prob_given_champ": 1.0,
-          "top_opponents": [
-            {
-              "opponent": "Argentina",
-              "prob_given_champ": 1.0
-            }
-          ]
-        },
-        {
-          "round": "QF",
-          "modal_opponent": "Colombia",
-          "modal_prob_given_champ": 0.7142857142857143,
-          "top_opponents": [
-            {
-              "opponent": "Colombia",
-              "prob_given_champ": 0.7142857142857143
-            },
-            {
-              "opponent": "Switzerland",
-              "prob_given_champ": 0.2857142857142857
-            }
-          ]
-        },
-        {
-          "round": "SF",
-          "modal_opponent": "England",
-          "modal_prob_given_champ": 0.7142857142857143,
-          "top_opponents": [
-            {
-              "opponent": "England",
-              "prob_given_champ": 0.7142857142857143
-            },
-            {
-              "opponent": "Norway",
-              "prob_given_champ": 0.2857142857142857
-            }
-          ]
-        },
-        {
-          "round": "F",
-          "modal_opponent": "France",
-          "modal_prob_given_champ": 0.5714285714285714,
-          "top_opponents": [
-            {
-              "opponent": "France",
-              "prob_given_champ": 0.5714285714285714
-            },
-            {
-              "opponent": "Spain",
-              "prob_given_champ": 0.2857142857142857
-            },
-            {
-              "opponent": "Morocco",
-              "prob_given_champ": 0.14285714285714285
+              "prob_given_champ": 0.13966480446927373
             }
           ]
         }

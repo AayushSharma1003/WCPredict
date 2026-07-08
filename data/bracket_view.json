@@ -883,29 +883,21 @@
           "sides": [
             {
               "modal_team": "Argentina",
-              "modal_prob": 0.8778,
+              "modal_prob": 1.0,
               "top_teams": [
                 {
                   "team": "Argentina",
-                  "prob": 0.8778
-                },
-                {
-                  "team": "Egypt",
-                  "prob": 0.1222
+                  "prob": 1.0
                 }
               ]
             },
             {
-              "modal_team": "Colombia",
-              "modal_prob": 0.5993,
+              "modal_team": "Switzerland",
+              "modal_prob": 1.0,
               "top_teams": [
                 {
-                  "team": "Colombia",
-                  "prob": 0.5993
-                },
-                {
                   "team": "Switzerland",
-                  "prob": 0.4007
+                  "prob": 1.0
                 }
               ]
             }
@@ -913,23 +905,8 @@
           "top_matchups": [
             {
               "team_a": "Argentina",
-              "team_b": "Colombia",
-              "prob": 0.5264
-            },
-            {
-              "team_a": "Argentina",
               "team_b": "Switzerland",
-              "prob": 0.3514
-            },
-            {
-              "team_a": "Egypt",
-              "team_b": "Colombia",
-              "prob": 0.0729
-            },
-            {
-              "team_a": "Egypt",
-              "team_b": "Switzerland",
-              "prob": 0.0493
+              "prob": 1.0
             }
           ]
         }
@@ -943,29 +920,29 @@
           "sides": [
             {
               "modal_team": "France",
-              "modal_prob": 0.6722,
+              "modal_prob": 0.6721,
               "top_teams": [
                 {
                   "team": "France",
-                  "prob": 0.6722
+                  "prob": 0.6721
                 },
                 {
                   "team": "Morocco",
-                  "prob": 0.3278
+                  "prob": 0.3279
                 }
               ]
             },
             {
               "modal_team": "Spain",
-              "modal_prob": 0.7324,
+              "modal_prob": 0.7323,
               "top_teams": [
                 {
                   "team": "Spain",
-                  "prob": 0.7324
+                  "prob": 0.7323
                 },
                 {
                   "team": "Belgium",
-                  "prob": 0.2676
+                  "prob": 0.2677
                 }
               ]
             }
@@ -974,22 +951,22 @@
             {
               "team_a": "France",
               "team_b": "Spain",
-              "prob": 0.4925
+              "prob": 0.4935
             },
             {
               "team_a": "Morocco",
               "team_b": "Spain",
-              "prob": 0.2399
+              "prob": 0.2388
             },
             {
               "team_a": "France",
               "team_b": "Belgium",
-              "prob": 0.1797
+              "prob": 0.1786
             },
             {
               "team_a": "Morocco",
               "team_b": "Belgium",
-              "prob": 0.0879
+              "prob": 0.0891
             }
           ]
         },
@@ -998,37 +975,29 @@
           "sides": [
             {
               "modal_team": "England",
-              "modal_prob": 0.6377,
+              "modal_prob": 0.6355,
               "top_teams": [
                 {
                   "team": "England",
-                  "prob": 0.6377
+                  "prob": 0.6355
                 },
                 {
                   "team": "Norway",
-                  "prob": 0.3623
+                  "prob": 0.3645
                 }
               ]
             },
             {
               "modal_team": "Argentina",
-              "modal_prob": 0.6031,
+              "modal_prob": 0.7398,
               "top_teams": [
                 {
                   "team": "Argentina",
-                  "prob": 0.6031
-                },
-                {
-                  "team": "Colombia",
-                  "prob": 0.2418
+                  "prob": 0.7398
                 },
                 {
                   "team": "Switzerland",
-                  "prob": 0.1247
-                },
-                {
-                  "team": "Egypt",
-                  "prob": 0.0304
+                  "prob": 0.2602
                 }
               ]
             }
@@ -1037,27 +1006,22 @@
             {
               "team_a": "England",
               "team_b": "Argentina",
-              "prob": 0.3832
+              "prob": 0.4695
             },
             {
               "team_a": "Norway",
               "team_b": "Argentina",
-              "prob": 0.2199
-            },
-            {
-              "team_a": "England",
-              "team_b": "Colombia",
-              "prob": 0.1589
-            },
-            {
-              "team_a": "Norway",
-              "team_b": "Colombia",
-              "prob": 0.0829
+              "prob": 0.2703
             },
             {
               "team_a": "England",
               "team_b": "Switzerland",
-              "prob": 0.077
+              "prob": 0.166
+            },
+            {
+              "team_a": "Norway",
+              "team_b": "Switzerland",
+              "prob": 0.0942
             }
           ]
         }
@@ -1071,49 +1035,45 @@
           "sides": [
             {
               "modal_team": "Spain",
-              "modal_prob": 0.4393,
+              "modal_prob": 0.4399,
               "top_teams": [
                 {
                   "team": "Spain",
-                  "prob": 0.4393
+                  "prob": 0.4399
                 },
                 {
                   "team": "France",
-                  "prob": 0.3509
+                  "prob": 0.3463
                 },
                 {
                   "team": "Morocco",
-                  "prob": 0.1133
+                  "prob": 0.1164
                 },
                 {
                   "team": "Belgium",
-                  "prob": 0.0965
+                  "prob": 0.0974
                 }
               ]
             },
             {
               "modal_team": "Argentina",
-              "modal_prob": 0.3948,
+              "modal_prob": 0.4906,
               "top_teams": [
                 {
                   "team": "Argentina",
-                  "prob": 0.3948
+                  "prob": 0.4906
                 },
                 {
                   "team": "England",
-                  "prob": 0.3009
+                  "prob": 0.2856
                 },
                 {
                   "team": "Norway",
-                  "prob": 0.1274
-                },
-                {
-                  "team": "Colombia",
-                  "prob": 0.1208
+                  "prob": 0.116
                 },
                 {
                   "team": "Switzerland",
-                  "prob": 0.0492
+                  "prob": 0.1078
                 }
               ]
             }
@@ -1122,27 +1082,27 @@
             {
               "team_a": "Spain",
               "team_b": "Argentina",
-              "prob": 0.1764
+              "prob": 0.2127
             },
             {
               "team_a": "France",
               "team_b": "Argentina",
-              "prob": 0.135
+              "prob": 0.1734
             },
             {
               "team_a": "Spain",
               "team_b": "England",
-              "prob": 0.1313
+              "prob": 0.1262
             },
             {
               "team_a": "France",
               "team_b": "England",
-              "prob": 0.1106
+              "prob": 0.0986
             },
             {
-              "team_a": "Spain",
-              "team_b": "Norway",
-              "prob": 0.0551
+              "team_a": "Morocco",
+              "team_b": "Argentina",
+              "prob": 0.0568
             }
           ]
         }

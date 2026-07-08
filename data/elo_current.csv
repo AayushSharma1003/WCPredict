@@ -1,16 +1,16 @@
 team,elo
+Argentina,2228.4
 Spain,2226.2
-Argentina,2222.1
 France,2187.7
 England,2125.5
-Colombia,2084.7
+Colombia,2077.7
 Brazil,2064.3
 Portugal,2053.2
 Morocco,2038.0
 Netherlands,2033.8
 Belgium,2022.2
 Norway,2014.3
-Switzerland,2002.0
+Switzerland,2009.0
 Mexico,1996.7
 Germany,1972.2
 Japan,1955.0
@@ -27,7 +27,7 @@ Iran,1871.1
 Paraguay,1867.4
 Senegal,1865.0
 Yugoslavia,1850.2
-Egypt,1849.8
+Egypt,1843.5
 Algeria,1842.8
 Ukraine,1832.9
 Ivory Coast,1832.2
@@ -75,7 +75,7 @@ Occitania,1686.7
 Padania,1686.7
 Bolivia,1681.7
 Ghana,1672.5
-Bosnia and Herzegovina,1665.5
+Bosnia and Herzegovina,1665.4
 New Zealand,1660.6
 Isle of Wight,1660.2
 Albania,1653.8
@@ -142,7 +142,7 @@ Surrey,1516.2
 Biafra,1514.8
 Elba Island,1514.3
 Parishes of Jersey,1513.9
-Gabon,1512.3
+Gabon,1512.2
 Canary Islands,1512.1
 Donetsk PR,1511.8
 Mapuche,1508.5
@@ -167,7 +167,7 @@ Madrid,1489.4
 Luhansk PR,1489.2
 Indonesia,1488.7
 North Vietnam,1488.2
-El Salvador,1487.8
+El Salvador,1487.9
 Martinique,1487.8
 Seborga,1486.4
 Guyana,1485.9
@@ -249,7 +249,7 @@ Raetia,1391.5
 Azerbaijan,1389.2
 Botswana,1387.7
 Turkmenistan,1387.3
-Saint Vincent and the Grenadines,1372.2
+Saint Vincent and the Grenadines,1372.3
 Cyprus,1372.0
 Central African Republic,1371.1
 Vietnam Republic,1367.1
@@ -272,7 +272,7 @@ Micronesia,1328.4
 Sark,1328.0
 Latvia,1326.2
 Hong Kong,1325.2
-Saint Martin,1324.2
+Saint Martin,1324.1
 Sint Maarten,1310.3
 Yemen,1303.6
 Belize,1298.3
@@ -280,7 +280,7 @@ Wallis Islands and Futuna,1297.3
 Grenada,1295.7
 Singapore,1288.7
 Saint Pierre and Miquelon,1285.6
-Saint Kitts and Nevis,1283.2
+Saint Kitts and Nevis,1283.0
 Darfur,1274.8
 South Sudan,1273.9
 Tibet,1267.0
@@ -326,11 +326,11 @@ Bahamas,1006.6
 Guam,1002.2
 Northern Mariana Islands,996.5
 United States Virgin Islands,985.9
-Liechtenstein,985.6
+Liechtenstein,985.5
 American Samoa,965.5
 Laos,952.3
 San Marino,937.0
-Anguilla,924.8
+Anguilla,924.9
 Timor-Leste,923.3
 Brunei,912.3
 Macau,890.6
