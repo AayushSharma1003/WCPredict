@@ -1,78 +1,54 @@
 {
   "n_sims": 10000,
-  "n_unique_pairings": 12,
+  "n_unique_pairings": 8,
   "pairings": [
     {
       "team_a": "Argentina",
-      "team_b": "France",
-      "prob": 0.2786,
-      "count": 2786
+      "team_b": "Spain",
+      "prob": 0.2641,
+      "count": 2641
     },
     {
       "team_a": "Argentina",
+      "team_b": "France",
+      "prob": 0.2347,
+      "count": 2347
+    },
+    {
+      "team_a": "England",
       "team_b": "Spain",
-      "prob": 0.1883,
-      "count": 1883
+      "prob": 0.1437,
+      "count": 1437
     },
     {
       "team_a": "England",
       "team_b": "France",
-      "prob": 0.1598,
-      "count": 1598
-    },
-    {
-      "team_a": "England",
-      "team_b": "Spain",
-      "prob": 0.0995,
-      "count": 995
-    },
-    {
-      "team_a": "France",
-      "team_b": "Norway",
-      "prob": 0.0591,
-      "count": 591
-    },
-    {
-      "team_a": "France",
-      "team_b": "Switzerland",
-      "prob": 0.056,
-      "count": 560
+      "prob": 0.1353,
+      "count": 1353
     },
     {
       "team_a": "Norway",
       "team_b": "Spain",
-      "prob": 0.0436,
-      "count": 436
+      "prob": 0.064,
+      "count": 640
     },
     {
       "team_a": "Spain",
       "team_b": "Switzerland",
-      "prob": 0.0398,
-      "count": 398
+      "prob": 0.0561,
+      "count": 561
     },
     {
-      "team_a": "Argentina",
-      "team_b": "Belgium",
-      "prob": 0.0374,
-      "count": 374
-    },
-    {
-      "team_a": "Belgium",
-      "team_b": "England",
-      "prob": 0.0213,
-      "count": 213
-    },
-    {
-      "team_a": "Belgium",
-      "team_b": "Switzerland",
-      "prob": 0.0088,
-      "count": 88
-    },
-    {
-      "team_a": "Belgium",
+      "team_a": "France",
       "team_b": "Norway",
-      "prob": 0.0078,
-      "count": 78
+      "prob": 0.0533,
+      "count": 533
+    },
+    {
+      "team_a": "France",
+      "team_b": "Switzerland",
+      "prob": 0.0488,
+      "count": 488
     }
   ]
 }
