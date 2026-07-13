@@ -1,17 +1,17 @@
 team,elo
+Argentina,2248.2
 Spain,2240.4
-Argentina,2228.4
 France,2214.4
-England,2125.5
+England,2146.2
 Colombia,2077.7
 Brazil,2064.3
 Portugal,2053.2
 Netherlands,2033.8
-Norway,2014.3
 Morocco,2011.3
-Switzerland,2009.0
 Belgium,2008.0
 Mexico,1996.7
+Norway,1993.6
+Switzerland,1989.2
 Germany,1972.2
 Japan,1955.0
 Ecuador,1938.0
@@ -50,7 +50,7 @@ Panama,1760.4
 Poland,1759.3
 Hungary,1757.6
 Czech Republic,1747.2
-Guernsey,1746.1
+Guernsey,1746.2
 Kosovo,1742.4
 Republic of Ireland,1740.5
 Slovenia,1737.4
@@ -61,7 +61,7 @@ Cameroon,1719.1
 Uzbekistan,1714.3
 Slovakia,1712.2
 Georgia,1712.0
-Isle of Man,1709.2
+Isle of Man,1709.3
 Jordan,1704.6
 Honduras,1704.5
 Romania,1701.9
@@ -77,7 +77,7 @@ Bolivia,1681.7
 Ghana,1672.5
 Bosnia and Herzegovina,1665.4
 New Zealand,1660.6
-Isle of Wight,1660.2
+Isle of Wight,1660.1
 Albania,1653.8
 Tunisia,1652.6
 Iraq,1651.8
@@ -88,7 +88,7 @@ United Arab Emirates,1648.3
 Northern Ireland,1647.9
 Iraqi Kurdistan,1645.3
 Burkina Faso,1640.9
-Ynys Môn,1640.2
+Ynys Môn,1640.3
 Guatemala,1636.6
 North Macedonia,1633.2
 Abkhazia,1628.3
@@ -96,8 +96,8 @@ Iceland,1617.5
 Kárpátalja,1606.9
 New Caledonia,1602.5
 Kernow,1593.2
-Rhodes,1591.9
 Angola,1591.4
+Rhodes,1591.3
 County of Nice,1591.0
 Andalusia,1589.6
 Finland,1588.6
@@ -112,15 +112,15 @@ Suriname,1570.7
 Ellan Vannin,1569.8
 Palestine,1568.3
 Kurdistan,1567.6
-Menorca,1566.3
+Menorca,1566.2
 Guinea,1564.7
 Artsakh,1557.4
 Corsica,1553.5
 Yorkshire,1553.3
 Chameria,1552.8
 Zambia,1546.3
-Quebec,1546.3
 Arameans Suryoye,1546.3
+Quebec,1546.2
 Bahrain,1546.0
 Cascadia,1545.3
 China,1544.0
@@ -148,8 +148,8 @@ Donetsk PR,1511.8
 Mapuche,1508.5
 Felvidék,1507.5
 Guadeloupe,1506.9
-Silesia,1506.4
-Crimea,1504.9
+Silesia,1506.5
+Crimea,1504.8
 Shetland,1503.2
 Brittany,1502.9
 United Koreans in Japan,1501.9
@@ -171,9 +171,9 @@ El Salvador,1487.9
 Martinique,1487.8
 Seborga,1486.4
 Guyana,1485.9
-Székely Land,1484.1
 Kazakhstan,1484.1
-Sealand,1484.0
+Székely Land,1484.1
+Sealand,1483.9
 Yoruba Nation,1483.5
 Mozambique,1483.1
 Matabeleland,1482.8
@@ -187,18 +187,18 @@ Zimbabwe,1477.0
 South Ossetia,1475.7
 Ryūkyū,1474.4
 West Papua,1474.3
-Åland Islands,1474.3
 Papua New Guinea,1474.2
+Åland Islands,1474.0
 Malaysia,1472.2
 Kenya,1471.2
 Gozo,1469.3
 South Yemen,1468.4
 Kuwait,1468.1
-Greenland,1465.6
+Greenland,1465.5
 Niger,1465.3
 Romani people,1463.8
-East Turkestan,1463.3
 Aymara,1463.2
+East Turkestan,1463.2
 Sudan,1461.3
 Provence,1460.3
 Hmong,1459.8
@@ -212,18 +212,18 @@ Monaco,1452.0
 Chechnya,1451.3
 Saarland,1448.3
 Mauritania,1447.4
-Gotland,1443.7
+Gotland,1444.9
 Rwanda,1441.8
 Lebanon,1441.4
 Estonia,1441.0
 Malawi,1438.7
-Western Isles,1436.1
+Western Isles,1436.2
 Fiji,1432.1
 Namibia,1431.2
 Kyrgyzstan,1431.2
 Tajikistan,1431.0
 Manchukuo,1430.4
-Găgăuzia,1429.8
+Găgăuzia,1429.7
 Niue,1427.3
 Faroe Islands,1427.0
 Ticino,1426.5
@@ -239,7 +239,7 @@ Vatican City,1411.0
 Lesotho,1405.7
 Cuba,1405.0
 Western Sahara,1400.2
-Western Australia,1397.8
+Western Australia,1397.9
 Orkney,1397.3
 Burundi,1395.4
 Solomon Islands,1395.1
@@ -249,12 +249,12 @@ Raetia,1391.5
 Azerbaijan,1389.2
 Botswana,1387.7
 Turkmenistan,1387.3
-Saint Vincent and the Grenadines,1372.3
+Saint Vincent and the Grenadines,1372.2
 Cyprus,1372.0
 Central African Republic,1371.1
-Vietnam Republic,1367.1
+Vietnam Republic,1367.0
 Guinea-Bissau,1363.5
-Yemen DPR,1363.3
+Yemen DPR,1362.8
 Chagos Islands,1359.5
 Barawa,1358.4
 Puerto Rico,1357.8
@@ -269,10 +269,10 @@ Eswatini,1331.5
 Lithuania,1329.7
 Moldova,1329.5
 Micronesia,1328.4
-Sark,1328.0
+Sark,1327.8
 Latvia,1326.2
 Hong Kong,1325.2
-Saint Martin,1324.1
+Saint Martin,1324.2
 Sint Maarten,1310.3
 Yemen,1303.6
 Belize,1298.3
@@ -280,7 +280,7 @@ Wallis Islands and Futuna,1297.3
 Grenada,1295.7
 Singapore,1288.7
 Saint Pierre and Miquelon,1285.6
-Saint Kitts and Nevis,1283.0
+Saint Kitts and Nevis,1283.3
 Darfur,1274.8
 South Sudan,1273.9
 Tibet,1267.0
@@ -290,13 +290,13 @@ Samoa,1256.5
 Saint Lucia,1236.7
 Kiribati,1234.4
 Montserrat,1232.7
-Tuvalu,1224.5
+Tuvalu,1224.6
 Mauritius,1222.3
 Falkland Islands,1214.5
 Eritrea,1209.3
 Aruba,1208.8
 São Tomé and Príncipe,1196.3
-Frøya,1194.4
+Frøya,1194.6
 Afghanistan,1188.7
 Dominica,1186.7
 Cook Islands,1177.3
@@ -312,8 +312,8 @@ Antigua and Barbuda,1127.3
 Tonga,1102.3
 Taiwan,1097.7
 Cambodia,1093.4
-Djibouti,1083.6
-Alderney,1077.0
+Djibouti,1083.5
+Alderney,1076.9
 Somalia,1059.2
 Cayman Islands,1058.2
 British Virgin Islands,1037.2
@@ -328,10 +328,10 @@ Northern Mariana Islands,996.5
 United States Virgin Islands,985.9
 Liechtenstein,985.5
 American Samoa,965.5
-Laos,952.3
+Laos,952.4
 San Marino,937.0
-Anguilla,924.9
+Anguilla,924.8
 Timor-Leste,923.3
 Brunei,912.3
-Macau,890.6
+Macau,890.7
 Bhutan,868.1

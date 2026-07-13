@@ -1,54 +1,30 @@
 {
   "n_sims": 10000,
-  "n_unique_pairings": 8,
+  "n_unique_pairings": 4,
   "pairings": [
     {
       "team_a": "Argentina",
       "team_b": "Spain",
-      "prob": 0.2641,
-      "count": 2641
+      "prob": 0.3312,
+      "count": 3312
     },
     {
       "team_a": "Argentina",
       "team_b": "France",
-      "prob": 0.2347,
-      "count": 2347
+      "prob": 0.2952,
+      "count": 2952
     },
     {
       "team_a": "England",
       "team_b": "Spain",
-      "prob": 0.1437,
-      "count": 1437
+      "prob": 0.199,
+      "count": 1990
     },
     {
       "team_a": "England",
       "team_b": "France",
-      "prob": 0.1353,
-      "count": 1353
-    },
-    {
-      "team_a": "Norway",
-      "team_b": "Spain",
-      "prob": 0.064,
-      "count": 640
-    },
-    {
-      "team_a": "Spain",
-      "team_b": "Switzerland",
-      "prob": 0.0561,
-      "count": 561
-    },
-    {
-      "team_a": "France",
-      "team_b": "Norway",
-      "prob": 0.0533,
-      "count": 533
-    },
-    {
-      "team_a": "France",
-      "team_b": "Switzerland",
-      "prob": 0.0488,
-      "count": 488
+      "prob": 0.1746,
+      "count": 1746
     }
   ]
 }
