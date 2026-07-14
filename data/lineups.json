@@ -1,8 +1,11 @@
 {
-  "generated_utc": "2026-07-13T00:14:13+00:00",
+  "generated_utc": "2026-07-14T00:11:53+00:00",
   "provider": "apifootball",
   "lineups": {
     "2026-07-14|France|Spain": {
+      "status": "not_announced"
+    },
+    "2026-07-15|England|Argentina": {
       "status": "not_announced"
     }
   }
