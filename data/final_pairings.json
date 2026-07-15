@@ -1,30 +1,18 @@
 {
   "n_sims": 10000,
-  "n_unique_pairings": 4,
+  "n_unique_pairings": 2,
   "pairings": [
     {
       "team_a": "Argentina",
       "team_b": "Spain",
-      "prob": 0.3312,
-      "count": 3312
-    },
-    {
-      "team_a": "Argentina",
-      "team_b": "France",
-      "prob": 0.2952,
-      "count": 2952
+      "prob": 0.6208,
+      "count": 6208
     },
     {
       "team_a": "England",
       "team_b": "Spain",
-      "prob": 0.199,
-      "count": 1990
-    },
-    {
-      "team_a": "England",
-      "team_b": "France",
-      "prob": 0.1746,
-      "count": 1746
+      "prob": 0.3792,
+      "count": 3792
     }
   ]
 }

@@ -989,29 +989,25 @@
           "sides": [
             {
               "modal_team": "Spain",
-              "modal_prob": 0.5302,
+              "modal_prob": 1.0,
               "top_teams": [
                 {
                   "team": "Spain",
-                  "prob": 0.5302
-                },
-                {
-                  "team": "France",
-                  "prob": 0.4698
+                  "prob": 1.0
                 }
               ]
             },
             {
               "modal_team": "Argentina",
-              "modal_prob": 0.6264,
+              "modal_prob": 0.6208,
               "top_teams": [
                 {
                   "team": "Argentina",
-                  "prob": 0.6264
+                  "prob": 0.6208
                 },
                 {
                   "team": "England",
-                  "prob": 0.3736
+                  "prob": 0.3792
                 }
               ]
             }
@@ -1020,22 +1016,12 @@
             {
               "team_a": "Spain",
               "team_b": "Argentina",
-              "prob": 0.3312
-            },
-            {
-              "team_a": "France",
-              "team_b": "Argentina",
-              "prob": 0.2952
+              "prob": 0.6208
             },
             {
               "team_a": "Spain",
               "team_b": "England",
-              "prob": 0.199
-            },
-            {
-              "team_a": "France",
-              "team_b": "England",
-              "prob": 0.1746
+              "prob": 0.3792
             }
           ]
         }
