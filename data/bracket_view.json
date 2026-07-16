@@ -999,15 +999,11 @@
             },
             {
               "modal_team": "Argentina",
-              "modal_prob": 0.6208,
+              "modal_prob": 1.0,
               "top_teams": [
                 {
                   "team": "Argentina",
-                  "prob": 0.6208
-                },
-                {
-                  "team": "England",
-                  "prob": 0.3792
+                  "prob": 1.0
                 }
               ]
             }
@@ -1016,12 +1012,7 @@
             {
               "team_a": "Spain",
               "team_b": "Argentina",
-              "prob": 0.6208
-            },
-            {
-              "team_a": "Spain",
-              "team_b": "England",
-              "prob": 0.3792
+              "prob": 1.0
             }
           ]
         }

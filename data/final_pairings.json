@@ -1,18 +1,12 @@
 {
   "n_sims": 10000,
-  "n_unique_pairings": 2,
+  "n_unique_pairings": 1,
   "pairings": [
     {
       "team_a": "Argentina",
       "team_b": "Spain",
-      "prob": 0.6208,
-      "count": 6208
-    },
-    {
-      "team_a": "England",
-      "team_b": "Spain",
-      "prob": 0.3792,
-      "count": 3792
+      "prob": 1.0,
+      "count": 10000
     }
   ]
 }
