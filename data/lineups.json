@@ -1,5 +1,9 @@
 {
-  "generated_utc": "2026-07-16T01:09:38+00:00",
+  "generated_utc": "2026-07-18T00:12:45+00:00",
   "provider": "apifootball",
-  "lineups": {}
+  "lineups": {
+    "2026-07-19|Spain|Argentina": {
+      "status": "not_announced"
+    }
+  }
 }
