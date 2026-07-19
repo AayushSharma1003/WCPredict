@@ -3,8 +3,8 @@
   "champions": [
     {
       "team": "Spain",
-      "cup_prob": 0.5085,
-      "cup_count": 5085,
+      "cup_prob": 0.5075,
+      "cup_count": 5075,
       "modal_route": [
         {
           "round": "R32",
@@ -65,8 +65,8 @@
     },
     {
       "team": "Argentina",
-      "cup_prob": 0.4915,
-      "cup_count": 4915,
+      "cup_prob": 0.4925,
+      "cup_count": 4925,
       "modal_route": [
         {
           "round": "R32",
