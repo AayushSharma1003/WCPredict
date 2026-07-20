@@ -3,8 +3,8 @@
   "champions": [
     {
       "team": "Spain",
-      "cup_prob": 0.5075,
-      "cup_count": 5075,
+      "cup_prob": 1.0,
+      "cup_count": 10000,
       "modal_route": [
         {
           "round": "R32",
@@ -57,68 +57,6 @@
           "top_opponents": [
             {
               "opponent": "Argentina",
-              "prob_given_champ": 1.0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "team": "Argentina",
-      "cup_prob": 0.4925,
-      "cup_count": 4925,
-      "modal_route": [
-        {
-          "round": "R32",
-          "modal_opponent": "Cape Verde",
-          "modal_prob_given_champ": 1.0,
-          "top_opponents": [
-            {
-              "opponent": "Cape Verde",
-              "prob_given_champ": 1.0
-            }
-          ]
-        },
-        {
-          "round": "R16",
-          "modal_opponent": "Egypt",
-          "modal_prob_given_champ": 1.0,
-          "top_opponents": [
-            {
-              "opponent": "Egypt",
-              "prob_given_champ": 1.0
-            }
-          ]
-        },
-        {
-          "round": "QF",
-          "modal_opponent": "Switzerland",
-          "modal_prob_given_champ": 1.0,
-          "top_opponents": [
-            {
-              "opponent": "Switzerland",
-              "prob_given_champ": 1.0
-            }
-          ]
-        },
-        {
-          "round": "SF",
-          "modal_opponent": "England",
-          "modal_prob_given_champ": 1.0,
-          "top_opponents": [
-            {
-              "opponent": "England",
-              "prob_given_champ": 1.0
-            }
-          ]
-        },
-        {
-          "round": "F",
-          "modal_opponent": "Spain",
-          "modal_prob_given_champ": 1.0,
-          "top_opponents": [
-            {
-              "opponent": "Spain",
               "prob_given_champ": 1.0
             }
           ]
