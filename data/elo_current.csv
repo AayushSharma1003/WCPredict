@@ -9,7 +9,7 @@ Portugal,2053.4
 Netherlands,2034.0
 Morocco,2011.4
 Belgium,2008.2
-Mexico,1996.7
+Mexico,1996.8
 Norway,1993.7
 Switzerland,1989.3
 Germany,1972.4
@@ -23,7 +23,7 @@ Turkey,1893.3
 Australia,1883.2
 Austria,1878.4
 Nigeria,1872.9
-Iran,1871.2
+Iran,1871.1
 Paraguay,1867.5
 Senegal,1865.1
 Yugoslavia,1850.2
@@ -32,14 +32,14 @@ Algeria,1842.9
 Ukraine,1833.0
 Ivory Coast,1832.3
 Canada,1828.3
-Russia,1824.7
-South Korea,1821.8
+Russia,1824.6
+South Korea,1821.7
 United States,1820.0
 Venezuela,1817.5
 Serbia,1807.6
 Jersey,1805.5
 Chile,1802.5
-Greece,1802.3
+Greece,1802.4
 Czechoslovakia,1796.8
 Sweden,1796.4
 Scotland,1794.0
@@ -52,7 +52,7 @@ Hungary,1757.8
 Northern Cyprus,1755.8
 Czech Republic,1747.3
 Guernsey,1746.2
-Kosovo,1742.8
+Kosovo,1742.9
 Republic of Ireland,1740.7
 Slovenia,1737.6
 Costa Rica,1737.0
@@ -60,11 +60,11 @@ German DR,1731.5
 Wales,1730.4
 Cameroon,1719.2
 Uzbekistan,1714.4
-Slovakia,1712.4
+Slovakia,1712.5
 Georgia,1712.2
 Isle of Man,1709.3
 Jordan,1704.7
-Honduras,1704.5
+Honduras,1704.6
 Romania,1702.2
 Mali,1698.6
 Cape Verde,1698.1
@@ -80,7 +80,7 @@ Padania,1660.6
 Isle of Wight,1660.3
 Albania,1654.0
 Tunisia,1652.7
-Iraq,1651.9
+Iraq,1651.7
 Haiti,1651.0
 Jamaica,1650.3
 Catalonia,1649.3
@@ -89,10 +89,10 @@ Northern Ireland,1648.1
 Iraqi Kurdistan,1644.2
 Burkina Faso,1641.0
 Ynys Môn,1640.4
-Guatemala,1636.6
+Guatemala,1636.7
 North Macedonia,1633.4
 Abkhazia,1627.9
-Iceland,1617.7
+Iceland,1617.8
 Kárpátalja,1607.6
 New Caledonia,1602.6
 Kernow,1592.9
@@ -107,10 +107,10 @@ Réunion,1585.2
 Curaçao,1582.7
 Tamil Eelam,1580.6
 Belarus,1574.0
-Oman,1572.7
+Oman,1572.6
 Suriname,1570.7
 Ellan Vannin,1569.4
-Palestine,1568.4
+Palestine,1568.3
 Kurdistan,1567.6
 Menorca,1566.3
 Guinea,1564.8
@@ -120,11 +120,11 @@ Yorkshire,1553.2
 Chameria,1551.9
 Quebec,1546.4
 Zambia,1546.3
-Bahrain,1546.1
+Bahrain,1546.0
 Arameans Suryoye,1545.5
 Cascadia,1545.2
 China,1544.0
-Thailand,1538.0
+Thailand,1537.9
 Qatar,1535.2
 Zanzibar,1532.3
 Trinidad and Tobago,1531.8
@@ -161,11 +161,11 @@ Central Spain,1495.3
 Saugeais,1494.7
 Greenland,1493.7
 Togo,1493.1
-North Korea,1490.9
+North Korea,1491.2
 Cilento,1490.5
 Madrid,1489.4
 Luhansk PR,1489.2
-Indonesia,1488.8
+Indonesia,1488.7
 North Vietnam,1488.2
 El Salvador,1487.9
 Martinique,1487.8
@@ -177,7 +177,7 @@ Székely Land,1483.6
 Yoruba Nation,1483.5
 Mozambique,1483.2
 Matabeleland,1482.8
-Vietnam,1481.6
+Vietnam,1481.5
 Sápmi,1481.2
 Republic of St. Pauli,1481.1
 Dominican Republic,1480.9
@@ -193,7 +193,7 @@ Papua New Guinea,1474.2
 Malaysia,1472.2
 Kenya,1471.3
 South Yemen,1468.4
-Kuwait,1468.2
+Kuwait,1468.1
 Gozo,1467.8
 Rouet-Provence,1465.4
 Niger,1465.4
@@ -235,7 +235,7 @@ Armenia,1418.9
 Saint Barthélemy,1418.6
 Marshall Islands,1417.6
 Two Sicilies,1416.8
-French Guiana,1415.8
+French Guiana,1415.9
 Vatican City,1410.0
 Lesotho,1405.8
 Cuba,1405.0
@@ -271,14 +271,14 @@ Lithuania,1330.0
 Moldova,1329.7
 Micronesia,1328.4
 Sark,1327.8
-Latvia,1326.4
+Latvia,1326.5
 Hong Kong,1325.2
 Saint Martin,1324.2
 Sint Maarten,1310.3
-Yemen,1303.7
+Yemen,1303.5
 Belize,1298.4
 Wallis Islands and Futuna,1297.3
-Grenada,1295.7
+Grenada,1295.8
 Singapore,1288.8
 Saint Pierre and Miquelon,1285.6
 Saint Kitts and Nevis,1283.3
@@ -286,7 +286,7 @@ Darfur,1275.5
 South Sudan,1274.0
 Tibet,1267.7
 Chad,1261.3
-India,1258.8
+India,1258.7
 Samoa,1256.5
 Saint Lucia,1236.7
 Kiribati,1234.4
@@ -308,11 +308,11 @@ Andorra,1147.6
 Bonaire,1141.8
 Bangladesh,1138.0
 Pakistan,1136.6
-Nepal,1128.9
+Nepal,1128.8
 Antigua and Barbuda,1127.3
 Tonga,1102.3
 Taiwan,1097.7
-Cambodia,1093.5
+Cambodia,1093.4
 Djibouti,1083.6
 Alderney,1077.0
 Cayman Islands,1067.1

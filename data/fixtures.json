@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-20T00:02:41+00:00",
+  "generated_utc": "2026-07-31T22:10:38+00:00",
   "schedule_source": "data/wc_schedule.csv",
   "n_matches": 103,
   "matches": [
@@ -22,7 +22,7 @@
       "home": {
         "team": "Mexico",
         "code": "MEX",
-        "elo": 1996.7,
+        "elo": 1996.8,
         "form": [
           {
             "res": "D",
@@ -94,14 +94,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.7675,
-        "draw": 0.1589,
+        "home_win": 0.7676,
+        "draw": 0.1588,
         "away_win": 0.0736,
         "exp_goals_home": 2.46,
         "exp_goals_away": 0.65,
         "favourite": "Mexico",
         "favourite_code": "MEX",
-        "edge": 0.6939,
+        "edge": 0.6941,
         "top_scorelines": [
           {
             "score": "2-0",
@@ -174,7 +174,7 @@
       "home": {
         "team": "South Korea",
         "code": "KOR",
-        "elo": 1821.8,
+        "elo": 1821.7,
         "form": [
           {
             "res": "W",
@@ -246,14 +246,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.431,
+        "home_win": 0.4309,
         "draw": 0.2941,
-        "away_win": 0.2749,
+        "away_win": 0.275,
         "exp_goals_home": 1.32,
         "exp_goals_away": 1.0,
         "favourite": "South Korea",
         "favourite_code": "KOR",
-        "edge": 0.1561,
+        "edge": 0.1559,
         "top_scorelines": [
           {
             "score": "1-1",
@@ -412,7 +412,7 @@
           },
           {
             "score": "1-1",
-            "prob": 0.1101
+            "prob": 0.11
           },
           {
             "score": "2-1",
@@ -1652,7 +1652,7 @@
       },
       "prediction": {
         "home_win": 0.5104,
-        "draw": 0.2764,
+        "draw": 0.2763,
         "away_win": 0.2133,
         "exp_goals_home": 1.5,
         "exp_goals_away": 0.88,
@@ -1883,7 +1883,7 @@
       "home": {
         "team": "Iran",
         "code": "IRN",
-        "elo": 1871.2,
+        "elo": 1871.1,
         "form": [
           {
             "res": "D",
@@ -1955,14 +1955,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.5866,
+        "home_win": 0.5865,
         "draw": 0.2516,
-        "away_win": 0.1618,
+        "away_win": 0.1619,
         "exp_goals_home": 1.7,
         "exp_goals_away": 0.78,
         "favourite": "Iran",
         "favourite_code": "IRN",
-        "edge": 0.4248,
+        "edge": 0.4246,
         "top_scorelines": [
           {
             "score": "1-0",
@@ -1970,7 +1970,7 @@
           },
           {
             "score": "2-0",
-            "prob": 0.1215
+            "prob": 0.1214
           },
           {
             "score": "1-1",
@@ -2705,7 +2705,7 @@
       "home": {
         "team": "Iraq",
         "code": "IRQ",
-        "elo": 1651.9,
+        "elo": 1651.7,
         "form": [
           {
             "res": "L",
@@ -2777,14 +2777,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.0854,
-        "draw": 0.1869,
-        "away_win": 0.7277,
+        "home_win": 0.0853,
+        "draw": 0.1868,
+        "away_win": 0.7279,
         "exp_goals_home": 0.61,
         "exp_goals_away": 2.16,
         "favourite": "Norway",
         "favourite_code": "NOR",
-        "edge": 0.6422,
+        "edge": 0.6425,
         "top_scorelines": [
           {
             "score": "0-2",
@@ -2796,7 +2796,7 @@
           },
           {
             "score": "0-3",
-            "prob": 0.1056
+            "prob": 0.1057
           },
           {
             "score": "1-2",
@@ -3669,7 +3669,7 @@
       "home": {
         "team": "Mexico",
         "code": "MEX",
-        "elo": 1996.7,
+        "elo": 1996.8,
         "form": [
           {
             "res": "D",
@@ -3706,7 +3706,7 @@
       "away": {
         "team": "South Korea",
         "code": "KOR",
-        "elo": 1821.8,
+        "elo": 1821.7,
         "form": [
           {
             "res": "L",
@@ -3741,14 +3741,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.6252,
-        "draw": 0.2269,
-        "away_win": 0.1479,
+        "home_win": 0.6254,
+        "draw": 0.2268,
+        "away_win": 0.1477,
         "exp_goals_home": 1.92,
         "exp_goals_away": 0.82,
         "favourite": "Mexico",
         "favourite_code": "MEX",
-        "edge": 0.4773,
+        "edge": 0.4777,
         "top_scorelines": [
           {
             "score": "2-0",
@@ -4214,7 +4214,7 @@
         "exp_goals_away": 1.7,
         "favourite": "Morocco",
         "favourite_code": "MAR",
-        "edge": 0.4357,
+        "edge": 0.4358,
         "top_scorelines": [
           {
             "score": "0-1",
@@ -5191,7 +5191,7 @@
       "away": {
         "team": "Iran",
         "code": "IRN",
-        "elo": 1871.2,
+        "elo": 1871.1,
         "form": [
           {
             "res": "L",
@@ -5226,14 +5226,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.5007,
+        "home_win": 0.5008,
         "draw": 0.2806,
-        "away_win": 0.2187,
-        "exp_goals_home": 1.46,
+        "away_win": 0.2186,
+        "exp_goals_home": 1.47,
         "exp_goals_away": 0.88,
         "favourite": "Belgium",
         "favourite_code": "BEL",
-        "edge": 0.282,
+        "edge": 0.2822,
         "top_scorelines": [
           {
             "score": "1-0",
@@ -5241,7 +5241,7 @@
           },
           {
             "score": "1-1",
-            "prob": 0.1312
+            "prob": 0.1311
           },
           {
             "score": "0-0",
@@ -5881,7 +5881,7 @@
       "away": {
         "team": "Iraq",
         "code": "IRQ",
-        "elo": 1651.9,
+        "elo": 1651.7,
         "form": [
           {
             "res": "W",
@@ -5916,14 +5916,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.8406,
-        "draw": 0.1197,
+        "home_win": 0.8407,
+        "draw": 0.1196,
         "away_win": 0.0397,
         "exp_goals_home": 2.73,
         "exp_goals_away": 0.48,
         "favourite": "France",
         "favourite_code": "FRA",
-        "edge": 0.8008,
+        "edge": 0.801,
         "top_scorelines": [
           {
             "score": "2-0",
@@ -6323,7 +6323,7 @@
       },
       "prediction": {
         "home_win": 0.6697,
-        "draw": 0.2169,
+        "draw": 0.2168,
         "away_win": 0.1135,
         "exp_goals_home": 1.94,
         "exp_goals_away": 0.67,
@@ -7047,7 +7047,7 @@
       "home": {
         "team": "Mexico",
         "code": "MEX",
-        "elo": 1996.7,
+        "elo": 1996.8,
         "form": [
           {
             "res": "W",
@@ -7119,14 +7119,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.709,
-        "draw": 0.1895,
+        "home_win": 0.7091,
+        "draw": 0.1894,
         "away_win": 0.1015,
         "exp_goals_home": 2.21,
         "exp_goals_away": 0.72,
         "favourite": "Mexico",
         "favourite_code": "MEX",
-        "edge": 0.6074,
+        "edge": 0.6076,
         "top_scorelines": [
           {
             "score": "2-0",
@@ -7402,7 +7402,7 @@
           },
           {
             "score": "1-1",
-            "prob": 0.1054
+            "prob": 0.1053
           },
           {
             "score": "1-2",
@@ -7530,7 +7530,7 @@
       "away": {
         "team": "South Korea",
         "code": "KOR",
-        "elo": 1821.8,
+        "elo": 1821.7,
         "form": [
           {
             "res": "L",
@@ -7565,14 +7565,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.2235,
+        "home_win": 0.2236,
         "draw": 0.2804,
-        "away_win": 0.4961,
+        "away_win": 0.496,
         "exp_goals_home": 0.9,
         "exp_goals_away": 1.46,
         "favourite": "South Korea",
         "favourite_code": "KOR",
-        "edge": 0.2726,
+        "edge": 0.2724,
         "top_scorelines": [
           {
             "score": "1-1",
@@ -7580,7 +7580,7 @@
           },
           {
             "score": "0-1",
-            "prob": 0.1303
+            "prob": 0.1302
           },
           {
             "score": "0-0",
@@ -7588,7 +7588,7 @@
           },
           {
             "score": "0-2",
-            "prob": 0.101
+            "prob": 0.1009
           }
         ]
       },
@@ -8666,7 +8666,7 @@
       "away": {
         "team": "Iran",
         "code": "IRN",
-        "elo": 1871.2,
+        "elo": 1871.1,
         "form": [
           {
             "res": "W",
@@ -8701,14 +8701,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.3207,
+        "home_win": 0.3208,
         "draw": 0.3005,
-        "away_win": 0.3789,
+        "away_win": 0.3788,
         "exp_goals_home": 1.08,
         "exp_goals_away": 1.2,
         "favourite": "Iran",
         "favourite_code": "IRN",
-        "edge": 0.0582,
+        "edge": 0.058,
         "top_scorelines": [
           {
             "score": "1-1",
@@ -9112,7 +9112,7 @@
       "away": {
         "team": "Iraq",
         "code": "IRQ",
-        "elo": 1651.9,
+        "elo": 1651.7,
         "form": [
           {
             "res": "W",
@@ -9147,14 +9147,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.5897,
-        "draw": 0.2503,
-        "away_win": 0.1599,
-        "exp_goals_home": 1.7,
+        "home_win": 0.59,
+        "draw": 0.2502,
+        "away_win": 0.1598,
+        "exp_goals_home": 1.71,
         "exp_goals_away": 0.77,
         "favourite": "Senegal",
         "favourite_code": "SEN",
-        "edge": 0.4298,
+        "edge": 0.4302,
         "top_scorelines": [
           {
             "score": "1-0",
@@ -9166,7 +9166,7 @@
           },
           {
             "score": "1-1",
-            "prob": 0.1174
+            "prob": 0.1173
           },
           {
             "score": "2-1",
@@ -11083,7 +11083,7 @@
       "home": {
         "team": "Mexico",
         "code": "MEX",
-        "elo": 1996.7,
+        "elo": 1996.8,
         "form": [
           {
             "res": "W",
@@ -11155,14 +11155,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.412,
+        "home_win": 0.4121,
         "draw": 0.2984,
-        "away_win": 0.2897,
+        "away_win": 0.2896,
         "exp_goals_home": 1.26,
         "exp_goals_away": 1.02,
         "favourite": "Mexico",
         "favourite_code": "MEX",
-        "edge": 0.1223,
+        "edge": 0.1225,
         "top_scorelines": [
           {
             "score": "1-1",
@@ -13029,7 +13029,7 @@
       "home": {
         "team": "Mexico",
         "code": "MEX",
-        "elo": 1996.7,
+        "elo": 1996.8,
         "form": [
           {
             "res": "W",
@@ -13101,14 +13101,14 @@
         ]
       },
       "prediction": {
-        "home_win": 0.1848,
-        "draw": 0.2675,
-        "away_win": 0.5477,
+        "home_win": 0.1849,
+        "draw": 0.2676,
+        "away_win": 0.5476,
         "exp_goals_home": 0.81,
         "exp_goals_away": 1.57,
         "favourite": "England",
         "favourite_code": "ENG",
-        "edge": 0.3629,
+        "edge": 0.3627,
         "top_scorelines": [
           {
             "score": "0-1",
@@ -13120,7 +13120,7 @@
           },
           {
             "score": "0-2",
-            "prob": 0.1145
+            "prob": 0.1144
           },
           {
             "score": "0-0",
